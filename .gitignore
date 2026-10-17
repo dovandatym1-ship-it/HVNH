@@ -1,0 +1,14 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary & partial files
+*.part
+*.crdownload
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Editor / IDE
+.vscode/
+.idea/
