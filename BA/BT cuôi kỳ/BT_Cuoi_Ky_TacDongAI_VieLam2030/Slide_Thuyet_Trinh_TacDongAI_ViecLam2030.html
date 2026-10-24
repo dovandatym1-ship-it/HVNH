@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Tác động của AI đến Việc làm năm 2030 — Slide thuyết trình</title>
+<style>
+  :root{
+    --navy:#0A2540; --orange:#EA580C; --gold:#F59E0B; --cyan:#0284C7;
+    --red:#DC2626; --green:#10B981; --canvas:#F8FAFC; --card:#FFFFFF;
+    --border:#E2E8F0; --text:#0F172A; --muted:#64748B;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:'Segoe UI',Calibri,Arial,sans-serif;background:#1e293b;color:var(--text);}
+  .deck{max-width:1280px;margin:0 auto;padding:24px 0 80px;}
+  .slide{
+    background:var(--canvas); width:100%; aspect-ratio:16/9; margin:0 auto 28px;
+    border-radius:10px; box-shadow:0 10px 30px rgba(0,0,0,.35); padding:38px 46px;
+    display:none; flex-direction:column; position:relative; overflow:hidden;
+  }
+  .slide.active{display:flex;}
+  .slide.cover{background:var(--navy); color:#fff; justify-content:center;}
+  .tag{
+    display:inline-block; background:var(--navy); color:#fff; font-size:11px; font-weight:700;
+    letter-spacing:.04em; padding:5px 14px; border-radius:14px; margin-bottom:10px; width:fit-content;
+  }
+  .slide.cover .tag{background:var(--gold); color:var(--navy);}
+  h1.title{font-size:26px; color:var(--navy); margin:0 0 18px; line-height:1.25;}
+  .slide.cover h1.title{color:#fff; font-size:38px; text-align:left; max-width:90%;}
+  .pagenum{position:absolute; top:24px; right:32px; font-size:12px; color:var(--muted); font-weight:700;}
+  .bullets{font-size:16px; line-height:1.7;}
+  .bullets li{margin-bottom:12px;}
+  .bullets b{color:var(--orange);}
+  .cards{display:flex; gap:16px; margin-top:6px; flex:1;}
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px;
+    flex:1; display:flex; flex-direction:column;
+  }
+  .card .kpi{font-size:28px; font-weight:800; margin-bottom:4px;}
+  .card .lbl{font-size:12px; font-weight:700; color:var(--navy); margin-bottom:8px;}
+  .card ul{font-size:11px; color:var(--text); padding-left:16px; margin:0;}
+  .chart-row{display:flex; gap:18px; flex:1; min-height:0;}
+  .chart-img{flex:0 0 58%; border:1px solid var(--border); border-radius:8px; background:#fff;
+    display:flex; align-items:center; justify-content:center; overflow:hidden;}
+  .chart-img img{max-width:100%; max-height:100%; object-fit:contain;}
+  .notes-panel{flex:1; background:#fff; border:1px solid var(--border); border-radius:8px; padding:14px 16px; overflow:auto;}
+  .notes-panel h3{margin:0 0 8px; font-size:13px; color:var(--navy);}
+  .notes-panel .item{margin-bottom:10px; font-size:12px;}
+  .notes-panel .item b{color:var(--orange);}
+  .persona-row, .model-row{display:flex; gap:14px; flex:1;}
+  .persona{background:#fff; border:1px solid var(--border); border-radius:8px; flex:1; overflow:hidden; display:flex; flex-direction:column;}
+  .persona .hdr{background:var(--navy); color:#fff; padding:10px; text-align:center; font-weight:700; font-size:13px;}
+  .persona .body{padding:12px; font-size:12px;}
+  .persona .body .lbl{color:var(--orange); font-weight:700; margin-top:8px;}
+  .model{background:#fff; border:1.5px solid var(--border); border-radius:8px; flex:1; padding:14px; position:relative;}
+  .model.winner{border-color:var(--orange); border-width:2.5px;}
+  .model .winner-badge{position:absolute; top:-12px; left:14px; background:var(--orange); color:#fff;
+    font-size:10px; font-weight:800; padding:3px 10px; border-radius:8px;}
+  .model .name{font-weight:800; color:var(--navy); font-size:15px; margin-bottom:8px;}
+  .model.winner .name{color:var(--orange);}
+  .model .m-val{font-size:18px; font-weight:800; margin-top:8px;}
+  .model .m-lbl{font-size:10px; color:var(--muted);}
+  .pipeline-row{display:flex; gap:12px; flex:1;}
+  .pstep{background:#fff; border:1px solid var(--border); border-radius:8px; flex:1; padding:12px;}
+  .pstep .badge{display:inline-block; background:var(--navy); color:#fff; font-weight:800; font-size:12px; padding:5px 10px; border-radius:6px; margin-bottom:8px;}
+  .pstep.first .badge{background:var(--orange);}
+  .pstep .t{font-weight:700; color:var(--navy); font-size:12px; margin-bottom:6px;}
+  .pstep ul{font-size:10.5px; padding-left:14px; margin:0;}
+  .tier-row{display:flex; gap:10px; align-items:stretch; flex:1; margin-bottom:8px;}
+  .tier-label{background:var(--navy); color:#fff; border-radius:8px; display:flex; align-items:center;
+    justify-content:center; text-align:center; font-weight:700; font-size:12px; padding:8px; flex:0 0 22%;}
+  .tier-desc{background:#fff; border:1px solid var(--border); border-radius:8px; padding:10px; font-size:11.5px; flex:0 0 55%; display:flex; align-items:center;}
+  .tier-kpi{background:var(--canvas); border:1px solid var(--border); border-radius:8px; padding:10px; font-size:11px; font-weight:700; flex:1; display:flex; align-items:center; justify-content:center; text-align:center;}
+  .tiers{display:flex; flex-direction:column; flex:1; justify-content:space-between;}
+  .speaker-toggle{position:fixed; bottom:70px; right:24px; background:#334155; color:#fff; border:none;
+    border-radius:6px; padding:8px 14px; cursor:pointer; font-size:12px; z-index:20;}
+  .speaker-box{display:none; position:fixed; bottom:110px; right:24px; width:360px; max-height:300px; overflow:auto;
+    background:#fff; border-radius:8px; padding:14px; font-size:12.5px; line-height:1.6; box-shadow:0 6px 20px rgba(0,0,0,.3); z-index:20;}
+  .speaker-box.show{display:block;}
+  .nav{position:fixed; bottom:20px; left:50%; transform:translateX(-50%); display:flex; gap:10px; align-items:center; z-index:20;}
+  .nav button{background:var(--navy); color:#fff; border:none; border-radius:6px; padding:10px 16px; cursor:pointer; font-size:14px;}
+  .nav button:hover{background:var(--orange);}
+  .nav .counter{color:#fff; font-size:13px; font-weight:600; min-width:60px; text-align:center;}
+  .footer-meta{margin-top:auto; font-size:11px; color:var(--muted);}
+</style>
+</head>
+<body>
+<div class="deck" id="deck"></div>
+
+<button class="speaker-toggle" onclick="document.getElementById('spk').classList.toggle('show')">💬 Speaker Notes</button>
+<div class="speaker-box" id="spk"></div>
+<div class="nav">
+  <button onclick="go(-1)">◀ Trước</button>
+  <span class="counter"><span id="cur">1</span> / <span id="tot">18</span></span>
+  <button onclick="go(1)">Sau ▶</button>
+</div>
+
+<script>
+const SLIDES = [
+{tag:"", title:"Tác động của Trí tuệ nhân tạo (AI) đến Việc làm năm 2030", cover:true,
+ sub:"Bài tập cuối kỳ — Học phần Phân tích Kinh doanh — Đỗ Văn Đạt — Năm học 2025-2026",
+ notes:"Kính chào Hội đồng. Em xin trình bày đồ án cuối kỳ với đề tài Tác động của Trí tuệ nhân tạo đến Việc làm năm 2030, phân tích trên bộ dữ liệu mô phỏng 3.000 quan sát gắn với 20 nghề nghiệp."},
+
+{tag:"TÓM TẮT ĐIỀU HÀNH", title:"Nghề nghiệp Quyết định 85,7% Rủi ro Tự động hoá — Đặc điểm Cá nhân Gần như Vô nghĩa",
+ cards:[
+   {kpi:"85,7%",color:"var(--orange)",lbl:"Phương sai giải thích bởi Job_Title (eta²)",items:["So với ~0% của mọi biến cá nhân","Kiểm định ANOVA trên 20 nghề"]},
+   {kpi:"0,9947",color:"var(--navy)",lbl:"F1-macro tốt nhất (phân loại)",items:["Logistic Regression & XGBoost đồng hạng","Tăng từ ~0,22-0,34 khi thiếu Job_Title"]},
+   {kpi:"0,9979",color:"var(--cyan)",lbl:"ROC-AUC (One-vs-Rest) tốt nhất",items:["3 lớp: Low/Medium/High","So với 0,50 = ngẫu nhiên"]},
+   {kpi:"0,862",color:"var(--green)",lbl:"R² hồi quy tốt nhất",items:["Kênh kiểm chứng độc lập","MAE ≈ 0,078"]},
+ ],
+ notes:"Biến Job_Title giải thích 85,7% phương sai xác suất tự động hoá; khi đưa vào mô hình, F1-macro đạt 0,9947 và AUC đạt 0,998, xác nhận độc lập bởi mô hình hồi quy R²=0,86."},
+
+{tag:"BỐI CẢNH NGHIÊN CỨU", title:"Rủi ro Tự động hoá Phân bố Không Đồng đều — Yếu tố Nào Thực sự Quyết định?",
+ bullets:[["Bối cảnh","AI mở rộng khả năng tự động hoá từ tác vụ thủ tục sang cả tác vụ nhận thức phức tạp."],
+   ["Vấn đề","Frey & Osborne, McKinsey, WEF đồng thuận rủi ro không đồng đều giữa các nhóm nghề."],
+   ["Câu hỏi nghiên cứu","Yếu tố nào giải thích rủi ro tốt hơn — đặc điểm CÁ NHÂN hay NGHỀ NGHIỆP?"],
+   ["Cách tiếp cận","Tiền xử lý → EDA → phân cụm → phân loại → hồi quy trên 3.000 quan sát, 20 nghề."]],
+ notes:"Câu hỏi nghiên cứu trung tâm: điều gì quyết định rủi ro tự động hoá — đặc điểm cá nhân hay bản chất nghề nghiệp? Sẽ kiểm định bằng quy trình phân tích dữ liệu đầy đủ."},
+
+{tag:"CƠ SỞ LÝ THUYẾT", title:"Task-Based Approach: Rủi ro Gắn với Bản chất Công việc, Không phải Người Lao động",
+ bullets:[["Autor, Levy & Murnane (2003)","rủi ro phụ thuộc tỷ trọng tác vụ thủ tục — quyết định ở cấp NGHỀ, không phải NGƯỜI."],
+   ["Frey & Osborne (2017)","~47% việc làm Hoa Kỳ có nguy cơ tự động hoá cao."],
+   ["Acemoglu & Restrepo (2019)","displacement vs. reinstatement effect."],
+   ["McKinsey (2017) & WEF (2023)","hàng trăm triệu lao động toàn cầu cần chuyển đổi nghề."],
+   ["Giả thuyết kiểm định","Job_Title giải thích rủi ro tốt hơn đặc trưng cá nhân — kiểm định ở Slide 9, 11-13."]],
+ notes:"Khung lý thuyết task-based approach của Autor, Levy, Murnane (2003) là nền tảng, được củng cố bởi Frey & Osborne, Acemoglu & Restrepo, McKinsey, WEF."},
+
+{tag:"DỮ LIỆU NGHIÊN CỨU", title:"3.000 Hồ sơ x 20 Nghề nghiệp — Đầy đủ Chỉ số Kỹ năng, Lương, Học vấn và Công nghệ",
+ cards:[
+   {kpi:"3.000",color:"var(--navy)",lbl:"Quan sát (hồ sơ nghề nghiệp)",items:["18 biến gốc","Không thiếu, không trùng"]},
+   {kpi:"20",color:"var(--orange)",lbl:"Nghề nghiệp khảo sát",items:["Từ Bác sĩ đến Bảo vệ","132-175 quan sát/nghề"]},
+   {kpi:"10",color:"var(--cyan)",lbl:"Nhóm điểm kỹ năng",items:["Chuẩn hoá [0,1]","+ AI_Exposure, Tech_Growth"]},
+   {kpi:"3",color:"var(--red)",lbl:"Nhóm rủi ro mục tiêu",items:["Low 24,6% · Medium 50,7%","High 24,7%"]},
+ ],
+ notes:"3.000 quan sát, 18 biến gốc, 20 nghề nghiệp, đầy đủ lương, kinh nghiệm, học vấn, chỉ số công nghệ, 10 điểm kỹ năng."},
+
+{tag:"TIỀN XỬ LÝ DỮ LIỆU", title:"Tiền xử lý Phát hiện Rủi ro Rò rỉ Dữ liệu giữa Risk_Category và Automation_Probability",
+ pipeline:[
+   {n:"01",t:"KIỂM TRA CHẤT LƯỢNG",items:["0 ô thiếu dữ liệu","0 dòng trùng lặp","0 vi phạm miền [0,1]","0 ngoại lai IQR"]},
+   {n:"02",t:"PHÁT HIỆN RÒ RỈ",items:["Risk_Category = f(ngưỡng cố định)","của Automation_Probability_2030","→ loại khỏi tập đặc trưng"]},
+   {n:"03",t:"FEATURE ENGINEERING",items:["7 biến mới: Skill_Diversity...","Human_Edge_Score...","One-hot Job_Title: +19 biến"]},
+   {n:"04",t:"DỮ LIỆU SẴN SÀNG",items:["3.000 dòng x 25 cột","Train/test 75/25","Stratify theo Risk_Category"]},
+ ],
+ notes:"4 bước: kiểm tra chất lượng (sạch), phát hiện rò rỉ dữ liệu (quan trọng nhất), feature engineering, hoàn tất dữ liệu sẵn sàng."},
+
+{tag:"EDA 1/3", title:"Nhóm Medium Chiếm 50,7% — Phân bố Xác suất Ẩn chứa Ba Cụm Mật độ Tách biệt",
+ chart:"figures/02_automation_probability_distribution.png",
+ notesList:[["Hình dạng","KHÔNG phải đường cong chuẩn — có 3 vùng mật độ tách biệt."],
+   ["Cơ cấu 3 nhóm","Low 24,6% · Medium 50,7% · High 24,7%."],
+   ["Gợi ý ban đầu","Cấu trúc 3 cụm gợi ý một biến phân loại tiềm ẩn — xác định ở Slide 9."]],
+ notes:"Phân bố xác suất tự động hoá có 3 vùng mật độ tách biệt, gợi ý một biến phân loại tiềm ẩn chi phối biến mục tiêu."},
+
+{tag:"EDA 2/3", title:"Lương, Học vấn, Kinh nghiệm, AI Exposure: Tương quan Xấp xỉ Bằng 0 với Rủi ro",
+ chart:"figures/06_correlation_heatmap.png",
+ notesList:[["Ma trận tương quan","Mọi |r| < 0,05 với Automation_Probability_2030."],
+   ["Nhất quán","Boxplot lương, học vấn, kinh nghiệm đều cho kết luận tương tự."],
+   ["Hệ quả","Mô hình chỉ dùng đặc điểm cá nhân sẽ không tốt hơn ngẫu nhiên (Slide 11)."]],
+ notes:"Không biến cá nhân nào có tương quan đáng kể với xác suất tự động hoá — tất cả |r|<0,05."},
+
+{tag:"EDA 3/3 — BẰNG CHỨNG THEN CHỐT", title:"20 Nghề Tách 3 Tầng Rõ rệt — Job_Title Giải thích 85,7% Phương sai (Eta²)",
+ chart:"figures/08_jobtitle_automation_ranked.png",
+ notesList:[["Tầng thấp (~0,18)","AI Engineer, Research Scientist, Nurse, Teacher, Doctor."],
+   ["Tầng trung bình (~0,50)","10 nghề chuyên môn/văn phòng còn lại."],
+   ["Tầng cao (~0,83)","Retail Worker, Security Guard, Construction Worker, Customer Support, Truck Driver."],
+   ["Kiểm định eta²","SSB/SST = 0,857 — vượt trội mọi biến cá nhân."]],
+ notes:"Phát hiện quan trọng nhất: 20 nghề tách 3 tầng rõ rệt; eta²=0,857 cho Job_Title."},
+
+{tag:"PHÂN CỤM KHÔNG GIÁM SÁT", title:"Phân cụm Hồ sơ Kỹ năng Thất bại (Silhouette ≈ 0,06) — Xác nhận Kỹ năng Không Quyết định",
+ chart:"figures/13_kmeans_clusters_pca.png",
+ notesList:[["Phương pháp","K-Means trên 12 biến kỹ năng/công nghệ, k=4."],
+   ["Silhouette Score","0,055-0,063 ở mọi k — gần 0."],
+   ["Xác suất TĐH theo cụm","4 cụm gần như bằng nhau (0,49-0,52)."],
+   ["Ý nghĩa","Hồ sơ kỹ năng cá nhân không phân biệt được rủi ro."]],
+ notes:"Phân cụm K-Means trên kỹ năng thất bại (Silhouette≈0,06) — xác nhận thêm kỹ năng cá nhân không quyết định rủi ro."},
+
+{tag:"MÔ HÌNH PHÂN LOẠI", title:"Logistic Regression & XGBoost Đồng hạng Nhất: F1-macro 0,9947 · AUC ≈ 0,998",
+ models:[
+   {name:"Logistic Regression",winner:true,metrics:[["F1-macro","0,9947"],["ROC-AUC","0,9979"],["Accuracy","0,9947"]]},
+   {name:"Random Forest",winner:false,metrics:[["F1-macro","0,9345"],["ROC-AUC","0,9959"],["Accuracy","0,9387"]]},
+   {name:"XGBoost Classifier",winner:false,metrics:[["F1-macro","0,9947"],["ROC-AUC","0,9964"],["Accuracy","0,9947"]]},
+ ],
+ notes:"3 mô hình so sánh: Logistic Regression và XGBoost đồng hạng nhất F1-macro 0,9947; Random Forest thấp hơn."},
+
+{tag:"MỨC ĐỘ QUAN TRỌNG CỦA BIẾN", title:"98,5% Tầm quan trọng Mô hình Thuộc về Nhóm biến Job_Title",
+ chart:"figures/16_feature_importance.png",
+ notesList:[["Phương pháp","Feature importance XGBoost, gộp 19 biến giả Job_Title."],
+   ["Kết quả","Job_Title (gộp) chiếm 98,5% tổng importance."],
+   ["Phần còn lại","Mọi biến cá nhân khác cộng lại chỉ ~1,5%."],
+   ["Kết luận","Bằng chứng định lượng cho task-based approach."]],
+ notes:"98,5% importance thuộc nhóm Job_Title — bằng chứng định lượng mạnh nhất cho khung lý thuyết task-based approach."},
+
+{tag:"MÔ HÌNH HỒI QUY", title:"Hồi quy Độc lập Xác nhận: R² = 0,862 khi Đưa Nghề nghiệp vào Mô hình",
+ chart:"figures/17_regression_pred_vs_actual.png",
+ notesList:[["Phương pháp","Hồi quy trực tiếp biến liên tục, cùng tập đặc trưng."],
+   ["Kết quả tốt nhất","Linear Regression: R²=0,862, MAE=0,078."],
+   ["Ý nghĩa MAE","Sai số dự báo TB chỉ ~8 điểm % xác suất."],
+   ["Vai trò","Kênh đánh giá ĐỘC LẬP — cùng kết luận, tăng độ tin cậy."]],
+ notes:"Mô hình hồi quy độc lập xác nhận R²=0,862 — nhất quán hoàn toàn với kết quả phân loại."},
+
+{tag:"CHÂN DUNG BA TẦNG NGHỀ NGHIỆP", title:"Từ Rủi ro Thấp (Bác sĩ, Giáo viên) đến Rủi ro Cao (Bán lẻ, Bảo vệ)",
+ personas:[
+   {name:"Tầng Rủi ro THẤP",share:"~24,6% mẫu · XS TB ≈ 0,18",
+    features:"AI Engineer, Research Scientist, Nurse, Teacher, Doctor — phán đoán chuyên môn sâu, chăm sóc con người.",
+    action:"Đầu tư phát triển chuyên sâu; không cần chuyển đổi nghề gấp."},
+   {name:"Tầng Rủi ro TRUNG BÌNH",share:"~50,7% mẫu · XS TB ≈ 0,50",
+    features:"10 nghề chuyên môn/văn phòng: Data Scientist, Software Engineer, Lawyer, Chef...",
+    action:"Chủ động bổ sung kỹ năng số định kỳ."},
+   {name:"Tầng Rủi ro CAO",share:"~24,7% mẫu · XS TB ≈ 0,83",
+    features:"Retail Worker, Security Guard, Construction Worker, Customer Support, Truck Driver.",
+    action:"Ưu tiên đào tạo lại (reskilling), lộ trình chuyển đổi nghề sớm."},
+ ],
+ notes:"Ba chân dung minh hoạ ba tầng nghề nghiệp — mỗi tầng gắn một hướng hành động quản trị nhân sự cụ thể."},
+
+{tag:"HÀM Ý QUẢN TRỊ NHÂN SỰ", title:"Khung Hành động 3 Tầng: Ưu tiên Đào tạo lại Theo Nhóm nghề, Không Theo Cá nhân",
+ tiers:[
+   {label:"Tầng Rủi ro Thấp",desc:"Đầu tư phát triển chuyên môn sâu và kỹ năng phán đoán/chăm sóc con người.",kpi:"~24,6% mẫu · XS TB ≈ 0,18"},
+   {label:"Tầng Rủi ro Trung bình",desc:"Theo dõi định kỳ mức ứng dụng AI, chủ động bổ sung kỹ năng số.",kpi:"~50,7% mẫu · XS TB ≈ 0,50"},
+   {label:"Tầng Rủi ro Cao",desc:"Ưu tiên đào tạo lại THEO NHÓM NGHỀ, xây dựng lộ trình chuyển đổi sớm.",kpi:"~24,7% mẫu · XS TB ≈ 0,83"},
+ ],
+ notes:"Chiến lược đào tạo lại nên thiết kế theo nhóm nghề nghiệp, không chỉ theo năng lực cá nhân — 3 tầng, 3 hành động cụ thể."},
+
+{tag:"HẠN CHẾ NGHIÊN CỨU", title:"Giới hạn: Dữ liệu Mô phỏng — Kết luận Có giá trị Nội tại, Cần Đối chiếu Thực tế",
+ bullets:[["Dữ liệu mô phỏng","phát hiện chỉ có giá trị NỘI TẠI, không suy rộng trực tiếp cho thực tế."],
+   ["Thiếu chiều thời gian","chỉ một lát cắt tĩnh năm 2030."],
+   ["Thiếu biến ngành/vùng","không phân tích được khác biệt khu vực/quốc gia."],
+   ["Hiệu suất mô hình gần tuyệt đối","phản ánh cơ chế sinh dữ liệu có kiểm soát, không nên overclaim."]],
+ notes:"3 giới hạn: dữ liệu mô phỏng, thiếu chiều thời gian/ngành/vùng, hiệu suất mô hình phản ánh cơ chế sinh dữ liệu chứ không phải bằng chứng cho thực tế."},
+
+{tag:"KẾT LUẬN", title:"Nghề nghiệp — Không phải Kỹ năng Cá nhân — Là Biến số Quyết định Rủi ro",
+ bullets:[["Phát hiện chính","Job_Title giải thích 85,7% phương sai; F1-macro 0,9947; R² hồi quy 0,862."],
+   ["Nhất quán lý thuyết","phù hợp task-based approach (Autor et al., 2003) và Frey & Osborne (2017)."],
+   ["Hàm ý thực tiễn","đào tạo lại nên thiết kế theo nhóm nghề, không chỉ theo cá nhân."],
+   ["Giới hạn","kết luận từ dữ liệu mô phỏng — minh hoạ phương pháp luận."],
+   ["Hướng phát triển","bổ sung dữ liệu thời gian, ngành/vùng thực tế; đối chiếu O*NET, WEF."]],
+ notes:"Kết luận: nghề nghiệp quyết định gần như hoàn toàn rủi ro tự động hoá trong dữ liệu này; đặc điểm cá nhân gần như không có vai trò. Cảm ơn Hội đồng."},
+
+{tag:"", title:"CẢM ƠN HỘI ĐỒNG — HỎI & ĐÁP", cover:true,
+ sub:"Đỗ Văn Đạt · Phân tích Kinh doanh · Học viện Ngân hàng",
+ notes:"Ba câu hỏi phản biện dự kiến: (1) vì sao không dùng Automation_Probability_2030 làm đặc trưng — gây rò rỉ dữ liệu; (2) vì sao phân cụm thất bại — kỹ năng độc lập ngẫu nhiên với nghề; (3) kết luận có áp dụng thực tế không — chỉ ở mức định tính, cần dữ liệu thực nghiệm kiểm chứng."},
+];
+
+const deck = document.getElementById('deck');
+SLIDES.forEach((s, i) => {
+  const el = document.createElement('div');
+  el.className = 'slide' + (i===0 ? ' active' : '') + (s.cover ? ' cover' : '');
+  let html = '';
+  if (!s.cover) {
+    html += `<div class="pagenum">${String(i+1).padStart(2,'0')} / ${SLIDES.length}</div>`;
+    if (s.tag) html += `<div class="tag">${s.tag}</div>`;
+    html += `<h1 class="title">${s.title}</h1>`;
+  } else {
+    html += `<div class="tag">${s.tag||'HỌC VIỆN NGÂN HÀNG'}</div><h1 class="title">${s.title}</h1><div style="font-size:16px;color:#cbd5e1;margin-top:10px;">${s.sub||''}</div>`;
+  }
+  if (s.cards) {
+    html += '<div class="cards">' + s.cards.map(c => `
+      <div class="card"><div class="kpi" style="color:${c.color}">${c.kpi}</div><div class="lbl">${c.lbl}</div>
+      <ul>${c.items.map(x=>`<li>${x}</li>`).join('')}</ul></div>`).join('') + '</div>';
+  }
+  if (s.bullets) {
+    html += '<ul class="bullets">' + s.bullets.map(([lead,rest]) => `<li><b>${lead}:</b> ${rest}</li>`).join('') + '</ul>';
+  }
+  if (s.pipeline) {
+    html += '<div class="pipeline-row">' + s.pipeline.map((p,idx) => `
+      <div class="pstep ${idx===0?'first':''}"><span class="badge">${p.n}</span><div class="t">${p.t}</div>
+      <ul>${p.items.map(x=>`<li>${x}</li>`).join('')}</ul></div>`).join('') + '</div>';
+  }
+  if (s.chart) {
+    html += `<div class="chart-row"><div class="chart-img"><img src="${s.chart}" alt="${s.title}"></div>
+      <div class="notes-panel"><h3>Đọc biểu đồ</h3>${s.notesList.map(([t,d])=>`<div class="item"><b>${t}:</b> ${d}</div>`).join('')}</div></div>`;
+  }
+  if (s.models) {
+    html += '<div class="model-row">' + s.models.map(m => `
+      <div class="model ${m.winner?'winner':''}">${m.winner?'<div class="winner-badge">★ WINNER</div>':''}
+      <div class="name">${m.name}</div>
+      ${m.metrics.map(([l,v])=>`<div class="m-val">${v}</div><div class="m-lbl">${l}</div>`).join('')}</div>`).join('') + '</div>';
+  }
+  if (s.personas) {
+    html += '<div class="persona-row">' + s.personas.map((p,idx) => `
+      <div class="persona"><div class="hdr" style="background:${idx===0?'var(--orange)':'var(--navy)'}">${p.name}<br>${p.share}</div>
+      <div class="body"><div class="lbl">🔍 Đặc trưng:</div>${p.features}
+      <div class="lbl" style="color:var(--orange)">🎯 Hành động:</div>${p.action}</div></div>`).join('') + '</div>';
+  }
+  if (s.tiers) {
+    html += '<div class="tiers">' + s.tiers.map(t => `
+      <div class="tier-row"><div class="tier-label">${t.label}</div><div class="tier-desc">${t.desc}</div>
+      <div class="tier-kpi">${t.kpi}</div></div>`).join('') + '</div>';
+  }
+  el.innerHTML = html;
+  deck.appendChild(el);
+});
+
+let idx = 0;
+function render() {
+  document.querySelectorAll('.slide').forEach((el,i)=>el.classList.toggle('active', i===idx));
+  document.getElementById('cur').textContent = idx+1;
+  document.getElementById('spk').innerHTML = '<b>Speaker Notes:</b><br>' + SLIDES[idx].notes;
+}
+function go(d){ idx = Math.max(0, Math.min(SLIDES.length-1, idx+d)); render(); }
+document.addEventListener('keydown', e=>{
+  if(e.key==='ArrowRight'||e.key===' ') go(1);
+  if(e.key==='ArrowLeft') go(-1);
+});
+render();
+</script>
+</body>
+</html>

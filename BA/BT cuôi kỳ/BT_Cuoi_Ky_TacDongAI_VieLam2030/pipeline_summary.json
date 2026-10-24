@@ -1,0 +1,208 @@
+{
+  "raw_shape": [
+    3000,
+    18
+  ],
+  "raw_columns": [
+    "Job_Title",
+    "Average_Salary",
+    "Years_Experience",
+    "Education_Level",
+    "AI_Exposure_Index",
+    "Tech_Growth_Factor",
+    "Automation_Probability_2030",
+    "Risk_Category",
+    "Skill_1",
+    "Skill_2",
+    "Skill_3",
+    "Skill_4",
+    "Skill_5",
+    "Skill_6",
+    "Skill_7",
+    "Skill_8",
+    "Skill_9",
+    "Skill_10"
+  ],
+  "n_missing_cells_total": 0,
+  "n_duplicates_removed": 0,
+  "n_invalid_range_rows_removed": 0,
+  "salary_iqr": {
+    "Q1": 58640.0,
+    "Q3": 119086.5,
+    "IQR": 60446.5,
+    "lower_bound": -32029.75,
+    "upper_bound": 209756.25,
+    "n_outliers": 0
+  },
+  "risk_category_thresholds": {
+    "High": {
+      "min": 0.71,
+      "max": 0.95,
+      "count": 740
+    },
+    "Low": {
+      "min": 0.05,
+      "max": 0.3,
+      "count": 739
+    },
+    "Medium": {
+      "min": 0.31,
+      "max": 0.7,
+      "count": 1521
+    }
+  },
+  "clean_shape": [
+    3000,
+    25
+  ],
+  "n_engineered_features": 7,
+  "job_title_eta_squared": 0.857,
+  "job_risk_lowest10": {
+    "AI Engineer": 0.1722,
+    "Research Scientist": 0.1742,
+    "Nurse": 0.1756,
+    "Teacher": 0.1758,
+    "Doctor": 0.1767,
+    "Financial Analyst": 0.4851,
+    "Mechanic": 0.4853,
+    "Lawyer": 0.4864,
+    "HR Specialist": 0.4908,
+    "UX Researcher": 0.4924
+  },
+  "job_risk_highest10": {
+    "Marketing Manager": 0.4948,
+    "Chef": 0.4957,
+    "Data Scientist": 0.4963,
+    "Software Engineer": 0.5087,
+    "Graphic Designer": 0.529,
+    "Truck Driver": 0.8186,
+    "Customer Support": 0.8253,
+    "Construction Worker": 0.826,
+    "Security Guard": 0.8331,
+    "Retail Worker": 0.8347
+  },
+  "statistical_best_k": 2,
+  "silhouette_by_k": {
+    "2": 0.0631,
+    "3": 0.0553,
+    "4": 0.0569,
+    "5": 0.0563,
+    "6": 0.0563,
+    "7": 0.0561,
+    "8": 0.0585
+  },
+  "clustering_caveat": "Silhouette Score dao động chỉ trong khoảng 0.055-0.063 ở mọi k (2-8), gần 0, cho thấy các cụm không tách biệt rõ ràng do các biến kỹ năng (Skill_1..10) trong bộ dữ liệu tổng hợp được sinh ngẫu nhiên độc lập. k=4 được chọn cho mục đích diễn giải nghiệp vụ, không phải vì có cấu trúc phân cụm thống kê mạnh.",
+  "optimal_k": 4,
+  "silhouette_at_optimal_k": 0.06307706549380011,
+  "cluster_names": {
+    "0": "Cụm 0: Phơi nhiễm AI trung bình-cao (minh hoạ)",
+    "1": "Cụm 1: Phơi nhiễm AI trung bình-thấp (minh hoạ)",
+    "2": "Cụm 2: Phơi nhiễm AI thấp nhất trong 4 cụm (minh hoạ)",
+    "3": "Cụm 3: Phơi nhiễm AI cao nhất trong 4 cụm (minh hoạ)"
+  },
+  "cluster_profile": [
+    {
+      "Cluster": 0,
+      "So_luong": 764,
+      "XacSuat_TuDongHoa_TB": 0.498,
+      "AI_Exposure_TB": 0.562,
+      "Luong_TB": 89271.686,
+      "KinhNghiem_TB": 14.602,
+      "KyNang_TB": 0.517
+    },
+    {
+      "Cluster": 1,
+      "So_luong": 780,
+      "XacSuat_TuDongHoa_TB": 0.501,
+      "AI_Exposure_TB": 0.437,
+      "Luong_TB": 91278.653,
+      "KinhNghiem_TB": 14.792,
+      "KyNang_TB": 0.497
+    },
+    {
+      "Cluster": 2,
+      "So_luong": 778,
+      "XacSuat_TuDongHoa_TB": 0.493,
+      "AI_Exposure_TB": 0.425,
+      "Luong_TB": 89398.698,
+      "KinhNghiem_TB": 14.527,
+      "KyNang_TB": 0.492
+    },
+    {
+      "Cluster": 3,
+      "So_luong": 678,
+      "XacSuat_TuDongHoa_TB": 0.515,
+      "AI_Exposure_TB": 0.594,
+      "Luong_TB": 87262.143,
+      "KinhNghiem_TB": 14.804,
+      "KyNang_TB": 0.487
+    }
+  ],
+  "classification_model_metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9946666666666667,
+      "Precision_macro": 0.9929453262786595,
+      "Recall_macro": 0.9964912280701754,
+      "F1_macro": 0.994671269181073,
+      "ROC_AUC_ovr": 0.997918864369726
+    },
+    "Random Forest": {
+      "Accuracy": 0.9386666666666666,
+      "Precision_macro": 0.9594525033121525,
+      "Recall_macro": 0.9208155523944997,
+      "F1_macro": 0.9345373073569102,
+      "ROC_AUC_ovr": 0.9959498483112829
+    },
+    "XGBoost Classifier": {
+      "Accuracy": 0.9946666666666667,
+      "Precision_macro": 0.9929453262786595,
+      "Recall_macro": 0.9964912280701754,
+      "F1_macro": 0.994671269181073,
+      "ROC_AUC_ovr": 0.9964098868314052
+    }
+  },
+  "best_classification_model": "Logistic Regression",
+  "top_features_classification": {
+    "Nghề nghiệp (Job_Title, gộp 19 biến giả)": 0.9847000241279602,
+    "Human_Edge_Score": 0.0010000000474974513,
+    "Skill_Diversity_Score": 0.0010000000474974513,
+    "Skill_1": 0.0010000000474974513,
+    "AI_Exposure_Index": 0.0010000000474974513,
+    "Tech_Growth_Factor": 0.0008999999845400453,
+    "Skill_2": 0.0008999999845400453,
+    "Skill_8": 0.0008999999845400453,
+    "Skill_3": 0.0007999999797903001,
+    "Skill_4": 0.0007999999797903001,
+    "Skill_10": 0.0007999999797903001,
+    "Skill_6": 0.0007999999797903001
+  },
+  "job_title_total_importance": 0.9847,
+  "regression_model_metrics": {
+    "Linear Regression": {
+      "R2": 0.8622851640868243,
+      "MAE": 0.07775999933006651,
+      "RMSE": 0.09358270432843446
+    },
+    "Random Forest Regressor": {
+      "R2": 0.8027206135168939,
+      "MAE": 0.08813486642002968,
+      "RMSE": 0.11200723618197952
+    },
+    "XGBoost Regressor": {
+      "R2": 0.8112240760774465,
+      "MAE": 0.08869608820100625,
+      "RMSE": 0.10956668673917803
+    }
+  },
+  "best_regression_model": "Linear Regression",
+  "n_figures": 17,
+  "dataset_topic": "Tác động của AI đến việc làm năm 2030",
+  "n_job_titles": 20,
+  "mean_automation_probability": 0.5015033333333333,
+  "mean_ai_exposure_index": 0.5012833333333334,
+  "risk_category_counts": {
+    "Low": 739,
+    "Medium": 1521,
+    "High": 740
+  }
+}

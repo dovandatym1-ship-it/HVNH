@@ -1,0 +1,59 @@
+{
+    "total_customers": 10127,
+    "existing_customers": 8500,
+    "attrited_customers": 1627,
+    "churn_rate": 0.1606596227905599,
+    "optimal_k": 4,
+    "optimal_threshold": 0.0590909090909091,
+    "max_retention_profit": 136600.0,
+    "model_metrics": {
+        "Logistic Regression": {
+            "Accuracy": 0.8696939782823297,
+            "Precision": 0.5634095634095634,
+            "Recall": 0.8338461538461538,
+            "F1-Score": 0.6724565756823822,
+            "ROC-AUC": 0.934796725907837
+        },
+        "Decision Tree": {
+            "Accuracy": 0.9106614017769002,
+            "Precision": 0.6658986175115207,
+            "Recall": 0.8892307692307693,
+            "F1-Score": 0.761528326745718,
+            "ROC-AUC": 0.9458038258038258
+        },
+        "Random Forest": {
+            "Accuracy": 0.947680157946693,
+            "Precision": 0.8155619596541787,
+            "Recall": 0.8707692307692307,
+            "F1-Score": 0.8422619047619048,
+            "ROC-AUC": 0.9837995749106861
+        },
+        "XGBoost Classifier": {
+            "Accuracy": 0.9654491609081934,
+            "Precision": 0.8761061946902655,
+            "Recall": 0.9138461538461539,
+            "F1-Score": 0.8945783132530121,
+            "ROC-AUC": 0.9929959752181974
+        }
+    },
+    "top_features": {
+        "Total_Trans_Ct": 0.2877011001110077,
+        "Total_Revolving_Bal": 0.11168627440929413,
+        "Avg_Trans_Value": 0.08898205310106277,
+        "Total_Relationship_Count": 0.07319380342960358,
+        "Total_Trans_Amt": 0.04818231239914894,
+        "Total_Ct_Chng_Q4_Q1": 0.04082343727350235,
+        "Months_Inactive_12_mon": 0.03550134226679802,
+        "Total_Amt_Chng_Q4_Q1": 0.03211783617734909,
+        "Gender_M": 0.03025638870894909,
+        "Credit_Limit": 0.02523554116487503,
+        "Contacts_Count_12_mon": 0.024455415084958076,
+        "Customer_Age": 0.020178820937871933
+    },
+    "cluster_names": {
+        "0": "C\u1ee5m 0: Ti\u00eau d\u00f9ng ph\u1ed5 th\u00f4ng \u1ed5n \u0111\u1ecbnh (Steady Transactors)",
+        "1": "C\u1ee5m 1: Ng\u1ee7 \u0111\u00f4ng & Nguy c\u01a1 r\u1eddi b\u1ecf cao (Dormant & High-Risk)",
+        "2": "C\u1ee5m 2: Kh\u00e1ch h\u00e0ng Cao c\u1ea5p / Chi ti\u00eau l\u1edbn (Affluent & High-Spenders)",
+        "3": "C\u1ee5m 3: T\u00edn d\u1ee5ng quay v\u00f2ng / Vay ti\u00eau d\u00f9ng (Revolving Borrowers)"
+    }
+}

@@ -1,0 +1,104 @@
+================================================================================
+BƯỚC 1. ĐỌC & KHÁM PHÁ DỮ LIỆU THÔ (Load and show first rows)
+================================================================================
+Kích thước dữ liệu thô: (3000, 18)
+             Job_Title  Average_Salary  ...  Skill_9 Skill_10
+0       Security Guard           45795  ...     0.94     0.00
+1   Research Scientist          133355  ...     0.38     0.98
+2  Construction Worker          146216  ...     0.61     0.83
+3    Software Engineer          136530  ...     0.73     0.33
+4    Financial Analyst           70397  ...     0.02     0.42
+
+[5 rows x 18 columns]
+Job_Title                          str
+Average_Salary                   int64
+Years_Experience                 int64
+Education_Level                    str
+AI_Exposure_Index              float64
+Tech_Growth_Factor             float64
+Automation_Probability_2030    float64
+Risk_Category                      str
+Skill_1                        float64
+Skill_2                        float64
+Skill_3                        float64
+Skill_4                        float64
+Skill_5                        float64
+Skill_6                        float64
+Skill_7                        float64
+Skill_8                        float64
+Skill_9                        float64
+Skill_10                       float64
+dtype: object
+
+================================================================================
+BƯỚC 2. TIỀN XỬ LÝ DỮ LIỆU
+================================================================================
+Số ô thiếu theo cột (0 nếu dữ liệu đã sạch từ nguồn):
+Không có ô nào bị thiếu.
+Số dòng trùng lặp phát hiện & loại bỏ: 0
+Số dòng vi phạm miền giá trị [0,1] của chỉ số bị loại: 0
+Ngoại lai Average_Salary (quy tắc IQR): Q1=58640, Q3=119086, cận dưới=-32030, cận trên=209756, số hồ sơ ngoại lai=0
+
+Ngưỡng Automation_Probability_2030 theo từng Risk_Category (kiểm tra rò rỉ dữ liệu):
+                min   max  count
+Risk_Category                   
+High           0.71  0.95    740
+Low            0.05  0.30    739
+Medium         0.31  0.70   1521
+
+Đã tạo 6 biến mới: Skill_Diversity_Score, Skill_Std, High_Value_Skill_Count, Experience_Group, Salary_per_YearExp, Human_Edge_Score, Education_Level_Encoded
+
+Đã lưu dữ liệu sạch: AI_ViecLam2030_Cleaned.csv — 3000 dòng x 25 cột
+
+================================================================================
+BƯỚC 3. PHÂN TÍCH KHÁM PHÁ DỮ LIỆU (EDA)
+================================================================================
+
+Kiểm định eta^2: Job_Title giải thích 85.7% phương sai của Automation_Probability_2030 (SSB/SST) -> đây là biến quyết định chính, mạnh hơn hẳn mọi đặc trưng cá nhân (kỹ năng/kinh nghiệm/học vấn/lương).
+Đã xuất 11 biểu đồ EDA vào thư mục: figures/
+
+================================================================================
+BƯỚC 4. PHÂN CỤM K-MEANS (Skill Profile Clustering)
+================================================================================
+Silhouette Score theo từng k: {2: 0.0631, 3: 0.0553, 4: 0.0569, 5: 0.0563, 6: 0.0563, 7: 0.0561, 8: 0.0585}
+k có Silhouette cao nhất (thống kê thuần tuý): k = 2 (Silhouette = 0.0631)
+Số cụm sử dụng cho phân tích nghiệp vụ (business-driven, không phải statistical-optimal): k = 4 (Silhouette = 0.0569 — mức RẤT YẾU, gần 0)
+
+Hồ sơ đặc trưng từng cụm:
+         So_luong  XacSuat_TuDongHoa_TB  ...  KinhNghiem_TB  KyNang_TB
+Cluster                                  ...                          
+0             764                 0.498  ...         14.602      0.517
+1             780                 0.501  ...         14.792      0.497
+2             778                 0.493  ...         14.527      0.492
+3             678                 0.515  ...         14.804      0.487
+
+[4 rows x 6 columns]
+Đã lưu dữ liệu đã gắn cụm: AI_ViecLam2030_Clustered.csv
+
+================================================================================
+BƯỚC 5. MÔ HÌNH PHÂN LOẠI NHÓM RỦI RO TỰ ĐỘNG HOÁ (Risk_Category)
+================================================================================
+Lưu ý quan trọng: KHÔNG đưa Automation_Probability_2030 vào tập đặc trưng
+vì Risk_Category được suy ra trực tiếp (rule-based) từ biến này -> rò rỉ dữ liệu.
+Đưa THÊM Job_Title (one-hot, drop_first) vào tập đặc trưng vì kiểm định eta^2 ở
+Bước 3 cho thấy nghề nghiệp giải thích 85.7% phương sai của rủi ro.
+Logistic Regression    | Acc=0.9947  Prec=0.9929  Rec=0.9965  F1=0.9947  AUC=0.9979
+Random Forest          | Acc=0.9387  Prec=0.9595  Rec=0.9208  F1=0.9345  AUC=0.9959
+XGBoost Classifier     | Acc=0.9947  Prec=0.9929  Rec=0.9965  F1=0.9947  AUC=0.9964
+
+Mô hình phân loại tốt nhất (theo F1-macro): Logistic Regression
+
+================================================================================
+BƯỚC 6. MÔ HÌNH HỒI QUY XÁC SUẤT TỰ ĐỘNG HOÁ 2030 (đối chiếu độc lập)
+================================================================================
+Linear Regression        | R2=0.8623  MAE=0.0778  RMSE=0.0936
+Random Forest Regressor  | R2=0.8027  MAE=0.0881  RMSE=0.1120
+XGBoost Regressor        | R2=0.8112  MAE=0.0887  RMSE=0.1096
+
+================================================================================
+BƯỚC 7. XUẤT KẾT QUẢ TỔNG HỢP
+================================================================================
+Tổng số biểu đồ đã xuất: 17
+Đã lưu pipeline_summary.json
+
+HOÀN TẤT PIPELINE.

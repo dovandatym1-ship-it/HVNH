@@ -1,0 +1,467 @@
+============================== SLIDE 01 ==============================
+[01][Shp01][P0] 🏛️ HỌC VIỆN NGÂN HÀNG (BANKING ACADEMY OF VIETNAM)  •  KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+[01][Shp02][P0] BÁO CÁO BÀI TẬP GIỮA KỲ — CHUYÊN ĐỀ CAO HỌC
+[01][Shp02][P1] XỬ LÝ DỮ LIỆU & KHAI PHÁ DỮ LIỆU
+[01][Shp02][P2] PHÂN TÍCH HÀNH VI, PHÂN CỤM & DỰ BÁO NGUY CƠ RỜI BỎ
+[01][Shp02][P3] CỦA KHÁCH HÀNG THẺ TÍN DỤNG (BANK CUSTOMER CHURN)
+[01][Shp06][P0] 👤 HỌC VIÊN THỰC HIỆN
+[01][Shp06][P1] ĐỖ VĂN ĐẠT
+[01][Shp06][P2] Chuyên ngành Business Analytics
+[01][Shp09][P0] 📚 HỌC PHẦN NGHIÊN CỨU
+[01][Shp09][P1] PHÂN TÍCH DỮ LIỆU KINH DOANH
+[01][Shp09][P2] Business Analytics — HVNH
+[01][Shp12][P0] 📊 BỘ DỮ LIỆU THỰC NGHIỆM
+[01][Shp12][P1] BANKCHURNERS.CSV
+[01][Shp12][P2] 10,127 quan sát • 23 thuộc tính
+[01][Shp15][P0] 📅 NIÊN KHÓA ĐÀO TẠO
+[01][Shp15][P1] NĂM HỌC 2025 - 2026
+[01][Shp15][P2] Hà Nội, Năm 2026
+--- SPEAKER NOTE 01 ---
+Kính chào Quý Thầy/Cô trong Hội đồng và các bạn học viên cao học.
+Em tên là Đỗ Văn Đạt, học viên chuyên ngành Business Analytics tại Học viện Ngân hàng. Hôm nay, em xin phép được báo cáo kết quả nghiên cứu đề tài: 'Xử lý Dữ liệu và Khai phá Dữ liệu Dự báo Nguy cơ Rời bỏ của Khách hàng Thẻ Tín dụng' trên tập dữ liệu thực nghiệm BankChurners.
+Nghiên cứu này không dừng lại ở việc so sánh độ chính xác của các thuật toán học máy, mà trọng tâm là thiết lập một cầu nối hoàn chỉnh từ khai phá dữ liệu hành vi, giải thích mô hình bằng XAI cho đến tối ưu hóa bài toán kinh tế giữ chân khách hàng cho ngân hàng thương mại.
+
+============================== SLIDE 02 ==============================
+[02][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [MỤC LỤC & LỘ TRÌNH]
+[02][Shp01][P0] Cấu Trúc Báo Cáo: 5 Trụ Cột Nghiên Cứu Từ Khai Phá Dữ Liệu Đến Tối Ưu Hóa Kinh Tế
+[02][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[02][Shp04][P0] 02 / 21
+[02][Shp07][P0] 01
+[02][Shp08][P0] TỔNG QUAN & BỐI CẢNH
+[02][Shp08][P1] [Slide 03 — 04]
+[02][Shp08][P2] ▪ Bài toán kinh tế mảng thẻ tín dụng
+[02][Shp08][P3] ▪ Chi phí CAC gấp 6 lần CRC giữ chân
+[02][Shp08][P4] ▪ Executive Abstract & Lead Takeaway
+[02][Shp11][P0] 02
+[02][Shp12][P0] PHƯƠNG PHÁP & TIỀN XỬ LÝ
+[02][Shp12][P1] [Slide 05 — 06]
+[02][Shp12][P2] ▪ Kiến trúc Pipeline 4 giai đoạn chuẩn
+[02][Shp12][P3] ▪ Loại bỏ hoàn toàn rò rỉ Naive Bayes
+[02][Shp12][P4] ▪ Kiến tạo 5 biến phái sinh tài chính
+[02][Shp15][P0] 03
+[02][Shp16][P0] KHAI PHÁ DỮ LIỆU & PHÂN CỤM
+[02][Shp16][P1] [Slide 07 — 13]
+[02][Shp16][P2] ▪ Khai phá EDA 6 chiều hành vi cốt lõi
+[02][Shp16][P3] ▪ Kiểm định thống kê p < 0.001
+[02][Shp16][P4] ▪ Phân cụm K-Means & Giảm chiều PCA
+[02][Shp19][P0] 04
+[02][Shp20][P0] MÔ HÌNH HÓA DỰ BÁO & XAI
+[02][Shp20][P1] [Slide 14 — 17]
+[02][Shp20][P2] ▪ So sánh đối đầu 4 thuật toán máy học
+[02][Shp20][P3] ▪ XGBoost dẫn đầu: AUC 0.9930, Recall 91%
+[02][Shp20][P4] ▪ Giải thích XAI & Tối ưu ngưỡng t = 0.42
+[02][Shp23][P0] 05
+[02][Shp24][P0] CHIẾN LƯỢC GIỮ CHÂN & ROI
+[02][Shp24][P1] [Slide 18 — 21]
+[02][Shp24][P2] ▪ Phác họa 3 Chân dung khách hàng Churn
+[02][Shp24][P3] ▪ Khung chiến lược 4 tầng & Cảnh báo EWS
+[02][Shp24][P4] ▪ Mô phỏng tài chính ROI 500% & Tổng kết
+--- SPEAKER NOTE 02 ---
+Kính thưa Thầy/Cô, để Hội đồng tiện theo dõi toàn diện mạch lập luận, bài báo cáo được tổ chức chặt chẽ theo 5 trụ cột nghiên cứu MECE:
+Thứ nhất là Tổng quan bối cảnh kinh tế và bài toán chi phí giữ chân khách hàng.
+Thứ hai là Phương pháp luận xây dựng Pipeline và khâu Feature Engineering tạo lập 5 biến phái sinh.
+Thứ ba là Khai phá dữ liệu thực nghiệm qua 6 chiều hành vi EDA và phân cụm K-Means.
+Thứ tư là Huấn luyện 4 mô hình học máy, giải thích XAI và tối ưu hóa ngưỡng cắt xác suất theo chi phí.
+Và cuối cùng là Khung khuyến nghị quản trị 4 tầng, mô phỏng tài chính ROI 500% cùng định hướng tương lai.
+Sau đây em xin đi vào nội dung tóm tắt điều hành đầu tiên.
+
+============================== SLIDE 03 ==============================
+[03][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [TỔNG QUAN ĐIỀU HÀNH]
+[03][Shp01][P0] XGBoost Đạt ROC-AUC 0.9930, Ngưỡng t = 0.42 Tối Ưu Hóa Lợi Nhuận Ròng +$400,000 USD (ROI 500%)
+[03][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[03][Shp04][P0] 03 / 21
+[03][Shp08][P0] 16.07%
+[03][Shp08][P1] TỶ LỆ RỜI BỎ TỰ NHIÊN
+[03][Shp10][P0] Quy mô tổn thất: 1,627 / 10,127 khách hàng đã đóng thẻ, tương đương thất thoát ~$800K USD/năm.
+[03][Shp10][P1] Mất cân bằng lớp: Tỷ lệ 1:5.22 buộc phải ưu tiên tối đa Recall và ROC-AUC thay vì Accuracy.
+[03][Shp10][P2] Tổn thất dòng tiền: Mất vĩnh viễn nguồn thu từ phí thường niên, lãi vay quay vòng và phí quẹt thẻ.
+[03][Shp14][P0] 0.9930
+[03][Shp14][P1] ROC-AUC MÔ HÌNH XGBOOST
+[03][Shp16][P0] Phân tách xuất sắc: Recall đạt 91.38% và F1-Score đạt 91.23% trên tập kiểm thử độc lập.
+[03][Shp16][P1] Kiểm soát sai số: Chỉ bỏ sót 28 / 325 khách rời bỏ thực tế, giảm thiểu tối đa rủi ro tài chính.
+[03][Shp16][P2] Vượt trội toàn diện: Đánh bại hoàn toàn Logistic Regression (0.9348) và Random Forest (0.9892).
+[03][Shp20][P0] t* = 0.42
+[03][Shp20][P1] NGƯỠNG CẮT TỐI ƯU KINH TẾ
+[03][Shp22][P0] Dịch chuyển từ 0.50: Tối ưu hóa trực tiếp trên hàm Chi phí - Lợi ích thực tế của ngân hàng.
+[03][Shp22][P1] Đón đầu rủi ro sớm: Cho phép can thiệp trước 2-3 tháng vào nhóm khách hàng chớm có nguy cơ.
+[03][Shp22][P2] Hiệu quả giữ chân: Đạt tỷ lệ cứu vãn kỳ vọng 75%, mang lại thêm +$24,500 USD lợi nhuận ròng.
+[03][Shp26][P0] +$400K
+[03][Shp26][P1] LỢI NHUẬN RÒNG / NĂM (ROI 500%)
+[03][Shp28][P0] Quy mô 10,000 khách: Giữ chân thành công 960 khách hàng có nguy cơ đóng thẻ trong năm.
+[03][Shp28][P1] Bảo vệ $480K CLV: Bảo toàn nguồn thu giá trị trọn đời (CLV = $500/khách) cho ngân hàng.
+[03][Shp28][P2] Tỷ suất sinh lời: Chi phí can thiệp $80,000 USD tạo ra $400,000 USD lợi nhuận ròng (ROI = 500%).
+[03][Shp31][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Khung dự báo rời bỏ giải quyết trọn vẹn bài toán kinh tế: XGBoost bắt trúng 91.4% khách rời bỏ, mang lại tỷ suất hoàn vốn ROI 500%.
+--- SPEAKER NOTE 03 ---
+Kính thưa Hội đồng, theo nguyên lý Kim tự tháp Pyramid Principle của McKinsey, em xin phép trình bày ngay 4 kết quả phát hiện trọng tâm nhất của đề tài:
+Thứ nhất, tỷ lệ rời bỏ tự nhiên trong tập dữ liệu đạt 16.07%, gây tổn thất nặng nề đến doanh thu lãi vay và phí giao dịch.
+Thứ hai, mô hình XGBoost Classifier vượt trội hoàn toàn với ROC-AUC 0.9930 và khả năng bắt trúng 91.38% khách hàng rời bỏ.
+Thứ ba, nghiên cứu đã dịch chuyển ngưỡng quyết định từ 0.50 mặc định về ngưỡng tối ưu kinh tế t = 0.42.
+Và thứ tư, khi mô phỏng tài chính trên quy mô 10,000 chủ thẻ, hệ thống giúp mang lại 400,000 USD lợi nhuận ròng hàng năm, tương ứng tỷ suất sinh lời ROI lên đến 500%.
+
+============================== SLIDE 04 ==============================
+[04][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [BỐI CẢNH KINH DOANH]
+[04][Shp01][P0] Chi Phí Tìm Khách Mới (CAC) Gấp 6 Lần Giữ Chân (CRC): Nhu Cầu Cấp Thiết Chuyển Sang Dự Báo Sớm
+[04][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[04][Shp04][P0] 04 / 21
+[04][Shp08][P0] CHI PHÍ THU HÚT MỚI (CAC)
+[04][Shp08][P1] $250 — $300 USD
+[04][Shp09][P0] Marketing & Chạy Ads: Chi phí quảng cáo số, hoa hồng đại lý và quà tặng chào mừng mở thẻ.
+[04][Shp09][P1] Thẩm định tín dụng: Tra soát lịch sử CIC, xét duyệt hạn mức và chi phí rủi ro ban đầu.
+[04][Shp09][P2] Phát hành thẻ vật lý: Dập thẻ chip EMV, đóng gói và chuyển phát bảo đảm tận tay chủ thẻ.
+[04][Shp09][P3] Thời gian hoàn vốn dài: Ngân hàng cần 12 - 18 tháng chi tiêu thẻ để thu hồi chi phí CAC ban đầu.
+[04][Shp11][P0] TỶ LỆ ĐỐI ĐẦU
+[04][Shp11][P1] 6 : 1
+[04][Shp11][P2] ĐẮT GẤP 6 LẦN
+[04][Shp15][P0] CHI PHÍ GIỮ CHÂN KHÁCH HÀNG (CRC)
+[04][Shp15][P1] $40 — $50 USD
+[04][Shp16][P0] Ưu đãi nhắm trúng đích: Voucher 100K kích hoạt quẹt thẻ, hoàn tiền 5% chi tiêu ăn uống.
+[04][Shp16][P1] CSKH chủ động: Cuộc gọi hỏi thăm, tháo gỡ khiếu nại biểu phí và miễn phí thường niên.
+[04][Shp16][P2] Hiệu quả kinh tế: Chi phí rẻ hơn từ 5 đến 7 lần so với việc tìm kiếm 1 khách hàng mới.
+[04][Shp16][P3] Tỷ suất ROI vượt bậc: Bảo vệ thành công $500 CLV chỉ với ngân sách can thiệp $50 CRC.
+[04][Shp19][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Quy tắc Reichheld (Bain & Co.): Tăng 5% tỷ lệ giữ chân giúp thúc đẩy lợi nhuận từ 25% đến 95%; CAC đắt gấp 6 lần CRC.
+--- SPEAKER NOTE 04 ---
+Kính thưa Thầy/Cô, thẻ tín dụng là mảng kinh doanh có biên lợi nhuận cao nhất nhưng cũng chịu áp lực cạnh tranh khốc liệt nhất.
+Dữ liệu tài chính cho thấy chi phí để phát hành một thẻ tín dụng mới (CAC) lên tới 250 - 300 USD, trong khi chi phí giữ chân (CRC) chỉ khoảng 40 - 50 USD, tức rẻ hơn từ 5 đến 7 lần.
+Theo nghiên cứu kinh điển của Bain & Company, chỉ cần cải thiện 5% tỷ lệ giữ chân, lợi nhuận ngân hàng có thể tăng từ 25% đến 95%. Do đó, việc ứng dụng Machine Learning để xây dựng hệ thống cảnh báo sớm (Early Warning System) là yêu cầu sống còn nhằm giữ chân khách hàng trước khi họ chính thức rời bỏ.
+
+============================== SLIDE 05 ==============================
+[05][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [PHƯƠNG PHÁP LUẬN]
+[05][Shp01][P0] Khung Nghiên Cứu Thực Nghiệm 4 Giai Đoạn Chuẩn Mực Từ Tiền Xử Lý Đến Triển Khai XAI
+[05][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[05][Shp04][P0] 05 / 21
+[05][Shp06][P0] GIAI ĐOẠN 01
+[05][Shp06][P1] TIỀN XỬ LÝ DỮ LIỆU
+[05][Shp07][P0] Thu thập & Làm sạch: Bộ dữ liệu 10,127 dòng, kiểm tra toàn vẹn không giá trị null.
+[05][Shp07][P1] Ngăn ngừa Data Leakage: Loại bỏ 2 cột Naive Bayes phân loại sẵn của bộ dữ liệu gốc.
+[05][Shp07][P2] Feature Engineering: Kiến tạo 5 biến phái sinh phản ánh sâu sắc thói quen giao dịch.
+[05][Shp10][P0] GIAI ĐOẠN 02
+[05][Shp10][P1] EDA & DATA MINING
+[05][Shp11][P0] Phân tích đa biến: Bóc tách 6 chiều hành vi then chốt từ nhân khẩu học đến chi tiêu.
+[05][Shp11][P1] Kiểm định thống kê: T-test và Chi-square xác nhận sự khác biệt p < 0.001.
+[05][Shp11][P2] Phân cụm K-Means: Tối ưu hóa k=4 nhóm bằng phương pháp Elbow & Silhouette Score.
+[05][Shp14][P0] GIAI ĐOẠN 03
+[05][Shp14][P1] MÔ HÌNH HÓA MÁY HỌC
+[05][Shp15][P0] Phân chia dữ liệu: Stratified 80/20 bảo toàn nghiêm ngặt tỷ lệ mất cân bằng lớp 16.07%.
+[05][Shp15][P1] Huấn luyện 4 thuật toán: Logistic Regression, Random Forest, SVM và XGBoost Classifier.
+[05][Shp15][P2] Đánh giá toàn diện: So sánh đối đầu qua bộ chỉ số ROC-AUC, Recall, Precision, F1.
+[05][Shp18][P0] GIAI ĐOẠN 04
+[05][Shp18][P1] TỐI ƯU KINH TẾ & XAI
+[05][Shp19][P0] Explainable AI (XAI): Bóc tách Top 5 đòn bẩy chi phối hành vi rời bỏ của khách hàng.
+[05][Shp19][P1] Tối ưu ngưỡng cắt: Xác lập ngưỡng t = 0.42 tối đa hóa hàm Lợi nhuận ròng ngân hàng.
+[05][Shp19][P2] Chiến lược giữ chân: Phác họa 3 Personas và Khung chiến lược quản trị 4 tầng EWS.
+[05][Shp22][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Mô hình nghiên cứu kết hợp chặt chẽ giữa thống kê học thực nghiệm, máy học tiên tiến và lý thuyết tối ưu hóa kinh tế.
+--- SPEAKER NOTE 05 ---
+Kính thưa Hội đồng, cấu trúc phương pháp luận của đề tài được triển khai qua 4 giai đoạn chuẩn mực khoa học dữ liệu:
+Giai đoạn 1 xử lý dữ liệu thô, loại bỏ rò rỉ nhãn và kiến tạo 5 biến phái sinh tài chính.
+Giai đoạn 2 tiến hành EDA đa chiều và phân cụm K-Means nhằm bóc tách hành vi khách hàng.
+Giai đoạn 3 thực hiện huấn luyện và kiểm định chéo Stratified 5-Fold trên 4 thuật toán Machine Learning.
+Và Giai đoạn 4 kết hợp Explainable AI cùng mô hình tối ưu hóa kinh tế để đưa ra khuyến nghị thực thi.
+Quy trình khép kín này đảm bảo tính nhất quán từ dữ liệu thực nghiệm đến giá trị ứng dụng kinh doanh.
+
+============================== SLIDE 06 ==============================
+[06][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [TIỀN XỬ LÝ & KỸ NGHỆ DỮ LIỆU]
+[06][Shp01][P0] Kiểm Soát Triệt Để Rò Rỉ Dữ Liệu & Kiến Tạo 5 Đặc Trưng Phái Sinh Phản Ánh Thói Quen Quẹt Thẻ
+[06][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[06][Shp04][P0] 06 / 21
+[06][Shp07][P0] 🧹 LÀM SẠCH DỮ LIỆU & KIỂM SOÁT RÒ RỈ (DATA LEAKAGE)
+[06][Shp08][P0] Quy mô dữ liệu sạch: 10,127 bản ghi đầy đủ, không phát hiện giá trị khuyết thiếu (Null/NaN).
+[06][Shp08][P1] Loại bỏ Data Leakage: Loại bỏ hoàn toàn 2 cột phân loại Naive Bayes có sẵn trong dataset gốc (tính toán trước xác suất), đảm bảo tính khách quan thực nghiệm.
+[06][Shp08][P2] Mã hóa nhãn mục tiêu: Thuộc tính Attrited Customer chuyển thành nhãn 1 (1,627 khách), Existing Customer chuyển thành nhãn 0 (8,500 khách).
+[06][Shp08][P3] Mã hóa định danh: Áp dụng One-Hot Encoding cho các biến danh nghĩa và Ordinal Encoding cho học vấn / thu nhập.
+[06][Shp11][P0] ⚙️ KIẾN TẠO 5 ĐẶC TRƯNG PHÁI SINH TÀI CHÍNH
+[06][Shp12][P0] 1. Trans_Ct_Density (Mật độ quẹt thẻ): Total_Trans_Ct / Months_on_book. Phản ánh thói quen sử dụng thẻ thường nhật.
+[06][Shp12][P1] 2. Trans_Amt_per_Capita (Chi tiêu bình quân): Total_Trans_Amt / Total_Trans_Ct. Bóc tách giao dịch lớn so với chi tiêu vi mô.
+[06][Shp12][P2] 3. Revolving_Ratio (Tỷ lệ nợ quay vòng): Total_Revolving_Bal / Credit_Limit. Đo lường mức độ phụ thuộc tín dụng.
+[06][Shp12][P3] 4. Total_Interaction_Ct (Tổng tương tác): Contacts_Count_12_mon + Months_Inactive_12_mon. Chỉ số tổng hợp về rủi ro trải nghiệm.
+[06][Shp12][P4] 5. Open_To_Buy_Ratio (Tỷ lệ khả dụng): Avg_Open_To_Buy / Credit_Limit. Đánh giá dung lượng hạn mức chưa khai thác.
+[06][Shp15][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Loại bỏ rò rỉ dữ liệu đảm bảo tính trung thực học thuật; 5 biến phái sinh tài chính trực tiếp nâng cao AUC của mô hình thêm +2.4%.
+--- SPEAKER NOTE 06 ---
+Kính thưa Thầy/Cô, trong khâu tiền xử lý, một điểm mấu chốt là nhóm nghiên cứu đã chủ động loại bỏ 2 cột phân loại Naive Bayes có sẵn trong bộ dữ liệu gốc.
+Nếu giữ lại 2 cột này, mô hình sẽ gặp hiện tượng rò rỉ dữ liệu (Data Leakage) nghiêm trọng và cho kết quả ảo tưởng.
+Bên cạnh đó, khâu Feature Engineering đã kiến tạo thêm 5 biến phái sinh tài chính sâu sắc như mật độ giao dịch hay tỷ lệ nợ quay vòng. Các biến này phản ánh chân thực động thái giảm dần chi tiêu của khách hàng trước khi chính thức hủy thẻ.
+
+============================== SLIDE 07 ==============================
+[07][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHAI PHÁ EDA — BIẾN MỤC TIÊU]
+[07][Shp01][P0] Tỷ Lệ Rời Bỏ 16.07% (Mất Cân Bằng 1:5.22): Xác Lập Trọng Tâm Vào Recall & PR-AUC
+[07][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[07][Shp04][P0] 07 / 21
+[07][Shp09][P0] 📌 Ý Nghĩa Nghiệp Vụ & Quyết Định Mô Hình
+[07][Shp09][P1] Mất cân bằng lớp (Class Imbalance): Tập dữ liệu gồm 8,500 khách hàng ở lại (83.93%) và 1,627 khách hàng rời bỏ (16.07%), tương ứng tỷ lệ 1:5.22.
+[07][Shp09][P2] Cạm bẫy độ chính xác (Accuracy Paradox): Một mô hình ngây thơ luôn đoán 'Ở lại' sẽ đạt ngay Accuracy = 83.93% nhưng hoàn toàn vô dụng trong việc bắt khách hàng Churn.
+[07][Shp09][P3] Lựa chọn Metric đánh giá: Đề tài xác lập ưu tiên tối thượng cho chỉ số Recall (khả năng phát hiện đúng khách Churn) và diện tích dưới đường cong PR-AUC / ROC-AUC.
+[07][Shp09][P4] Chiến lược chia mẫu: Sử dụng Stratified K-Fold để đảm bảo tỷ lệ 16.07% đồng nhất trên cả tập Train và Test.
+[07][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Không sử dụng Accuracy đơn thuần; Recall và PR-AUC là thước đo chuẩn mực bắt buộc để đánh giá bài toán phân loại mất cân bằng 1:5.22.
+--- SPEAKER NOTE 07 ---
+Kính thưa Hội đồng, biến mục tiêu Attrition_Flag cho thấy tỷ lệ rời bỏ tự nhiên trong danh mục là 16.07%, tức cứ 6 khách hàng thì có 1 khách hàng đóng thẻ.
+Tỷ lệ mất cân bằng 1:5.22 này đặt ra thách thức về 'Cạm bẫy độ chính xác' (Accuracy Paradox). Nếu chỉ nhìn vào Accuracy, một mô hình dự báo toàn bộ khách hàng ở lại vẫn đạt 83.93% nhưng ngân hàng sẽ mất trắng toàn bộ khách hàng churn.
+Vì vậy, nghiên cứu chuyển hướng đánh giá toàn bộ các thuật toán sang thang đo Recall, F1-Score và ROC-AUC để đảm bảo không bỏ sót khách hàng rủi ro.
+
+============================== SLIDE 08 ==============================
+[08][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHAI PHÁ EDA — NHÂN KHẨU HỌC]
+[08][Shp01][P0] Khách Hàng Nữ (Churn 17.4%) & Nhóm Thu Nhập Cao $120K+ (Churn 17.3%) Tiềm Ẩn Rủi Ro Cao Nhất
+[08][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[08][Shp04][P0] 08 / 21
+[08][Shp09][P0] 👥 Insight Nhân Khẩu Học & Hành Vi
+[08][Shp09][P1] Yếu tố giới tính (Gender): Khách hàng Nữ có tỷ lệ rời bỏ 17.36%, cao hơn đáng kể so với Nam giới (14.62%), phản ánh sự nhạy cảm cao hơn với ưu đãi hoàn tiền mua sắm.
+[08][Shp09][P2] Độ tuổi rủi ro cao: Độ tuổi tập trung từ 40 - 50 tuổi (trung bình 46.3 tuổi), là nhóm khách hàng trung niên có nhu cầu tài chính phức tạp và sẵn sàng đổi thẻ.
+[08][Shp09][P3] Nghịch lý 2 đầu thu nhập: Tỷ lệ rời bỏ cao nhất ở 2 nhóm cực đoan: Dưới $40K (17.19% - áp lực kinh tế) và Trên $120K (17.33% - khách hàng VIP bị đối thủ săn đón).
+[08][Shp09][P4] Người phụ thuộc (Dependents): Khách hàng có 2 - 3 người phụ thuộc có tỷ lệ rời bỏ cao nhất do áp lực chi tiêu gia đình lớn.
+[08][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Hiện tượng phân hóa 2 đầu thu nhập: Cần chính sách giữ chân kép - hỗ trợ phí cho nhóm thu nhập thấp và đặc quyền VIP cho nhóm thu nhập cao.
+--- SPEAKER NOTE 08 ---
+Kính thưa Thầy/Cô, phân tích nhân khẩu học chỉ ra hai phát hiện rất đáng chú ý về mặt hành vi:
+Thứ nhất, khách hàng nữ có tỷ lệ rời bỏ 17.36%, cao hơn nam giới. Phân tích sâu cho thấy nhóm này rất nhạy cảm với các chương trình tích điểm mua sắm và hoàn tiền siêu thị.
+Thứ hai là 'Hiện tượng phân hóa rủi ro 2 đầu thu nhập': Tỷ lệ rời bỏ tăng vọt ở nhóm thu nhập thấp dưới 40,000 USD do nhạy cảm với phí thường niên, và nhóm siêu giàu trên 120,000 USD do bị các ngân hàng đối thủ liên tục chèo kéo bằng các dòng thẻ Signature/Platinum cao cấp.
+
+============================== SLIDE 09 ==============================
+[09][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHAI PHÁ EDA — HÀNH VI GIAO DỊCH]
+[09][Shp01][P0] Vùng Nguy Cơ Báo Động Đỏ: Quẹt Thẻ Dưới 55 Lần & Chi Tiêu Dưới $3,000 Là Vùng Rời Bỏ Tập Trung
+[09][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[09][Shp04][P0] 09 / 21
+[09][Shp09][P0] 💳 Ranh Giới Giao Dịch Quyết Định
+[09][Shp09][P1] Số lượng giao dịch (Total_Trans_Ct): Khách hàng rời bỏ chỉ thực hiện trung bình 44.9 giao dịch/năm, so với 68.7 giao dịch của nhóm khách hàng ở lại.
+[09][Shp09][P2] Vùng nguy cơ báo động đỏ: Nếu số lần quẹt thẻ < 55 lần/năm (dưới 4.5 lần/tháng), xác suất khách hàng rời bỏ tăng vọt lên trên 60%.
+[09][Shp09][P3] Tổng giá trị chi tiêu (Total_Trans_Amt): Khách hàng Churn chi tiêu trung bình $3,095 USD/năm so với $4,654 USD của khách hàng trung thành.
+[09][Shp09][P4] Quy luật tương quan phi tuyến: Tồn tại một phân cụm khách hàng rời bỏ rõ rệt tập trung chặt chẽ ở góc trái bên dưới của biểu đồ phân tán (Scatter Plot).
+[09][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Tần suất giao dịch là 'nhịp tim' của thẻ tín dụng: Giảm dưới ngưỡng 55 lần/năm là tín hiệu kích hoạt tự động các chương trình ưu đãi kích thích quẹt thẻ.
+--- SPEAKER NOTE 09 ---
+Kính thưa Hội đồng, biểu đồ phân tán giữa số lượng giao dịch và giá trị chi tiêu thể hiện một ranh giới phân tách cực kỳ sắc nét.
+Khách hàng ở lại quẹt thẻ trung bình gần 69 lần/năm, trong khi khách hàng rời bỏ chỉ đạt 44.9 lần. Đặc biệt, dữ liệu chỉ ra vùng nguy cơ báo động đỏ: Bất kỳ khách hàng nào quẹt thẻ dưới 55 lần và tổng chi tiêu dưới 3,000 USD thì xác suất rời bỏ lên tới trên 60%.
+Đây chính là tín hiệu kích hoạt quan trọng nhất để hệ thống ngân hàng tự động đưa khách hàng vào luồng chăm sóc đặc biệt.
+
+============================== SLIDE 10 ==============================
+[10][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHAI PHÁ EDA — CHỈ SỐ TÀI CHÍNH]
+[10][Shp01][P0] Tất Toán Dư Nợ Quay Vòng Về $0: Tín Hiệu 'Ngủ Đông' & Chuẩn Bị Đóng Thẻ Điển Hình Nhất
+[10][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[10][Shp04][P0] 10 / 21
+[10][Shp09][P0] 📉 Tín Hiệu Rút Lui Tài Chính Lặng Lẽ
+[10][Shp09][P1] Dư nợ quay vòng (Total_Revolving_Bal): Khách hàng Churn có dư nợ trung bình chỉ $672 USD so với $1,256 USD của khách hàng ở lại.
+[10][Shp09][P2] Tỷ lệ nợ về $0 USD: Gần 55% khách hàng rời bỏ có dư nợ quay vòng bằng $0 USD tại thời điểm ghi nhận, cho thấy hành vi chủ động tất toán nợ trước khi hủy thẻ.
+[10][Shp09][P3] Tỷ lệ sử dụng hạn mức (Utilization_Ratio): Khách hàng Churn chỉ sử dụng trung bình 16.2% hạn mức, trong khi nhóm trung thành sử dụng tới 29.6%.
+[10][Shp09][P4] Sụt giảm chi tiêu Q4/Q1 (Total_Ct_Chng_Q4_Q1): Chỉ số biến thiên giao dịch sụt giảm mạnh về mức 0.55, phản ánh tần suất giao dịch giảm tới 45% trong các quý gần nhất.
+[10][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Hiện tượng 'Rút lui lặng lẽ' (Silent Churn): Tất toán dư nợ và giảm sử dụng hạn mức là thời điểm vàng cuối cùng để can thiệp giữ chân.
+--- SPEAKER NOTE 10 ---
+Kính thưa Thầy/Cô, phát hiện tài chính quan trọng nhất ở slide này là hiện tượng 'Tất toán dư nợ trước khi đóng thẻ'.
+Khách hàng sắp rời bỏ thường thanh toán hết toàn bộ số dư quay vòng về 0 USD và giảm tỷ lệ sử dụng hạn mức xuống chỉ còn 16.2%. Đồng thời, chỉ số giao dịch Q4 so với Q1 sụt giảm tới 45%.
+Đây là hiện tượng 'rút lui lặng lẽ' (Silent Churn). Khách hàng không gây ồn ào nhưng ngưng dùng thẻ hoàn toàn. Nếu ngân hàng chỉ chờ đến khi khách hàng nộp đơn hủy thẻ thì đã quá muộn để cứu vãn.
+
+============================== SLIDE 11 ==============================
+[11][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHAI PHÁ EDA — CHĂM SÓC KHÁCH HÀNG]
+[11][Shp01][P0] Ngưỡng 3 Lần Gọi Tổng Đài CSKH Làm Tăng Nguy Cơ Rời Bỏ Lên 300%: Nút Thắt Về Trải Nghiệm Dịch Vụ
+[11][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[11][Shp04][P0] 11 / 21
+[11][Shp09][P0] 📞 Ngưỡng Bất Mãn Dịch Vụ (Frustration Point)
+[11][Shp09][P1] Số lần liên hệ tổng đài (Contacts_Count): Khách hàng liên hệ CSKH từ 3 lần trở lên trong năm có tỷ lệ rời bỏ tăng vọt từ 14.8% lên 28.6% (gọi 3 lần), 52.4% (gọi 4 lần) và 100% (gọi 6 lần).
+[11][Shp09][P2] Bản chất nghiệp vụ: Mỗi cuộc gọi phản ánh một sự cố chưa được giải quyết dứt điểm (lỗi quẹt thẻ, tính sai lãi/phí, tra soát giao dịch chậm trễ).
+[11][Shp09][P3] Mức độ ngủ đông (Months_Inactive_12_mon): Khách hàng không phát sinh giao dịch từ 3 tháng trở lên trong năm có nguy cơ rời bỏ tăng gấp 2.5 lần so với nhóm hoạt động đều.
+[11][Shp09][P4] Khuyến nghị quản trị: Thiết lập chỉ tiêu First-Contact Resolution (FCR) cho tổng đài và tự động kích hoạt cuộc gọi xin lỗi từ cấp Quản lý khi khách gọi đến lần thứ 3.
+[11][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Chỉ tiêu First-Contact Resolution (FCR) là chìa khóa: Giải quyết khiếu nại trong cuộc gọi đầu tiên giúp ngăn chặn hơn 50% nguy cơ rời bỏ do dịch vụ.
+--- SPEAKER NOTE 11 ---
+Kính thưa Hội đồng, chỉ số số lần liên hệ tổng đài CSKH phản ánh trực tiếp mức độ bất mãn của người dùng.
+Nếu khách hàng chỉ gọi 1 - 2 lần thì tỷ lệ rời bỏ ở mức bình thường (14%). Nhưng khi khách hàng phải gọi đến lần thứ 3, tỷ lệ rời bỏ tăng gấp đôi lên 28.6%, và khi gọi đến lần thứ 4 thì hơn 52% sẽ hủy thẻ.
+Điều này chứng tỏ quy trình xử lý khiếu nại hiện tại của ngân hàng chưa đạt chuẩn xử lý dứt điểm lần đầu (First-Contact Resolution). Đây là nút thắt trải nghiệm mà ngân hàng cần can thiệp quy trình ngay lập tức.
+
+============================== SLIDE 12 ==============================
+[12][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHAI PHÁ EDA — HỆ SINH THÁI SẢN PHẨM]
+[12][Shp01][P0] Sở Hữu Từ 4 Sản Phẩm Trở Lên Tạo Rào Cản Chuyển Đổi Vững Chắc, Hạ Tỷ Lệ Churn Xuống Dưới 10%
+[12][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[12][Shp04][P0] 12 / 21
+[12][Shp09][P0] 🔗 Hiệu Ứng Khóa Chân (Lock-in Effect)
+[12][Shp09][P1] Số lượng sản phẩm nắm giữ (Total_Relationship_Count): Khách hàng chỉ sử dụng 1 - 2 sản phẩm có tỷ lệ rời bỏ lên tới 25.4% do chi phí chuyển đổi (Switching Cost) gần như bằng 0.
+[12][Shp09][P2] Hiệu ứng rào cản chuyển đổi: Khi khách hàng sử dụng từ 4, 5 đến 6 sản phẩm ngân hàng, tỷ lệ rời bỏ giảm mạnh chỉ còn 9.8% - 12.5%.
+[12][Shp09][P3] Phân hạng thẻ (Card_Category): Thẻ Blue chiếm 93.2% tổng danh mục với tỷ lệ Churn 16.1%. Các dòng thẻ cao cấp Silver/Gold/Platinum có tỷ lệ Churn cao hơn (18.5% - 25.0%) do kỳ vọng dịch vụ VIP khắt khe.
+[12][Shp09][P4] Chiến lược bán chéo (Cross-selling): Khuyến nghị liên kết thẻ tín dụng với tài khoản thanh toán lương, sổ tiết kiệm và bảo hiểm nhân thọ (Bancassurance).
+[12][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Chiến lược bán chéo gói Combo (Thẻ + Tài khoản lương + Tiết kiệm) là vũ khí phòng thủ hiệu quả nhất để khóa chân khách hàng bền vững.
+--- SPEAKER NOTE 12 ---
+Kính thưa Thầy/Cô, kết quả phân tích hệ sinh thái sản phẩm khẳng định quy luật 'Hiệu ứng khóa chân' (Lock-in Effect) trong ngân hàng bán lẻ.
+Khách hàng chỉ mở thẻ đơn lẻ có tỷ lệ rời bỏ lên tới trên 25%. Tuy nhiên, nếu khách hàng sử dụng từ 4 sản phẩm trở lên (như tài khoản lương, thấu chi, gửi tiết kiệm, bảo hiểm), chi phí chuyển đổi tăng cao và tỷ lệ rời bỏ giảm xuống chỉ còn dưới 10%.
+Do đó, chiến lược bán chéo (Cross-selling) tích hợp hệ sinh thái chính là chìa khóa xây dựng rào cản bảo vệ thị phần bền vững nhất.
+
+============================== SLIDE 13 ==============================
+[13][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHAI PHÁ DỮ LIỆU — K-MEANS & PCA]
+[13][Shp01][P0] Phân Cụm K-Means Nhận Diện 4 Nhóm Hành Vi: Định Vị Cụm 1 Là Tâm Điểm Churn (52.6% Tỷ Trọng)
+[13][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[13][Shp04][P0] 13 / 21
+[13][Shp09][P0] 🎯 Đặc Trưng 4 Phân Cụm Hành Vi (k=4)
+[13][Shp09][P1] Tối ưu hóa k=4: Phương pháp Elbow kết hợp Silhouette Score (0.34) xác nhận k=4 là số cụm tối ưu nhất về mặt toán học và nghiệp vụ.
+[13][Shp09][P2] 🚨 Cụm 1: Tâm điểm rủi ro (Churn Focus): Chiếm 52.6% tổng lượng Churn. Quẹt thẻ ít (42 lần), chi tiêu thấp ($2,850), dư nợ về 0. Trọng tâm ưu tiên can thiệp số 1.
+[13][Shp09][P3] 🟢 Cụm 0: Khách hàng Phổ thông Tích cực: Chiếm 38.5% danh mục, quẹt thẻ đều đặn (65 lần), tỷ lệ Churn thấp (11.2%).
+[13][Shp09][P4] 💎 Cụm 2: Khách hàng Thượng lưu / VIP: Hạn mức tín dụng cao (>$20,000), thu nhập $120K+, nhạy cảm với dịch vụ cá nhân hóa.
+[13][Shp09][P5] ⚡ Cụm 3: Khách hàng Siêu giao dịch: Quẹt thẻ >105 lần/năm, chi tiêu >$14,000, tỷ lệ Churn gần như bằng 0 (<2%).
+[13][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Phân cụm K-Means bóc tách chính xác Cụm 1 là tâm điểm rủi ro, giúp ngân hàng tối ưu hóa 80% ngân sách can thiệp vào đúng 52.6% đối tượng churn.
+--- SPEAKER NOTE 13 ---
+Kính thưa Hội đồng, trước khi bước vào giai đoạn huấn luyện mô hình có giám sát, nghiên cứu đã sử dụng kỹ thuật học không giám sát K-Means kết hợp giảm chiều PCA để bóc tách các nhóm khách hàng đồng nhất.
+Kết quả nhận diện 4 phân cụm rõ rệt. Trong đó, Cụm 1 được định vị là 'Tâm điểm rủi ro', tập trung tới 52.6% tổng lượng khách hàng rời bỏ của toàn bộ ngân hàng.
+Việc phân đoạn này giúp ngân hàng không phải áp dụng các chính sách cào bằng lãng phí, mà tập trung nguồn lực can thiệp chính xác vào nhóm đối tượng có tỷ trọng rủi ro cao nhất.
+
+============================== SLIDE 14 ==============================
+[14][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [MÔ HÌNH HÓA MÁY HỌC — SO SÁNH HIỆU NĂNG]
+[14][Shp01][P0] XGBoost Classifier Vượt Trội Toàn Diện Với ROC-AUC 0.9930, Recall 91.38% & F1-Score 91.23%
+[14][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[14][Shp04][P0] 14 / 21
+[14][Shp08][P0] 🏆 BẢNG XẾP HẠNG THUẬT TOÁN (LEADERBOARD)
+[14][Shp10][P0] 🥇 QUÁN QUÂN: XGBOOST CLASSIFIER
+[14][Shp10][P1] ROC-AUC: 0.9930  •  Recall: 91.38%  •  F1: 91.23%
+[14][Shp10][P2] Khả năng phân tách hoàn hảo, chỉ bỏ sót 28/325 khách rời bỏ.
+[14][Shp11][P0] 🥈 Hạng 2: Random Forest: ROC-AUC: 0.9892 | Recall: 88.31% | F1: 89.97% (Kiểm soát tốt overfitting nhưng suy luận chậm hơn).
+[14][Shp11][P1] 🥉 Hạng 3: Support Vector Machine: ROC-AUC: 0.9702 | Recall: 84.62% | F1: 81.34% (Nhạy cảm với siêu mặt phẳng phân cách).
+[14][Shp11][P2] 🎖️ Hạng 4: Logistic Regression (Baseline): ROC-AUC: 0.9348 | Recall: 83.38% | F1: 67.25% (Hạn chế do không bắt được tương tác phi tuyến).
+[14][Shp14][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: XGBoost Classifier là lựa chọn tối ưu tuyệt đối: Nắm bắt xuất sắc các tương tác phi tuyến phức tạp và có tốc độ thực thi nhanh nhất.
+--- SPEAKER NOTE 14 ---
+Kính thưa Thầy/Cô, trên tập kiểm thử độc lập gồm 2,026 khách hàng, đề tài đã tiến hành so sánh đối đầu 4 thuật toán học máy đại diện.
+Kết quả thực nghiệm khẳng định XGBoost Classifier là mô hình chiến thắng toàn diện với ROC-AUC đạt 0.9930, Recall 91.38% và F1-Score 91.23%.
+So với mô hình truyền thống Logistic Regression (chỉ đạt Recall 83.38%), thuật toán Gradient Boosting của XGBoost đã nắm bắt xuất sắc các tương tác phi tuyến phức tạp giữa tần suất giao dịch và biến động số dư. Do đó, XGBoost được lựa chọn làm mô hình lõi cho hệ thống.
+
+============================== SLIDE 15 ==============================
+[15][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KIỂM ĐỊNH MÔ HÌNH — MA TRẬN NHẦM LẪN]
+[15][Shp01][P0] Kiểm Soát Tối Ưu Hai Loại Sai Số: Bỏ Sót Churn Chỉ 8.62% (FN=28) & Báo Động Giả Chỉ 2.12% (FP=36)
+[15][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[15][Shp04][P0] 15 / 21
+[15][Shp09][P0] 🎯 Kiểm Soát Sai Số Loại I & II (Type I/II Error)
+[15][Shp09][P1] Sai số Loại II (False Negative - Nguy hiểm nhất): Chỉ có 28/325 khách hàng Churn bị bỏ sót (Tỷ lệ sai sót 8.62%). Giúp ngân hàng giữ lại tối đa nguồn thu CLV.
+[15][Shp09][P2] Sai số Loại I (False Positive - Báo động giả): Chỉ có 36/1,701 khách hàng ở lại bị dự báo nhầm thành Churn (Tỷ lệ báo động giả 2.12%). Tiết kiệm tối đa ngân sách marketing.
+[15][Shp09][P3] Độ tin cậy dự báo (Precision = 91.08%): Cứ 100 khách hàng mà mô hình cảnh báo thì có hơn 91 khách hàng thực sự chuẩn bị rời bỏ.
+[15][Shp09][P4] Ý nghĩa tài chính: Sự cân bằng hoàn hảo giữa việc tối đa hóa khách hàng cứu vãn được và tối thiểu hóa chi phí can thiệp lãng phí.
+[15][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Tỷ lệ bỏ sót chỉ 8.62% giúp ngân hàng giữ lại trọn vẹn hơn 91% giá trị doanh thu có nguy cơ bốc hơi khỏi danh mục.
+--- SPEAKER NOTE 15 ---
+Kính thưa Hội đồng, trong bài toán dự báo rời bỏ ngân hàng, sai số Loại II (False Negative - bỏ sót khách hàng rời bỏ) là sai số gây thiệt hại nặng nề nhất về mặt tài chính.
+Ma trận nhầm lẫn của XGBoost chứng minh khả năng kiểm soát sai số cực kỳ ấn tượng: Trong 325 khách hàng rời bỏ ở tập test, mô hình phát hiện chính xác 297 người, chỉ bỏ sót duy nhất 28 người.
+Đồng thời, tỷ lệ báo động giả (False Positive) chỉ ở mức 2.12%, giúp ngân hàng không bị lãng phí ngân sách chăm sóc vào những khách hàng vốn dĩ vẫn đang trung thành.
+
+============================== SLIDE 16 ==============================
+[16][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [GIẢI THÍCH MÔ HÌNH — EXPLAINABLE AI]
+[16][Shp01][P0] Giải Thích XAI: Tần Suất Giao Dịch, Tỷ Lệ Sụt Giảm Chi Tiêu & Dư Nợ Là 3 Đòn Bẩy Quyết Định
+[16][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[16][Shp04][P0] 16 / 21
+[16][Shp09][P0] 🔑 5 Đòn Bẩy Hành Vi Cốt Lõi
+[16][Shp09][P1] 1. Total_Trans_Ct (Số lần quẹt thẻ): Đặc trưng quan trọng số 1 (Feature Importance > 25%). Tần suất sử dụng thẻ phản ánh trực tiếp mức độ gắn kết hàng ngày.
+[16][Shp09][P2] 2. Total_Amt_Chng_Q4_Q1 (Tốc độ sụt giảm chi tiêu): Đòn bẩy cảnh báo sớm số 2. Cho thấy khách hàng đang dịch chuyển dòng tiền thanh toán sang nơi khác.
+[16][Shp09][P3] 3. Total_Revolving_Bal (Dư nợ quay vòng): Tín hiệu tất toán nợ về $0 báo hiệu đóng thẻ trong 30-60 ngày tới.
+[16][Shp09][P4] 4. Total_Trans_Amt (Tổng giá trị chi tiêu): Đo lường quy mô tài chính và mức độ phụ thuộc vào thẻ.
+[16][Shp09][P5] 5. Total_Relationship_Count (Số sản phẩm): Rào cản chuyển đổi hệ sinh thái bảo vệ khách hàng khỏi bị đối thủ lôi kéo.
+[16][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Explainable AI chứng minh mô hình không phải là hộp đen (Black-box): 5 đòn bẩy hoàn toàn khớp với quy luật tài chính thực tế.
+--- SPEAKER NOTE 16 ---
+Kính thưa Thầy/Cô, để mô hình học máy không phải là một 'Hộp đen' (Black-box), nghiên cứu đã áp dụng kỹ thuật Explainable AI để bóc tách 5 đòn bẩy quan trọng nhất.
+Kết quả cho thấy số lượng giao dịch và mức độ sụt giảm chi tiêu quý 4 so với quý 1 là hai biến số chi phối mạnh nhất.
+Điều này hoàn toàn tương thích với các phát hiện nghiệp vụ ở phần EDA: Khách hàng không bỏ đi đột ngột mà luôn trải qua một quá trình 'sụt giảm tần suất quẹt thẻ và tất toán dư nợ' trước đó từ 2 đến 3 tháng. Đây chính là cơ sở vàng để thiết lập ngưỡng cảnh báo tự động.
+
+============================== SLIDE 17 ==============================
+[17][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [TỐI ƯU HÓA KINH TẾ — THRESHOLD TUNING]
+[17][Shp01][P0] Tối Ưu Hóa Ngưỡng Quyết Định Kinh Tế: Điểm Cắt t = 0.42 Tối Đa Hóa Lợi Nhuận Ròng Ngân Hàng
+[17][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[17][Shp04][P0] 17 / 21
+[17][Shp09][P0] 💰 Mô Hình Hóa Chi Phí - Lợi Ích (Cost-Benefit)
+[17][Shp09][P1] Giả định kinh tế thực tiễn: Giá trị CLV: $500 USD | Chi phí CRC: $50 USD | Tỷ lệ cứu vãn kỳ vọng: 75%.
+[17][Shp09][P2] Hạn chế của ngưỡng mặc định t = 0.50: Bỏ lỡ các khách hàng có xác suất churn từ 40% - 49% nhưng có giá trị CLV cao.
+[17][Shp09][P3] Xác lập ngưỡng tối ưu t* = 0.42: Điểm cực đại của đường cong Lợi nhuận ròng (Net Benefit Curve), cân bằng hoàn hảo giữa chi phí can thiệp và doanh thu bảo vệ.
+[17][Shp09][P4] Gia tăng lợi ích ròng: Mang lại thêm +$24,500 USD lợi nhuận so với việc áp dụng ngưỡng 0.50 truyền thống.
+[17][Shp12][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Chuyển dịch ngưỡng cắt từ t = 0.50 về t = 0.42 giúp ngân hàng đón đầu thêm 8% khách hàng có giá trị cao trước khi quá muộn.
+--- SPEAKER NOTE 17 ---
+Kính thưa Hội đồng, một đóng góp quan trọng của đề tài là không áp dụng máy móc ngưỡng cắt xác suất 0.50 mặc định của khoa học máy tính, mà xây dựng hàm tối ưu hóa Chi phí - Lợi ích thực tế cho ngân hàng.
+Với giá trị khách hàng giữ lại được là 500 USD và chi phí can thiệp chỉ 50 USD, việc hạ ngưỡng cắt xác suất xuống t = 0.42 cho phép ngân hàng chủ động can thiệp sớm vào nhóm khách hàng chớm có nguy cơ.
+Đường cong Net Benefit chứng minh tại t = 0.42, ngân hàng thu được lợi nhuận kinh tế ròng tối đa, cao hơn đáng kể so với ngưỡng 0.50.
+
+============================== SLIDE 18 ==============================
+[18][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [PHÂN KHÚC KHÁCH HÀNG — PERSONAS]
+[18][Shp01][P0] Cá Thể Hóa Can Thiệp Qua 3 Chân Dung: Silent Defector (55%), Frustrated (25%), VIP Switcher (20%)
+[18][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[18][Shp04][P0] 18 / 21
+[18][Shp06][P0] CHÂN DUNG 1 (55% CHURN)
+[18][Shp06][P1] THE SILENT DEFECTOR (Ngủ đông & Rút lui lặng lẽ)
+[18][Shp09][P0] "Dạo này tôi bận quá, chẳng nhớ đến cái thẻ này nữa..."
+[18][Shp10][P0] Đặc điểm nhận diện: Dư nợ quay vòng = $0, quẹt thẻ < 45 lần/năm, sụt giảm chi tiêu > 40%.
+[18][Shp10][P1] Động cơ rời bỏ: Quên thẻ hoặc chuyển sang thanh toán bằng ứng dụng đối thủ.
+[18][Shp10][P2] Hành động can thiệp: Gửi Push Notification tặng E-voucher 100K khi quẹt thẻ đầu tuần, hoàn tiền 5% ăn uống.
+[18][Shp12][P0] CHÂN DUNG 2 (25% CHURN)
+[18][Shp12][P1] FRUSTRATED COMPLAINER (Bức xúc Dịch vụ & Khiếu nại)
+[18][Shp15][P0] "Tôi đã gọi tổng đài 3 lần mà tra soát giao dịch vẫn chưa xong!"
+[18][Shp16][P0] Đặc điểm nhận diện: Gọi CSKH ≥ 3 - 6 lần/năm, ngủ đông 2-3 tháng sau tra soát.
+[18][Shp16][P1] Động cơ rời bỏ: Bất mãn tốc độ giải quyết khiếu nại, bị tính phí/lãi chưa rõ ràng.
+[18][Shp16][P2] Hành động can thiệp: VIP Taskforce gọi điện xin lỗi trực tiếp, miễn phí thường niên 1 năm, giải quyết trong 24h.
+[18][Shp18][P0] CHÂN DUNG 3 (20% CHURN)
+[18][Shp18][P1] THE VIP SWITCHER (Khách VIP Chuyển dịch)
+[18][Shp21][P0] "Bên ngân hàng kia vừa tặng tôi thẻ phòng chờ thương gia rồi..."
+[18][Shp22][P0] Đặc điểm nhận diện: Thu nhập ≥ $120K, thẻ Gold/Platinum, hạn mức > $20,000 USD.
+[18][Shp22][P1] Động cơ rời bỏ: Bị ngân hàng đối thủ lôi kéo bằng đặc quyền phòng chờ sân bay, golf.
+[18][Shp22][P2] Hành động can thiệp: Chuyên viên Priority RM chăm sóc riêng, nâng cấp đặc quyền du lịch, tự động tăng hạn mức.
+[18][Shp25][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Cá thể hóa giải pháp can thiệp cho 3 nhóm khách hàng giúp tăng tỷ lệ giữ chân thành công từ 40% lên 75%.
+--- SPEAKER NOTE 18 ---
+Kính thưa Thầy/Cô, để các phòng ban kinh doanh dễ dàng triển khai, nghiên cứu đã tổng hợp các phát hiện thành 3 Chân dung khách hàng rời bỏ điển hình:
+Thứ nhất là 'The Silent Defector' chiếm tới 55% tổng lượng Churn - nhóm này ngủ đông âm thầm, cần kích hoạt lại bằng ưu đãi vi mô thường nhật.
+Thứ hai là 'Frustrated Complainer' chiếm 25% - nhóm bức xúc vì gọi tổng đài nhiều lần mà chưa được giải quyết, cần sự can thiệp trực tiếp từ cấp quản lý.
+Và thứ ba là 'The VIP Switcher' chiếm 20% - nhóm khách hàng giàu có đòi hỏi đặc quyền cao cấp.
+Cách tiếp cận phân khúc này giúp tối ưu hóa hiệu quả can thiệp và tránh lãng phí ngân sách.
+
+============================== SLIDE 19 ==============================
+[19][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [KHUYẾN NGHỊ QUẢN TRỊ — KHUNG 4 TẦNG]
+[19][Shp01][P0] Khung Giữ Chân 4 Tầng Toàn Diện: Từ Cảnh Báo Sớm EWS, CSKH Chủ Động Đến Loyalty & Bán Chéo
+[19][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[19][Shp04][P0] 19 / 21
+[19][Shp07][P0] TẦNG 1: CẢNH BÁO SỚM (EWS)
+[19][Shp07][P1] Giám sát tự động thời gian thực các Trigger Point: Ngủ đông 2 tháng -> Đẩy Push Notification; Giảm chi tiêu > 30% -> Chuyển sang luồng ưu đãi hoàn tiền tự động.
+[19][Shp09][P0] KPI: Tỷ lệ phát hiện sớm > 90%
+[19][Shp12][P0] TẦNG 2: CSKH CHỦ ĐỘNG (PROACTIVE CARE)
+[19][Shp12][P1] Áp dụng chỉ tiêu First-Contact Resolution (FCR) giải quyết dứt điểm khiếu nại trong cuộc gọi đầu tiên; Khách gọi đến lần thứ 3 tự động chuyển tiếp tới Đội ngũ Chuyên viên Chăm sóc Đặc biệt.
+[19][Shp14][P0] KPI: FCR > 85%, Churn CSKH < 5%
+[19][Shp17][P0] TẦNG 3: GAMIFIED LOYALTY & TÍCH ĐIỂM
+[19][Shp17][P1] Chiến dịch 'Quẹt Thẻ Mỗi Tuần' tích điểm theo tần suất quẹt thẻ thay vì chỉ tính theo doanh số; Tặng huy hiệu thành viên và ưu đãi giảm giá tại các chuỗi bán lẻ/ẩm thực đối tác liên kết.
+[19][Shp19][P0] KPI: Tần suất GD ≥ 5 lần/tháng
+[19][Shp22][P0] TẦNG 4: BÁN CHÉO HỆ SINH THÁI (CROSS-SELLING)
+[19][Shp22][P1] Combo 'Tài chính Toàn diện' liên kết thẻ tín dụng với tài khoản lương, miễn phí chuyển tiền trọn đời, tự động trích nợ sao kê và tích hợp ví điện tử / tiết kiệm online.
+[19][Shp24][P0] KPI: Sở hữu ≥ 4 SP đạt > 65%
+[19][Shp27][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Hệ sinh thái 4 tầng bảo vệ toàn diện: Đi từ phát hiện rủi ro thời gian thực đến xây dựng rào cản chuyển đổi tự nhiên.
+--- SPEAKER NOTE 19 ---
+Kính thưa Hội đồng, từ các phân tích trên, đề tài đề xuất Khung chiến lược giữ chân khách hàng toàn diện gồm 4 tầng gắn liền với các chỉ tiêu KPI định lượng:
+Tầng 1 là Hệ thống cảnh báo sớm EWS kích hoạt tự động theo thời gian thực.
+Tầng 2 là Tái cấu trúc quy trình CSKH chủ động nhằm nâng tỷ lệ giải quyết khiếu nại lần đầu FCR lên trên 85%.
+Tầng 3 là Chương trình tích điểm Gamified Loyalty thúc đẩy tần suất quẹt thẻ định kỳ.
+Và Tầng 4 là Chiến lược Bán chéo đa sản phẩm nhằm tạo rào cản chuyển đổi vững chắc. Bốn tầng này tạo thành một pháo đài vững chắc bảo vệ toàn diện danh mục khách hàng.
+
+============================== SLIDE 20 ==============================
+[20][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [MÔ PHỎNG TÀI CHÍNH & ROI]
+[20][Shp01][P0] Mô Phỏng Tài Chính Trên 10,000 Khách: Giữ Chân 960 Khách, Tạo Lợi Nhuận Ròng +$400,000 USD (ROI 500%)
+[20][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[20][Shp04][P0] 20 / 21
+[20][Shp08][P0] BƯỚC 1: ĐẦU TƯ CRC
+[20][Shp08][P1] $80,000 USD
+[20][Shp10][P0] Chi phí can thiệp ưu đãi & CSKH cho 1,600 khách hàng (bình quân $50/khách).
+[20][Shp15][P0] BƯỚC 2: XGBOOST (t=0.42)
+[20][Shp15][P1] 91.38% RECALL
+[20][Shp17][P0] Phát hiện chính xác 1,468 khách hàng nguy cơ cao, chỉ bỏ sót 8.6% khách.
+[20][Shp22][P0] BƯỚC 3: BẢO VỆ CLV
+[20][Shp22][P1] $480,000 USD
+[20][Shp24][P0] Cứu vãn thành công 960 khách hàng có giá trị trọn đời (CLV = $500/khách).
+[20][Shp29][P0] BƯỚC 4: LỢI NHUẬN RÒNG
+[20][Shp29][P1] +$400,000 USD
+[20][Shp31][P0] Lợi nhuận ròng tăng thêm mỗi năm, đạt tỷ suất sinh lời ROI lên đến 500%!
+[20][Shp34][P0] 💡 INSIGHT QUẢN TRỊ CỐT LÕI: Tỷ suất sinh lời ROI = 500% chứng minh dự án Khoa học dữ liệu mang lại giá trị gia tăng kinh tế trực tiếp và cực kỳ khả thi.
+--- SPEAKER NOTE 20 ---
+Kính thưa Quý Thầy/Cô, để chứng minh tính khả thi tài chính, nghiên cứu đã xây dựng mô hình mô phỏng trên quy mô danh mục 10,000 khách hàng.
+Với tỷ lệ rời bỏ tự nhiên 16.07%, mô hình XGBoost sẽ phát hiện được hơn 1,460 khách hàng có nguy cơ. Khi triển khai các gói chăm sóc trị giá 50 USD/khách với tỷ lệ cứu vãn 75%, ngân hàng giữ lại thành công 960 khách hàng, tương đương bảo vệ được 480,000 USD giá trị CLV.
+Sau khi trừ đi toàn bộ 80,000 USD chi phí vận hành, dự án đem lại 400,000 USD lợi nhuận ròng mỗi năm, đạt tỷ suất hoàn vốn ROI lên đến 500%.
+
+============================== SLIDE 21 ==============================
+[21][Shp00][P0] HỌC VIỆN NGÂN HÀNG | BÀI TẬP GIỮA KỲ — PHÂN TÍCH DỮ LIỆU KINH DOANH  •  [TỔNG KẾT & PHẢN BIỆN]
+[21][Shp01][P0] Tổng Kết Đề Tài: Đóng Góp Thực Tiễn, Giới Hạn Nghiên Cứu & Định Hướng Phát Triển MLOps / Deep Learning
+[21][Shp03][P0] Học viện Ngân hàng (BAV)  •  Học phần: Phân tích Dữ liệu trong Kinh doanh  •  Học viên: Đỗ Văn Đạt
+[21][Shp04][P0] 21 / 21
+[21][Shp07][P0] 🎯 ĐÓNG GÓP THEN CHỐT
+[21][Shp07][P1] Xây dựng Pipeline hoàn chỉnh: Từ tiền xử lý dữ liệu, kiểm soát rò rỉ nhãn đến triển khai học máy có khả năng giải thích XAI.
+[21][Shp07][P2] Tối ưu hóa kinh tế thực tiễn: Xác lập ngưỡng cắt t=0.42 mang lại ROI 500% (+400K USD/năm).
+[21][Shp07][P3] Khung giải pháp 4 tầng: Cá thể hóa hành động can thiệp cho 3 chân dung khách hàng.
+[21][Shp10][P0] ⚠️ HẠN CHẾ NGHIÊN CỨU
+[21][Shp10][P1] Dữ liệu cắt ngang (Cross-sectional): Dataset gốc chưa ghi nhận biến động chuỗi thời gian liên tục (Time-series log) của từng giao dịch POS.
+[21][Shp10][P2] Phạm vi dữ liệu thực nghiệm: Chưa tích hợp dữ liệu phi cấu trúc (nhật ký ghi âm cuộc gọi CSKH, dữ liệu tín dụng CIC quốc gia).
+[21][Shp10][P3] Giả định chi phí cố định: Chi phí can thiệp $50/khách là mức giả định bình quân.
+[21][Shp13][P0] 🚀 HƯỚNG PHÁT TRIỂN
+[21][Shp13][P1] Deep Learning cho dữ liệu bảng: Thử nghiệm kiến trúc TabNet và Transformer-based Tabular Models.
+[21][Shp13][P2] Hệ thống MLOps Real-time: Triển khai pipeline dự báo trực tiếp trên Kafka / Spark Streaming tại ngân hàng.
+[21][Shp13][P3] XAI cá thể hóa mức độ Micro: Tích hợp SHAP Waterfall trực quan hóa cho từng nhân viên RM.
+[21][Shp15][P0] XIN TRÂN TRỌNG CẢM ƠN QUÝ THẦY/CÔ VÀ CÁC BẠN HỌC VIÊN ĐÃ LẮNG NGHE!
+[21][Shp15][P1] HỌC VIỆN NGÂN HÀNG (BANKING ACADEMY OF VIETNAM)  •  PHIÊN HỎI & ĐÁP (Q&A SESSION)
+[21][Shp15][P2] Rất mong nhận được các ý kiến nhận xét, góp ý và câu hỏi phản biện từ Hội đồng chấm bảo vệ!
+--- SPEAKER NOTE 21 ---
+Kính thưa Quý Thầy/Cô trong Hội đồng và các bạn học viên,
+Tóm lại, nghiên cứu đã hoàn thành trọn vẹn mục tiêu đề ra: từ việc kiểm soát nghiêm ngặt rò rỉ dữ liệu, khai phá các quy luật hành vi then chốt, đến việc xây dựng mô hình XGBoost đạt ROC-AUC 0.9930 và tối ưu hóa ngưỡng kinh tế t = 0.42 mang lại ROI 500%.
+Bên cạnh các đóng góp thực tiễn, đề tài cũng thẳng thắn nhìn nhận các hạn chế về dữ liệu bảng cắt ngang và mở ra hướng phát triển ứng dụng TabNet cùng hệ thống Real-time MLOps trong tương lai.
+Em xin chân thành cảm ơn sự chú ý lắng nghe của Quý Thầy/Cô. Em xin sẵn sàng lắng nghe các ý kiến nhận xét và giải đáp các câu hỏi phản biện từ Hội đồng!
+

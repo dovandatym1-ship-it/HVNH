@@ -1,0 +1,4 @@
+Mô Hình,Train R²,Test R²,Test RMSE,Test MAE,Test MAPE (%),5-Fold CV R²,Đánh Giá
+Linear Regression (OLS),0.6902,0.6689,0.2891,0.2247,6.75,N/A,Mô hình cơ sở tuyến tính
+Random Forest Regressor,0.969,0.9157,0.1459,0.1152,3.4,0.8620 ± 0.0243,"Rất tốt, bắt phi tuyến mạnh"
+XGBoost Regressor (Tốt nhất),0.997,0.9417,0.1214,0.0934,2.68,0.8635 ± 0.0613,"Xuất sắc nhất, sai số nhỏ nhất"
