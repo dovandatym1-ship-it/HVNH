@@ -1,14 +1,36 @@
-# OS metadata
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Temporary & partial files
-*.part
-*.crdownload
+# Environments & Dependencies
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Tool configurations
+.vscode/
+.idea/
+.claude/
+
+# Temporary & lock files
 ~$*.docx
 ~$*.xlsx
 ~$*.pptx
+*.part
+*.crdownload
+*.tmp
+*.temp
 
-# Editor / IDE
-.vscode/
-.idea/
+# Inspection logs (redundant large files)
+*.inspect.ndjson

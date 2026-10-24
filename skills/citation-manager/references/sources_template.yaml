@@ -1,0 +1,57 @@
+# Mẫu khai báo danh mục Tài liệu tham khảo (TLTK) chuẩn HVNH cho citation_manager.py
+#
+# Mỗi nguồn cần: id (định danh nội bộ duy nhất, dùng để bạn nhớ, KHÔNG phải số [n] —
+# số [n] được assign_numbers() tự tính theo thứ tự ABC/ngôn ngữ), type ('book' hoặc
+# 'article'), language ('vi' hoặc 'en'), author, year, title, và các trường riêng
+# theo type bên dưới.
+#
+# type: book    -> cần thêm: publisher, place
+# type: article -> cần thêm: journal, volume, issue, pages
+#
+# author:
+#   - Nguồn tiếng Việt (language: vi): ghi tên tác giả theo trật tự thông thường,
+#     ví dụ "Nguyễn Văn A" — chương trình sẽ tự lấy TÊN (từ cuối cùng) để xếp ABC.
+#   - Nguồn nước ngoài (language: en): nên ghi dạng "Họ, Tên viết tắt" ví dụ
+#     "Chen, T." để chương trình xếp ABC đúng theo HỌ; nếu ghi "Chen T." (không
+#     dấu phẩy) chương trình sẽ lấy từ đầu tiên làm họ, có thể sai nếu tên có nhiều từ.
+
+sources:
+  - id: nguyen-van-a-2023-hocmayungdung
+    type: book
+    language: vi
+    author: "Nguyễn Văn A"
+    year: 2023
+    title: "Học máy ứng dụng trong quản trị rủi ro ngân hàng"
+    publisher: "NXB Khoa học Kỹ thuật"
+    place: "Hà Nội"
+
+  - id: tran-thi-b-2022-baibaonganhang
+    type: article
+    language: vi
+    author: "Trần Thị B"
+    year: 2022
+    title: "Ứng dụng học máy trong dự báo rời bỏ khách hàng"
+    journal: "Tạp chí Ngân hàng"
+    volume: 15
+    issue: 3
+    pages: "45-58"
+
+  - id: chen-2016-xgboost
+    type: article
+    language: en
+    author: "Chen, T."
+    year: 2016
+    title: "XGBoost: A Scalable Tree Boosting System"
+    journal: "Proceedings of KDD"
+    volume: 22
+    issue: 1
+    pages: "785-794"
+
+  - id: reichheld-2000-loyalty
+    type: book
+    language: en
+    author: "Reichheld, F."
+    year: 2000
+    title: "Loyalty Rules"
+    publisher: "Harvard Business School Press"
+    place: "Boston"
