@@ -1,0 +1,1226 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/h4ztxv",
+    "id": "h4ztxv",
+    "slide": 4,
+    "layoutId": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#282A75",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Montserrat Bold",
+      "Open Sans"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed0fq9sj",
+      "id": "1",
+      "bbox": [
+        57,
+        18,
+        292.5,
+        37.5
+      ],
+      "geometry": "rect",
+      "text": "HỌC VIỆN NGÂN HÀNG",
+      "textPreview": "HỌC VIỆN NGÂN HÀNG",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#FBFBFC",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HỌC VIỆN NGÂN HÀNG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HỌC VIỆN NGÂN HÀNG",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#FBFBFC",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HỌC VIỆN NGÂN HÀNG",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#FBFBFC",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gry14ru",
+      "id": "2",
+      "bbox": [
+        57,
+        58.5,
+        292.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "MIS01 • CNM",
+      "textPreview": "MIS01 • CNM",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "Open Sans",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MIS01 • CNM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MIS01 • CNM",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Open Sans",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MIS01 • CNM",
+              "fontSize": 11,
+              "typeface": "Open Sans",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fihszap",
+      "id": "3",
+      "bbox": [
+        372,
+        18,
+        3,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#4BACC6",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nitgne90",
+      "id": "4",
+      "bbox": [
+        405,
+        13.5,
+        1395,
+        33
+      ],
+      "geometry": "rect",
+      "text": "TỔNG QUAN NGHIÊN CỨU",
+      "textPreview": "TỔNG QUAN NGHIÊN CỨU",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TỔNG QUAN NGHIÊN CỨU"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TỔNG QUAN NGHIÊN CỨU",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TỔNG QUAN NGHIÊN CỨU",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2h0zu9sf",
+      "id": "5",
+      "bbox": [
+        405,
+        52.5,
+        1395,
+        88.5
+      ],
+      "geometry": "rect",
+      "text": "Nghiên cứu liên quan và bài học áp dụng",
+      "textPreview": "Nghiên cứu liên quan và bài học áp dụng",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 31,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Nghiên cứu liên quan và bài học áp dụng"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Nghiên cứu liên quan và bài học áp dụng",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Nghiên cứu liên quan và bài học áp dụng",
+              "fontSize": 31,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkbypor6",
+      "id": "6",
+      "bbox": [
+        0,
+        166.5,
+        1920,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#4F81BD",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2hwjal",
+      "id": "7",
+      "bbox": [
+        45,
+        198,
+        1830,
+        783
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6tgre9c",
+      "id": "8",
+      "bbox": [
+        75,
+        1020,
+        1275,
+        27
+      ],
+      "geometry": "rect",
+      "text": "HVNH – CNM – PoC HỌC THUẬT",
+      "textPreview": "HVNH – CNM – PoC HỌC THUẬT",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Open Sans",
+        "color": "#FBFBFC",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HVNH – CNM – PoC HỌC THUẬT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HVNH – CNM – PoC HỌC THUẬT",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Open Sans",
+            "color": "#FBFBFC",
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HVNH – CNM – PoC HỌC THUẬT",
+              "fontSize": 14,
+              "typeface": "Open Sans",
+              "color": "#FBFBFC",
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alkzyt8r",
+      "id": "9",
+      "bbox": [
+        1740,
+        1017,
+        82.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "4",
+      "textPreview": "4",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4",
+              "fontSize": 15,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/7650n618",
+      "id": "10",
+      "bbox": [
+        114,
+        235.5,
+        1692,
+        516
+      ],
+      "text": "Nguồn / trường hợp | Bài học rút ra | Giới hạn khi áp dụng vào đề tài\nDal Pozzolo et al. (2014, 2018)\nFraud detection từ dữ liệu giao dịch | Mất cân bằng, drift và nhãn xác nhận trễ cần được tính đến trong đánh giá. | Dữ liệu và tổ chức nghiên cứu khác MB; PoC chưa kiểm tra drift.\nPaySim (Lopez-Rojas et al., 2016)\nMô phỏng mobile money | Simulator giúp thử nghiệm phương pháp khi dữ liệu tài chính thật khó chia sẻ. | Dữ liệu tổng hợp không thay thế luồng giao dịch/nhãn thật.\nECB/EBA (2025)\nBáo cáo gian lận thanh toán EEA | Xác thực mạnh hữu ích với một số loại gian lận; thao túng người trả tiền vẫn là thách thức. | Phạm vi EEA, không suy rộng số liệu hay chính sách sang Việt Nam.",
+      "textPreview": "Nguồn / trường hợp | Bài học rút ra | Giới hạn khi áp dụng vào đề tài | Dal Pozzolo et al. (2014, 2018) | Fraud detection từ dữ liệu giao...",
+      "rows": 4,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            114,
+            235.5,
+            427.5,
+            129
+          ],
+          "text": "Nguồn / trường hợp",
+          "textPreview": "Nguồn / trường hợp",
+          "fillColor": "#282A75",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Nguồn / trường hợp",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Montserrat Bold",
+                "color": "#FBFBFC",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Nguồn / trường hợp",
+                  "fontSize": 18,
+                  "typeface": "Montserrat Bold",
+                  "color": "#FBFBFC",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            541.5,
+            235.5,
+            660,
+            129
+          ],
+          "text": "Bài học rút ra",
+          "textPreview": "Bài học rút ra",
+          "fillColor": "#282A75",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Bài học rút ra",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Montserrat Bold",
+                "color": "#FBFBFC",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Bài học rút ra",
+                  "fontSize": 18,
+                  "typeface": "Montserrat Bold",
+                  "color": "#FBFBFC",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1201.5,
+            235.5,
+            604.5,
+            129
+          ],
+          "text": "Giới hạn khi áp dụng vào đề tài",
+          "textPreview": "Giới hạn khi áp dụng vào đề tài",
+          "fillColor": "#282A75",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Giới hạn khi áp dụng vào đề tài",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Montserrat Bold",
+                "color": "#FBFBFC",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Giới hạn khi áp dụng vào đề tài",
+                  "fontSize": 18,
+                  "typeface": "Montserrat Bold",
+                  "color": "#FBFBFC",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            114,
+            364.5,
+            427.5,
+            129
+          ],
+          "text": "Dal Pozzolo et al. (2014, 2018)\nFraud detection từ dữ liệu giao dịch",
+          "textPreview": "Dal Pozzolo et al. (2014, 2018) | Fraud detection từ dữ liệu giao dịch",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Dal Pozzolo et al. (2014, 2018)",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Dal Pozzolo et al. (2014, 2018)",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Fraud detection từ dữ liệu giao dịch",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fraud detection từ dữ liệu giao dịch",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            541.5,
+            364.5,
+            660,
+            129
+          ],
+          "text": "Mất cân bằng, drift và nhãn xác nhận trễ cần được tính đến trong đánh giá.",
+          "textPreview": "Mất cân bằng, drift và nhãn xác nhận trễ cần được tính đến trong đánh giá.",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Mất cân bằng, drift và nhãn xác nhận trễ cần được tính đến trong đánh giá.",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Mất cân bằng, drift và nhãn xác nhận trễ cần được tính đến trong đánh giá.",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1201.5,
+            364.5,
+            604.5,
+            129
+          ],
+          "text": "Dữ liệu và tổ chức nghiên cứu khác MB; PoC chưa kiểm tra drift.",
+          "textPreview": "Dữ liệu và tổ chức nghiên cứu khác MB; PoC chưa kiểm tra drift.",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Dữ liệu và tổ chức nghiên cứu khác MB; PoC chưa kiểm tra drift.",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Dữ liệu và tổ chức nghiên cứu khác MB; PoC chưa kiểm tra drift.",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            114,
+            493.5,
+            427.5,
+            129
+          ],
+          "text": "PaySim (Lopez-Rojas et al., 2016)\nMô phỏng mobile money",
+          "textPreview": "PaySim (Lopez-Rojas et al., 2016) | Mô phỏng mobile money",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "PaySim (Lopez-Rojas et al., 2016)",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "PaySim (Lopez-Rojas et al., 2016)",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Mô phỏng mobile money",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Mô phỏng mobile money",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            541.5,
+            493.5,
+            660,
+            129
+          ],
+          "text": "Simulator giúp thử nghiệm phương pháp khi dữ liệu tài chính thật khó chia sẻ.",
+          "textPreview": "Simulator giúp thử nghiệm phương pháp khi dữ liệu tài chính thật khó chia sẻ.",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Simulator giúp thử nghiệm phương pháp khi dữ liệu tài chính thật khó chia sẻ.",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Simulator giúp thử nghiệm phương pháp khi dữ liệu tài chính thật khó chia sẻ.",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1201.5,
+            493.5,
+            604.5,
+            129
+          ],
+          "text": "Dữ liệu tổng hợp không thay thế luồng giao dịch/nhãn thật.",
+          "textPreview": "Dữ liệu tổng hợp không thay thế luồng giao dịch/nhãn thật.",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Dữ liệu tổng hợp không thay thế luồng giao dịch/nhãn thật.",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Dữ liệu tổng hợp không thay thế luồng giao dịch/nhãn thật.",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            114,
+            622.5,
+            427.5,
+            129
+          ],
+          "text": "ECB/EBA (2025)\nBáo cáo gian lận thanh toán EEA",
+          "textPreview": "ECB/EBA (2025) | Báo cáo gian lận thanh toán EEA",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "ECB/EBA (2025)",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "ECB/EBA (2025)",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Báo cáo gian lận thanh toán EEA",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Báo cáo gian lận thanh toán EEA",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            541.5,
+            622.5,
+            660,
+            129
+          ],
+          "text": "Xác thực mạnh hữu ích với một số loại gian lận; thao túng người trả tiền vẫn là thách thức.",
+          "textPreview": "Xác thực mạnh hữu ích với một số loại gian lận; thao túng người trả tiền vẫn là thách thức.",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Xác thực mạnh hữu ích với một số loại gian lận; thao túng người trả tiền vẫn là thách thức.",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Xác thực mạnh hữu ích với một số loại gian lận; thao túng người trả tiền vẫn là thách thức.",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            1201.5,
+            622.5,
+            604.5,
+            129
+          ],
+          "text": "Phạm vi EEA, không suy rộng số liệu hay chính sách sang Việt Nam.",
+          "textPreview": "Phạm vi EEA, không suy rộng số liệu hay chính sách sang Việt Nam.",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Phạm vi EEA, không suy rộng số liệu hay chính sách sang Việt Nam.",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Phạm vi EEA, không suy rộng số liệu hay chính sách sang Việt Nam.",
+                  "fontSize": 18,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9k32h4za",
+      "id": "11",
+      "bbox": [
+        123,
+        805.5,
+        1672.5,
+        99
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF4DE",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhs3m90j",
+      "id": "12",
+      "bbox": [
+        151.5,
+        822,
+        1612.5,
+        69
+      ],
+      "geometry": "rect",
+      "text": "Bài học: mô hình là một lớp hỗ trợ trong kiểm soát đa tầng; cần nhãn thật, dữ liệu theo thời gian và quy trình xử lý.",
+      "textPreview": "Bài học: mô hình là một lớp hỗ trợ trong kiểm soát đa tầng; cần nhãn thật, dữ liệu theo thời gian và quy trình xử lý.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Open Sans",
+        "color": "#1C334E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bài học: mô hình là một lớp hỗ trợ trong kiểm soát đa tầng; cần nhãn thật, dữ liệu theo thời gian và quy trình xử lý."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bài học: mô hình là một lớp hỗ trợ trong kiểm soát đa tầng; cần nhãn thật, dữ liệu theo thời gian và quy trình xử lý.",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bài học: mô hình là một lớp hỗ trợ trong kiểm soát đa tầng; cần nhãn thật, dữ liệu theo thời gian và quy trình xử lý.",
+              "fontSize": 20,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ilkfuh4",
+      "id": "13",
+      "bbox": [
+        123,
+        934.5,
+        1665,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Nguồn: Dal Pozzolo et al. (2014, 2018); Lopez-Rojas et al. (2016); ECB/EBA (2025)",
+      "textPreview": "Nguồn: Dal Pozzolo et al. (2014, 2018); Lopez-Rojas et al. (2016); ECB/EBA (2025)",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Open Sans",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Nguồn: Dal Pozzolo et al. (2014, 2018); Lopez-Rojas et al. (2016); ECB/EBA (2025)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Nguồn: Dal Pozzolo et al. (2014, 2018); Lopez-Rojas et al. (2016); ECB/EBA (2025)",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Open Sans",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Nguồn: Dal Pozzolo et al. (2014, 2018); Lopez-Rojas et al. (2016); ECB/EBA (2025)",
+              "fontSize": 15,
+              "typeface": "Open Sans",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

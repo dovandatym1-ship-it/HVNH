@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techcombank Loyalty Ecosystem | PoC Blockchain ERC-20</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="brand">
+                <div class="logo-badge">TCB</div>
+                <div>
+                    <h1 class="brand-title">TECHCOMBANK LOYALTY ECOSYSTEM</h1>
+                    <p class="brand-subtitle">Hệ sinh thái Điểm thưởng Số chuẩn ERC-20 trên Chuỗi khối • PoC CNM HVNH</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="network-badge" id="networkBadge">
+                    <span class="status-dot"></span>
+                    <span id="networkName">Mô phỏng EVM In-Memory</span>
+                </div>
+                <button class="btn btn-outline" id="btnConnectWallet">
+                    <span id="walletBtnText">🦊 Kết nối MetaMask</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="main-container">
+        <!-- TOP KPI STATS -->
+        <section class="kpi-grid">
+            <div class="kpi-card">
+                <span class="kpi-label">Tổng cung Ngân hàng</span>
+                <div class="kpi-value" id="kpiTotalSupply">10,000,000</div>
+                <span class="kpi-sub">TCB-PTS Token (Cố định)</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-label">Điểm đã thưởng cho khách</span>
+                <div class="kpi-value text-red" id="kpiRewarded">45,500</div>
+                <span class="kpi-sub">Đã chuyển vào ví người dùng</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-label">Điểm đã đổi quà (Đốt bỏ)</span>
+                <div class="kpi-value text-orange" id="kpiBurned">12,400</div>
+                <span class="kpi-sub">Cơ chế Burn chống lạm phát</span>
+            </div>
+            <div class="kpi-card">
+                <span class="kpi-label">Thời gian xác thực chuỗi</span>
+                <div class="kpi-value text-green" id="kpiLatency">0.85s</div>
+                <span class="kpi-sub">Consensus PoS / EVM Sub-second</span>
+            </div>
+        </section>
+
+        <!-- TABS CONTROLLER -->
+        <div class="tabs-nav">
+            <button class="tab-btn active" onclick="switchTab('tab-bank')">🏛️ 1. Cổng Quản trị Techcombank</button>
+            <button class="tab-btn" onclick="switchTab('tab-customer')">📱 2. Khách hàng Mobile Banking</button>
+            <button class="tab-btn" onclick="switchTab('tab-partner')">🤝 3. Đối tác & Đối soát Zero-Reconciliation</button>
+            <button class="tab-btn" onclick="switchTab('tab-architecture')">📐 4. Kiến trúc To-Be & Smart Contract</button>
+        </div>
+
+        <!-- TAB 1: BANK ADMIN PORTAL -->
+        <section id="tab-bank" class="tab-content active">
+            <div class="grid-2col">
+                <div class="card">
+                    <h3 class="card-title">Cộng điểm Thưởng giao dịch Chi tiêu Thẻ</h3>
+                    <p class="card-desc">Hệ thống Core Banking tích hợp Smart Contract kích hoạt hàm <code>rewardPoints()</code> khi khách hàng quẹt thẻ tín dụng thành công.</p>
+                    
+                    <form id="formReward" onsubmit="handleRewardSubmit(event)">
+                        <div class="form-group">
+                            <label>Địa chỉ Ví khách hàng (Ethereum Address)</label>
+                            <input type="text" id="rewardAddress" class="form-input" value="0x71C...92A1" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Giá trị quẹt thẻ (VNĐ)</label>
+                                <input type="number" id="cardSpend" class="form-input" value="1500000" step="50000" oninput="calculatePoints()">
+                            </div>
+                            <div class="form-group">
+                                <label>Điểm thưởng tương ứng (1 TCB-PTS = 1.000đ)</label>
+                                <input type="number" id="rewardPointsInput" class="form-input text-bold text-red" value="150" readonly>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Mã tham chiếu Core Banking (Transaction Ref)</label>
+                            <input type="text" id="txRef" class="form-input" value="TCB-POS-20261020-8899" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">🚀 Phát thưởng Điểm số lên Blockchain</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Thưởng điểm Hàng loạt (Batch Reward)</h3>
+                    <p class="card-desc">Tối ưu hóa đến 68% chi phí Gas bằng cách gộp giao dịch thanh toán cuối ngày của hàng nghìn chủ thẻ.</p>
+                    <div class="batch-preview">
+                        <div class="batch-item">
+                            <span>0x8a9...b34 (Thẻ Visa Platinum)</span>
+                            <span class="badge badge-success">+350 TCB-PTS</span>
+                        </div>
+                        <div class="batch-item">
+                            <span>0x42c...e19 (Thẻ JCB Everyday)</span>
+                            <span class="badge badge-success">+120 TCB-PTS</span>
+                        </div>
+                        <div class="batch-item">
+                            <span>0x91d...f88 (Thẻ Signature)</span>
+                            <span class="badge badge-success">+800 TCB-PTS</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary btn-block mt-3" onclick="handleBatchReward()">⚡ Thực thi Batch Settlement (3 Giao dịch)</button>
+                    <div class="alert alert-info mt-3">
+                        <strong>Lợi thế Blockchain:</strong> Toàn bộ dữ liệu thưởng điểm được ký số bởi Private Key của Techcombank, đối tác có thể kiểm chứng nguồn gốc bất kỳ lúc nào.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: CUSTOMER MOBILE VIEW -->
+        <section id="tab-customer" class="tab-content">
+            <div class="grid-customer">
+                <!-- VÍ ĐIỂM CỦA KHÁCH -->
+                <div class="wallet-card">
+                    <div class="wallet-header">
+                        <span>Techcombank Mobile • Tài khoản Điểm Thưởng</span>
+                        <span class="badge badge-light">Ví Web3 Non-Custodial</span>
+                    </div>
+                    <div class="wallet-balance">
+                        <div class="balance-number" id="customerBalance">1,250</div>
+                        <div class="balance-unit">TCB-PTS Token</div>
+                    </div>
+                    <div class="wallet-footer">
+                        <span>Địa chỉ ví: <strong id="customerAddressDisplay">0x71C...92A1</strong></span>
+                        <span>Quy đổi giá trị: <strong>~1,250,000 VNĐ</strong></span>
+                    </div>
+                </div>
+
+                <!-- DANH MỤC VOUCHER ĐỐI TÁC -->
+                <div class="vouchers-section">
+                    <h3 class="card-title">Hệ sinh thái Đổi quà Liên minh (Redeem Vouchers)</h3>
+                    <p class="card-desc">Khi đổi quà, Smart Contract sẽ tự động <code>_burn()</code> điểm thưởng, sinh mã băm định danh ngăn chặn việc làm giả hoặc dùng lặp lại.</p>
+
+                    <div class="voucher-grid">
+                        <!-- Voucher 1 -->
+                        <div class="voucher-card">
+                            <div class="voucher-tag">Highlands Coffee</div>
+                            <h4 class="voucher-title">Voucher Đồ uống 50.000đ</h4>
+                            <div class="voucher-cost">200 TCB-PTS</div>
+                            <button class="btn btn-primary btn-sm" onclick="redeemVoucherAction('Highlands Coffee', 200, 'HL-COFFEE-50K')">Đổi Voucher Ngay</button>
+                        </div>
+                        <!-- Voucher 2 -->
+                        <div class="voucher-card">
+                            <div class="voucher-tag">Vietnam Airlines</div>
+                            <h4 class="voucher-title">Voucher Vé máy bay 100.000đ</h4>
+                            <div class="voucher-cost">500 TCB-PTS</div>
+                            <button class="btn btn-primary btn-sm" onclick="redeemVoucherAction('Vietnam Airlines', 500, 'VNA-MILES-100K')">Đổi Voucher Ngay</button>
+                        </div>
+                        <!-- Voucher 3 -->
+                        <div class="voucher-card">
+                            <div class="voucher-tag">Shopee / WinMart</div>
+                            <h4 class="voucher-title">E-Voucher Mua sắm 20.000đ</h4>
+                            <div class="voucher-cost">100 TCB-PTS</div>
+                            <button class="btn btn-primary btn-sm" onclick="redeemVoucherAction('Shopee / WinMart', 100, 'WIN-ECO-20K')">Đổi Voucher Ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MODAL VOUCHER THÀNH CÔNG -->
+            <div id="voucherSuccessBox" class="alert alert-success mt-4" style="display:none;">
+                <h4>🎉 ĐỔI QUÀ THÀNH CÔNG TRÊN BLOCKCHAIN!</h4>
+                <p id="voucherSuccessDetails"></p>
+            </div>
+        </section>
+
+        <!-- TAB 3: PARTNER & ZERO-RECONCILIATION -->
+        <section id="tab-partner" class="tab-content">
+            <div class="card">
+                <div class="card-header-flex">
+                    <div>
+                        <h3 class="card-title">Sổ cái Giao dịch & Đối soát Tự động (Zero-Reconciliation Ledger)</h3>
+                        <p class="card-desc">Bất biến, minh bạch thời gian thực giữa Techcombank và các đối tác liên minh (Không cần gửi file Excel đối chiếu cuối tháng).</p>
+                    </div>
+                    <button class="btn btn-outline btn-sm" onclick="exportLedgerCSV()">📥 Tải Báo cáo Đối soát CSV</button>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="ledgerTable">
+                        <thead>
+                            <tr>
+                                <th>Thời gian</th>
+                                <th>Block #</th>
+                                <th>Mã băm giao dịch (TxHash)</th>
+                                <th>Loại hành động</th>
+                                <th>Ví chủ thể</th>
+                                <th>Số lượng TCB-PTS</th>
+                                <th>Trạng thái Đối soát</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ledgerBody">
+                            <!-- Dữ liệu render tự động -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 4: ARCHITECTURE & SMART CONTRACT -->
+        <section id="tab-architecture" class="tab-content">
+            <div class="grid-2col">
+                <div class="card">
+                    <h3 class="card-title">Mô hình Kiến trúc To-Be Phân tầng</h3>
+                    <div class="arch-box">
+                        <div class="arch-layer layer-client">
+                            <strong>LỚP TRẢI NGHIỆM (Client Experience):</strong><br>
+                            Techcombank Mobile App • Web Portal Đối tác • Ví Web3 MetaMask
+                        </div>
+                        <div class="arch-arrow">⬇ RESTful APIs / Web3.js / Ethers.js</div>
+                        <div class="arch-layer layer-gateway">
+                            <strong>LỚP TÍCH HỢP & DỊCH VỤ (Integration Gateway):</strong><br>
+                            API Gateway • Core Banking Adapter • Event Listener & Kafka Stream
+                        </div>
+                        <div class="arch-arrow">⬇ JSON-RPC / EVM Nodes</div>
+                        <div class="arch-layer layer-blockchain">
+                            <strong>LỚP CHUỖI KHỐI PHÂN TÁN (Blockchain Layer):</strong><br>
+                            Ethereum L2 / Sepolia Testnet • Smart Contract <code>TechcombankLoyaltyToken.sol</code><br>
+                            Tiêu chuẩn ERC-20 • Cơ chế Đốt điểm (Burn Mechanism) • Sổ cái bất biến
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Đặc tả Mã nguồn Smart Contract</h3>
+                    <pre class="code-box"><code>// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract TechcombankLoyaltyToken is ERC20, Ownable {
+    // Thưởng điểm khi chi tiêu thẻ
+    function rewardPoints(address customer, uint256 points, string calldata txRef) 
+        external onlyOwner {
+        _transfer(owner(), customer, points * 10 ** decimals());
+    }
+
+    // Đổi voucher và đốt token tránh lạm phát
+    function redeemVoucher(uint256 cost, string calldata partner, string calldata code) 
+        external returns (bytes32) {
+        _burn(msg.sender, cost * 10 ** decimals());
+        // Emit Event đối soát tức thì
+    }
+}</code></pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>Báo cáo Bài tập lớn Môn học: <strong>Công nghệ Mới nổi và Đổi mới (CNM)</strong> • Chương trình Sau Đại học MIS01 - Học viện Ngân hàng</p>
+        <p>Giảng viên hướng dẫn: <strong>TS. Đinh Trọng Hiếu</strong> • <strong>TS. Đỗ Văn Thuật</strong></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

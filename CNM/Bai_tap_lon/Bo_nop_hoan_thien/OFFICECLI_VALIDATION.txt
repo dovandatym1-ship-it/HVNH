@@ -1,0 +1,6 @@
+OfficeCLI version: 1.0.150
+Document: Bao_cao_CNM_Fraud_PoC.docx
+Edit performed with OfficeCLI: `/body/p[6]/r[1]` changed the cover label to “BÀI TẬP LỚN HỌC PHẦN”.
+Validation: `officecli validate` passed with no errors after final edit.
+TOC: cached page list is included; `w:updateFields=true` is set so Word can refresh the TOC field if headings or pagination change.
+Visual QA: rendered final DOCX to PDF/PNG after the OfficeCLI edit; 32 A4 pages. Section geometry matches retained HVNH reference.

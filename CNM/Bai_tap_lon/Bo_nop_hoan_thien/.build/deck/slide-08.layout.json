@@ -1,0 +1,1630 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/qi1im5",
+    "id": "qi1im5",
+    "slide": 8,
+    "layoutId": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#282A75",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Montserrat Bold",
+      "Open Sans"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wvulormp",
+      "id": "1",
+      "bbox": [
+        57,
+        18,
+        292.5,
+        37.5
+      ],
+      "geometry": "rect",
+      "text": "HỌC VIỆN NGÂN HÀNG",
+      "textPreview": "HỌC VIỆN NGÂN HÀNG",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#FBFBFC",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HỌC VIỆN NGÂN HÀNG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HỌC VIỆN NGÂN HÀNG",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#FBFBFC",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HỌC VIỆN NGÂN HÀNG",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#FBFBFC",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vulkvm54",
+      "id": "2",
+      "bbox": [
+        57,
+        58.5,
+        292.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "MIS01 • CNM",
+      "textPreview": "MIS01 • CNM",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "Open Sans",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MIS01 • CNM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MIS01 • CNM",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Open Sans",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MIS01 • CNM",
+              "fontSize": 11,
+              "typeface": "Open Sans",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/utc3mh4j",
+      "id": "3",
+      "bbox": [
+        372,
+        18,
+        3,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#4BACC6",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s32tcny",
+      "id": "4",
+      "bbox": [
+        405,
+        13.5,
+        1395,
+        33
+      ],
+      "geometry": "rect",
+      "text": "THIẾT KẾ",
+      "textPreview": "THIẾT KẾ",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "THIẾT KẾ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "THIẾT KẾ",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "THIẾT KẾ",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8rulk7md",
+      "id": "5",
+      "bbox": [
+        405,
+        52.5,
+        1395,
+        88.5
+      ],
+      "geometry": "rect",
+      "text": "Giải pháp kỹ thuật: boosting trên dữ liệu bảng",
+      "textPreview": "Giải pháp kỹ thuật: boosting trên dữ liệu bảng",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 31,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Giải pháp kỹ thuật: boosting trên dữ liệu bảng"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Giải pháp kỹ thuật: boosting trên dữ liệu bảng",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Giải pháp kỹ thuật: boosting trên dữ liệu bảng",
+              "fontSize": 31,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6lkr25s",
+      "id": "6",
+      "bbox": [
+        0,
+        166.5,
+        1920,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#4F81BD",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5c3ix4n",
+      "id": "7",
+      "bbox": [
+        45,
+        198,
+        1830,
+        783
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4j2psn2",
+      "id": "8",
+      "bbox": [
+        75,
+        1020,
+        1275,
+        27
+      ],
+      "geometry": "rect",
+      "text": "HVNH – CNM – PoC HỌC THUẬT",
+      "textPreview": "HVNH – CNM – PoC HỌC THUẬT",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Open Sans",
+        "color": "#FBFBFC",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HVNH – CNM – PoC HỌC THUẬT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HVNH – CNM – PoC HỌC THUẬT",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Open Sans",
+            "color": "#FBFBFC",
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HVNH – CNM – PoC HỌC THUẬT",
+              "fontSize": 14,
+              "typeface": "Open Sans",
+              "color": "#FBFBFC",
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03algnmh",
+      "id": "9",
+      "bbox": [
+        1740,
+        1017,
+        82.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "8",
+      "textPreview": "8",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "8"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "8",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8",
+              "fontSize": 15,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2psr6p8b",
+      "id": "10",
+      "bbox": [
+        135,
+        367.5,
+        255,
+        165
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nq18fapw",
+      "id": "11",
+      "bbox": [
+        147,
+        375,
+        231,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Giao dịch\ngiả lập",
+      "textPreview": "Giao dịch | giả lập",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Montserrat Bold",
+        "color": "#1C334E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Giao dịch"
+          },
+          {
+            "index": 2,
+            "text": "giả lập"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Giao dịch",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Giao dịch",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "giả lập",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "giả lập",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ora98fqh",
+      "id": "12",
+      "bbox": [
+        487.5,
+        367.5,
+        255,
+        165
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psjqhk72",
+      "id": "13",
+      "bbox": [
+        499.5,
+        375,
+        231,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Kiểm tra\n8 trường",
+      "textPreview": "Kiểm tra | 8 trường",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Montserrat Bold",
+        "color": "#1C334E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kiểm tra"
+          },
+          {
+            "index": 2,
+            "text": "8 trường"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kiểm tra",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kiểm tra",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "8 trường",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8 trường",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e187258f",
+      "id": "14",
+      "bbox": [
+        840,
+        367.5,
+        255,
+        165
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F1F3F8",
+      "lineColor": "#4F81BD",
+      "lineWidth": 2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fm18bapk",
+      "id": "15",
+      "bbox": [
+        852,
+        375,
+        231,
+        150
+      ],
+      "geometry": "rect",
+      "text": "XGBoost\nseed 42",
+      "textPreview": "XGBoost | seed 42",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Montserrat Bold",
+        "color": "#1C334E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "XGBoost"
+          },
+          {
+            "index": 2,
+            "text": "seed 42"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "XGBoost",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "XGBoost",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "seed 42",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "seed 42",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0na94fq5",
+      "id": "16",
+      "bbox": [
+        1192.5,
+        367.5,
+        255,
+        165
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 2
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1ojqdk7q",
+      "id": "17",
+      "bbox": [
+        1204.5,
+        375,
+        231,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Policy demo\n3 vùng",
+      "textPreview": "Policy demo | 3 vùng",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Montserrat Bold",
+        "color": "#1C334E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Policy demo"
+          },
+          {
+            "index": 2,
+            "text": "3 vùng"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Policy demo",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Policy demo",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "3 vùng",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3 vùng",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qx87y583",
+      "id": "18",
+      "bbox": [
+        1545,
+        367.5,
+        255,
+        165
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 2
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ryh87qpo",
+      "id": "19",
+      "bbox": [
+        1557,
+        375,
+        231,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Lịch sử\n+ CSV",
+      "textPreview": "Lịch sử | + CSV",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Montserrat Bold",
+        "color": "#1C334E",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lịch sử"
+          },
+          {
+            "index": 2,
+            "text": "+ CSV"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lịch sử",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lịch sử",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "+ CSV",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Montserrat Bold",
+            "color": "#1C334E",
+            "bold": true,
+            "alignment": "center",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "+ CSV",
+              "fontSize": 21,
+              "typeface": "Montserrat Bold",
+              "color": "#1C334E",
+              "bold": true,
+              "alignment": "center",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vqdwj214",
+      "id": "20",
+      "bbox": [
+        390,
+        450,
+        97.5,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#4F81BD",
+      "lineWidth": 3
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4fqxkj",
+      "id": "21",
+      "bbox": [
+        742.5,
+        450,
+        97.5,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#4F81BD",
+      "lineWidth": 3
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xsvelcja",
+      "id": "22",
+      "bbox": [
+        1095,
+        450,
+        97.5,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#4F81BD",
+      "lineWidth": 3
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrmxs72p",
+      "id": "23",
+      "bbox": [
+        1447.5,
+        450,
+        97.5,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#4F81BD",
+      "lineWidth": 3
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judwn21g",
+      "id": "24",
+      "bbox": [
+        138,
+        660,
+        375,
+        52.5
+      ],
+      "geometry": "rect",
+      "text": "XGBoost",
+      "textPreview": "XGBoost",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Open Sans",
+        "color": "#4F81BD",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "XGBoost"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "XGBoost",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Open Sans",
+            "color": "#4F81BD",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "XGBoost",
+              "fontSize": 24,
+              "typeface": "Open Sans",
+              "color": "#4F81BD",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/it4fuhkv",
+      "id": "25",
+      "bbox": [
+        135,
+        727.5,
+        787.5,
+        225
+      ],
+      "geometry": "rect",
+      "text": "Gradient-boosted trees phù hợp với dữ liệu dạng bảng\nTỷ lệ lớp dương dùng trong scale_pos_weight chỉ từ train\nScore chưa được calibration\nTreeSHAP mô tả đóng góp vào raw margin",
+      "textPreview": "Gradient-boosted trees phù hợp với dữ liệu dạng bảng | Tỷ lệ lớp dương dùng trong scale_pos_weight chỉ từ train | Score chưa được calibra...",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Open Sans",
+        "color": "#1C334E",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 8,
+          "right": 10,
+          "bottom": 8,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Gradient-boosted trees phù hợp với dữ liệu dạng bảng"
+          },
+          {
+            "index": 2,
+            "text": "• Tỷ lệ lớp dương dùng trong scale_pos_weight chỉ từ train"
+          },
+          {
+            "index": 3,
+            "text": "• Score chưa được calibration"
+          },
+          {
+            "index": 4,
+            "text": "• TreeSHAP mô tả đóng góp vào raw margin"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Gradient-boosted trees phù hợp với dữ liệu dạng bảng",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Gradient-boosted trees phù hợp với dữ liệu dạng bảng",
+              "fontSize": 20,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Tỷ lệ lớp dương dùng trong scale_pos_weight chỉ từ train",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tỷ lệ lớp dương dùng trong scale_pos_weight chỉ từ train",
+              "fontSize": 20,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Score chưa được calibration",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Score chưa được calibration",
+              "fontSize": 20,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "TreeSHAP mô tả đóng góp vào raw margin",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TreeSHAP mô tả đóng góp vào raw margin",
+              "fontSize": 20,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wvepcj6",
+      "id": "26",
+      "bbox": [
+        997.5,
+        657,
+        795,
+        307.5
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF4DE",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmxw72l",
+      "id": "27",
+      "bbox": [
+        1041,
+        687,
+        690,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Chưa cài / chưa kết nối",
+      "textPreview": "Chưa cài / chưa kết nối",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Open Sans",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Chưa cài / chưa kết nối"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Chưa cài / chưa kết nối",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Open Sans",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Chưa cài / chưa kết nối",
+              "fontSize": 22,
+              "typeface": "Open Sans",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zytwbi1w",
+      "id": "28",
+      "bbox": [
+        1041,
+        760.5,
+        660,
+        129
+      ],
+      "geometry": "rect",
+      "text": "Kafka, API Gateway, feature store, Core Banking\nOTP / FaceID, lưu trữ bền vững, HA/DR",
+      "textPreview": "Kafka, API Gateway, feature store, Core Banking | OTP / FaceID, lưu trữ bền vững, HA/DR",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Open Sans",
+        "color": "#1C334E",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kafka, API Gateway, feature store, Core Banking"
+          },
+          {
+            "index": 2,
+            "text": "OTP / FaceID, lưu trữ bền vững, HA/DR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kafka, API Gateway, feature store, Core Banking",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kafka, API Gateway, feature store, Core Banking",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "OTP / FaceID, lưu trữ bền vững, HA/DR",
+          "lineSpacingPercent": 112000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "alignment": "left",
+            "lineSpacing": 1.12
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OTP / FaceID, lưu trữ bền vững, HA/DR",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "alignment": "left",
+              "lineSpacing": 1.12
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

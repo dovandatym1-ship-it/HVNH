@@ -1,0 +1,1333 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ups8yo",
+    "id": "ups8yo",
+    "slide": 2,
+    "layoutId": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#282A75",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Montserrat Bold",
+      "Open Sans"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byp0nq1",
+      "id": "1",
+      "bbox": [
+        57,
+        18,
+        292.5,
+        37.5
+      ],
+      "geometry": "rect",
+      "text": "HỌC VIỆN NGÂN HÀNG",
+      "textPreview": "HỌC VIỆN NGÂN HÀNG",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#FBFBFC",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HỌC VIỆN NGÂN HÀNG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HỌC VIỆN NGÂN HÀNG",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#FBFBFC",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HỌC VIỆN NGÂN HÀNG",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#FBFBFC",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ap8ripg",
+      "id": "2",
+      "bbox": [
+        57,
+        58.5,
+        292.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "MIS01 • CNM",
+      "textPreview": "MIS01 • CNM",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "Open Sans",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MIS01 • CNM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MIS01 • CNM",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Open Sans",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MIS01 • CNM",
+              "fontSize": 11,
+              "typeface": "Open Sans",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29g7yd8v",
+      "id": "3",
+      "bbox": [
+        372,
+        18,
+        3,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#4BACC6",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgrqxs7i",
+      "id": "4",
+      "bbox": [
+        405,
+        13.5,
+        1395,
+        33
+      ],
+      "geometry": "rect",
+      "text": "MỤC TIÊU",
+      "textPreview": "MỤC TIÊU",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MỤC TIÊU"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MỤC TIÊU",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MỤC TIÊU",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfip4nqx",
+      "id": "5",
+      "bbox": [
+        405,
+        52.5,
+        1395,
+        88.5
+      ],
+      "geometry": "rect",
+      "text": "Câu hỏi nghiên cứu và tiêu chí thành công",
+      "textPreview": "Câu hỏi nghiên cứu và tiêu chí thành công",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 31,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Câu hỏi nghiên cứu và tiêu chí thành công"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Câu hỏi nghiên cứu và tiêu chí thành công",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Câu hỏi nghiên cứu và tiêu chí thành công",
+              "fontSize": 31,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re98v2pc",
+      "id": "6",
+      "bbox": [
+        0,
+        166.5,
+        1920,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#4F81BD",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd072x8r",
+      "id": "7",
+      "bbox": [
+        45,
+        198,
+        1830,
+        783
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tkn6l87y",
+      "id": "8",
+      "bbox": [
+        75,
+        1020,
+        1275,
+        27
+      ],
+      "geometry": "rect",
+      "text": "HVNH – CNM – PoC HỌC THUẬT",
+      "textPreview": "HVNH – CNM – PoC HỌC THUẬT",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Open Sans",
+        "color": "#FBFBFC",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HVNH – CNM – PoC HỌC THUẬT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HVNH – CNM – PoC HỌC THUẬT",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Open Sans",
+            "color": "#FBFBFC",
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HVNH – CNM – PoC HỌC THUẬT",
+              "fontSize": 14,
+              "typeface": "Open Sans",
+              "color": "#FBFBFC",
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sjeps3qt",
+      "id": "9",
+      "bbox": [
+        1740,
+        1017,
+        82.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2",
+              "fontSize": 15,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2po3y9c7",
+      "id": "10",
+      "bbox": [
+        117,
+        225,
+        390,
+        52.5
+      ],
+      "geometry": "rect",
+      "text": "Câu hỏi",
+      "textPreview": "Câu hỏi",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Open Sans",
+        "color": "#4F81BD",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Câu hỏi"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Câu hỏi",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Open Sans",
+            "color": "#4F81BD",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Câu hỏi",
+              "fontSize": 20,
+              "typeface": "Open Sans",
+              "color": "#4F81BD",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qx4reds",
+      "id": "11",
+      "bbox": [
+        117,
+        288,
+        1575,
+        144
+      ],
+      "geometry": "rect",
+      "text": "PoC học máy có thể xếp hạng giao dịch tổng hợp để ưu tiên kiểm tra như thế nào so với baseline đơn giản?",
+      "textPreview": "PoC học máy có thể xếp hạng giao dịch tổng hợp để ưu tiên kiểm tra như thế nào so với baseline đơn giản?",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 32,
+        "typeface": "Open Sans",
+        "color": "#282A75",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PoC học máy có thể xếp hạng giao dịch tổng hợp để ưu tiên kiểm tra như thế nào so với baseline"
+          },
+          {
+            "index": 2,
+            "text": "đơn giản?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PoC học máy có thể xếp hạng giao dịch tổng hợp để ưu tiên kiểm tra như thế nào so với baseline đơn giản?",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Open Sans",
+            "color": "#282A75",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PoC học máy có thể xếp hạng giao dịch tổng hợp để ưu tiên kiểm tra như thế nào so với baseline đơn giản?",
+              "fontSize": 32,
+              "typeface": "Open Sans",
+              "color": "#282A75",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4rql0jud",
+      "id": "12",
+      "bbox": [
+        117,
+        474,
+        780,
+        360
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F1F3F8",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pszmt4vy",
+      "id": "13",
+      "bbox": [
+        153,
+        501,
+        675,
+        51
+      ],
+      "geometry": "rect",
+      "text": "Trong phạm vi",
+      "textPreview": "Trong phạm vi",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Open Sans",
+        "color": "#4F81BD",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Trong phạm vi"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Trong phạm vi",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Open Sans",
+            "color": "#4F81BD",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Trong phạm vi",
+              "fontSize": 22,
+              "typeface": "Open Sans",
+              "color": "#4F81BD",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qt8n29c3",
+      "id": "14",
+      "bbox": [
+        144,
+        558,
+        712.5,
+        246
+      ],
+      "geometry": "rect",
+      "text": "25.000 giao dịch tổng hợp\nXGBoost, rule baseline và baseline luôn âm\nThreshold chọn trên validation\nĐiểm số gợi ý, không thực thi giao dịch",
+      "textPreview": "25.000 giao dịch tổng hợp | XGBoost, rule baseline và baseline luôn âm | Threshold chọn trên validation | Điểm số gợi ý, không thực thi g...",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Open Sans",
+        "color": "#1C334E",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 8,
+          "right": 10,
+          "bottom": 8,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 25.000 giao dịch tổng hợp"
+          },
+          {
+            "index": 2,
+            "text": "• XGBoost, rule baseline và baseline luôn âm"
+          },
+          {
+            "index": 3,
+            "text": "• Threshold chọn trên validation"
+          },
+          {
+            "index": 4,
+            "text": "• Điểm số gợi ý, không thực thi giao dịch"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "25.000 giao dịch tổng hợp",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "25.000 giao dịch tổng hợp",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "XGBoost, rule baseline và baseline luôn âm",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "XGBoost, rule baseline và baseline luôn âm",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Threshold chọn trên validation",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Threshold chọn trên validation",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Điểm số gợi ý, không thực thi giao dịch",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Điểm số gợi ý, không thực thi giao dịch",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ruh4vedo",
+      "id": "15",
+      "bbox": [
+        960,
+        474,
+        847.5,
+        360
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFF4DE",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfq54ju9",
+      "id": "16",
+      "bbox": [
+        999,
+        501,
+        705,
+        51
+      ],
+      "geometry": "rect",
+      "text": "Không kết luận",
+      "textPreview": "Không kết luận",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "Open Sans",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Không kết luận"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Không kết luận",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Open Sans",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Không kết luận",
+              "fontSize": 22,
+              "typeface": "Open Sans",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgzmxovu",
+      "id": "17",
+      "bbox": [
+        981,
+        558,
+        780,
+        246
+      ],
+      "geometry": "rect",
+      "text": "Không có dữ liệu nội bộ MB\nKhông đo hiệu quả nghiệp vụ thật\nKhông tích hợp Kafka/Core Banking\nKhông tự động giữ hoặc chặn tiền",
+      "textPreview": "Không có dữ liệu nội bộ MB | Không đo hiệu quả nghiệp vụ thật | Không tích hợp Kafka/Core Banking | Không tự động giữ hoặc chặn tiền",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "Open Sans",
+        "color": "#1C334E",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 8,
+          "right": 10,
+          "bottom": 8,
+          "left": 12
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Không có dữ liệu nội bộ MB"
+          },
+          {
+            "index": 2,
+            "text": "• Không đo hiệu quả nghiệp vụ thật"
+          },
+          {
+            "index": 3,
+            "text": "• Không tích hợp Kafka/Core Banking"
+          },
+          {
+            "index": 4,
+            "text": "• Không tự động giữ hoặc chặn tiền"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Không có dữ liệu nội bộ MB",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Không có dữ liệu nội bộ MB",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Không đo hiệu quả nghiệp vụ thật",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Không đo hiệu quả nghiệp vụ thật",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Không tích hợp Kafka/Core Banking",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Không tích hợp Kafka/Core Banking",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Không tự động giữ hoặc chặn tiền",
+          "bulletCharacter": "•",
+          "marginLeft": 254000,
+          "indent": -114300,
+          "lineSpacingPercent": 110000,
+          "spaceAfter": 1000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#1C334E",
+            "lineSpacing": 1.1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Không tự động giữ hoặc chặn tiền",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#1C334E",
+              "lineSpacing": 1.1
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eh8n6tcf",
+      "id": "18",
+      "bbox": [
+        117,
+        888,
+        1650,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Thành công = pipeline tái lập + đánh giá đúng protocol + giới hạn công bố rõ",
+      "textPreview": "Thành công = pipeline tái lập + đánh giá đúng protocol + giới hạn công bố rõ",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Open Sans",
+        "color": "#9BBB59",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Thành công = pipeline tái lập + đánh giá đúng protocol + giới hạn công bố rõ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Thành công = pipeline tái lập + đánh giá đúng protocol + giới hạn công bố rõ",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Open Sans",
+            "color": "#9BBB59",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Thành công = pipeline tái lập + đánh giá đúng protocol + giới hạn công bố rõ",
+              "fontSize": 21,
+              "typeface": "Open Sans",
+              "color": "#9BBB59",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zih4zyd0",
+      "id": "19",
+      "bbox": [
+        117,
+        948,
+        1650,
+        39
+      ],
+      "geometry": "rect",
+      "text": "Lộ trình: bối cảnh → nghiên cứu → nghiệp vụ → giải pháp → thực nghiệm → demo → kết luận",
+      "textPreview": "Lộ trình: bối cảnh → nghiên cứu → nghiệp vụ → giải pháp → thực nghiệm → demo → kết luận",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Open Sans",
+        "color": "#667085",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lộ trình: bối cảnh → nghiên cứu → nghiệp vụ → giải pháp → thực nghiệm → demo → kết luận"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lộ trình: bối cảnh → nghiên cứu → nghiệp vụ → giải pháp → thực nghiệm → demo → kết luận",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Open Sans",
+            "color": "#667085",
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lộ trình: bối cảnh → nghiên cứu → nghiệp vụ → giải pháp → thực nghiệm → demo → kết luận",
+              "fontSize": 17,
+              "typeface": "Open Sans",
+              "color": "#667085",
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

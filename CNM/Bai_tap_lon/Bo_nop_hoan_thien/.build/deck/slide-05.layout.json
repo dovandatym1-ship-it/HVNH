@@ -1,0 +1,1296 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/uocx2l",
+    "id": "uocx2l",
+    "slide": 5,
+    "layoutId": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#282A75",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Montserrat Bold",
+      "Open Sans"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "8cc5d38b-7081-42cc-8684-20400aaaa365",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3514b7ad-7b17-43a7-a5a4-5d2754e9c7e0",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tk3ed0jy",
+      "id": "1",
+      "bbox": [
+        57,
+        18,
+        292.5,
+        37.5
+      ],
+      "geometry": "rect",
+      "text": "HỌC VIỆN NGÂN HÀNG",
+      "textPreview": "HỌC VIỆN NGÂN HÀNG",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#FBFBFC",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HỌC VIỆN NGÂN HÀNG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HỌC VIỆN NGÂN HÀNG",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#FBFBFC",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HỌC VIỆN NGÂN HÀNG",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#FBFBFC",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hsfil07",
+      "id": "2",
+      "bbox": [
+        57,
+        58.5,
+        292.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "MIS01 • CNM",
+      "textPreview": "MIS01 • CNM",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "Open Sans",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MIS01 • CNM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MIS01 • CNM",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Open Sans",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MIS01 • CNM",
+              "fontSize": 11,
+              "typeface": "Open Sans",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7i1wbq1s",
+      "id": "3",
+      "bbox": [
+        372,
+        18,
+        3,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#4BACC6",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gnuxofi9",
+      "id": "4",
+      "bbox": [
+        405,
+        13.5,
+        1395,
+        33
+      ],
+      "geometry": "rect",
+      "text": "PHÂN TÍCH NGHIỆP VỤ",
+      "textPreview": "PHÂN TÍCH NGHIỆP VỤ",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Montserrat Bold",
+        "color": "#4BACC6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PHÂN TÍCH NGHIỆP VỤ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PHÂN TÍCH NGHIỆP VỤ",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Montserrat Bold",
+            "color": "#4BACC6",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PHÂN TÍCH NGHIỆP VỤ",
+              "fontSize": 14,
+              "typeface": "Montserrat Bold",
+              "color": "#4BACC6",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ho3eh0ju",
+      "id": "5",
+      "bbox": [
+        405,
+        52.5,
+        1395,
+        88.5
+      ],
+      "geometry": "rect",
+      "text": "Các bên liên quan và nhu cầu cần giải quyết",
+      "textPreview": "Các bên liên quan và nhu cầu cần giải quyết",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 31,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Các bên liên quan và nhu cầu cần giải quyết"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Các bên liên quan và nhu cầu cần giải quyết",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Các bên liên quan và nhu cầu cần giải quyết",
+              "fontSize": 31,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulcfm50j",
+      "id": "6",
+      "bbox": [
+        0,
+        166.5,
+        1920,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#4F81BD",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmlwfa1o",
+      "id": "7",
+      "bbox": [
+        45,
+        198,
+        1830,
+        783
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFBFC",
+      "lineColor": "#D7D9E8",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4bexsfil",
+      "id": "8",
+      "bbox": [
+        75,
+        1020,
+        1275,
+        27
+      ],
+      "geometry": "rect",
+      "text": "HVNH – CNM – PoC HỌC THUẬT",
+      "textPreview": "HVNH – CNM – PoC HỌC THUẬT",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "Open Sans",
+        "color": "#FBFBFC",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HVNH – CNM – PoC HỌC THUẬT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HVNH – CNM – PoC HỌC THUẬT",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Open Sans",
+            "color": "#FBFBFC",
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HVNH – CNM – PoC HỌC THUẬT",
+              "fontSize": 14,
+              "typeface": "Open Sans",
+              "color": "#FBFBFC",
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cnylkj6",
+      "id": "9",
+      "bbox": [
+        1740,
+        1017,
+        82.5,
+        30
+      ],
+      "geometry": "rect",
+      "text": "5",
+      "textPreview": "5",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "Montserrat Bold",
+        "color": "#FAA61A",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Montserrat Bold",
+            "color": "#FAA61A",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5",
+              "fontSize": 15,
+              "typeface": "Montserrat Bold",
+              "color": "#FAA61A",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/mpc3yh4v",
+      "id": "10",
+      "bbox": [
+        112.5,
+        235.5,
+        1695,
+        652.5
+      ],
+      "text": "Vai trò | Câu hỏi nghiệp vụ | Nhu cầu của PoC\nChủ quy trình | Khi nào cần xác thực/đưa người xem xét? | Policy là giả định, cần chủ quy trình xác nhận\nChuyên viên chống gian lận | Cảnh báo nào đáng xử lý trước? | Score, lý do mô hình, lịch sử\nKhách hàng | Có bị gián đoạn nhầm không? | Chưa tham gia PoC; phải đo trong pilot\nCNTT / mô hình | Có thể truy vết phiên bản và lỗi không? | Run ID, manifest, fail-closed\nATTT / tuân thủ | Dữ liệu và hành động có được phép? | Ngoài phạm vi, cần phê duyệt trước pilot",
+      "textPreview": "Vai trò | Câu hỏi nghiệp vụ | Nhu cầu của PoC | Chủ quy trình | Khi nào cần xác thực/đưa người xem xét? | Policy là giả định, cần chủ quy...",
+      "rows": 6,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            112.5,
+            235.5,
+            322.5,
+            108.75
+          ],
+          "text": "Vai trò",
+          "textPreview": "Vai trò",
+          "fillColor": "#282A75",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Vai trò",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Montserrat Bold",
+                "color": "#FBFBFC",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Vai trò",
+                  "fontSize": 19,
+                  "typeface": "Montserrat Bold",
+                  "color": "#FBFBFC",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            435,
+            235.5,
+            652.5,
+            108.75
+          ],
+          "text": "Câu hỏi nghiệp vụ",
+          "textPreview": "Câu hỏi nghiệp vụ",
+          "fillColor": "#282A75",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Câu hỏi nghiệp vụ",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Montserrat Bold",
+                "color": "#FBFBFC",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Câu hỏi nghiệp vụ",
+                  "fontSize": 19,
+                  "typeface": "Montserrat Bold",
+                  "color": "#FBFBFC",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1087.5,
+            235.5,
+            720,
+            108.75
+          ],
+          "text": "Nhu cầu của PoC",
+          "textPreview": "Nhu cầu của PoC",
+          "fillColor": "#282A75",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Nhu cầu của PoC",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Montserrat Bold",
+                "color": "#FBFBFC",
+                "bold": true,
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Nhu cầu của PoC",
+                  "fontSize": 19,
+                  "typeface": "Montserrat Bold",
+                  "color": "#FBFBFC",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            112.5,
+            344.25,
+            322.5,
+            108.75
+          ],
+          "text": "Chủ quy trình",
+          "textPreview": "Chủ quy trình",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Chủ quy trình",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Chủ quy trình",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            435,
+            344.25,
+            652.5,
+            108.75
+          ],
+          "text": "Khi nào cần xác thực/đưa người xem xét?",
+          "textPreview": "Khi nào cần xác thực/đưa người xem xét?",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Khi nào cần xác thực/đưa người xem xét?",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Khi nào cần xác thực/đưa người xem xét?",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1087.5,
+            344.25,
+            720,
+            108.75
+          ],
+          "text": "Policy là giả định, cần chủ quy trình xác nhận",
+          "textPreview": "Policy là giả định, cần chủ quy trình xác nhận",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Policy là giả định, cần chủ quy trình xác nhận",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Policy là giả định, cần chủ quy trình xác nhận",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            112.5,
+            453,
+            322.5,
+            108.75
+          ],
+          "text": "Chuyên viên chống gian lận",
+          "textPreview": "Chuyên viên chống gian lận",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Chuyên viên chống gian lận",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Chuyên viên chống gian lận",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            435,
+            453,
+            652.5,
+            108.75
+          ],
+          "text": "Cảnh báo nào đáng xử lý trước?",
+          "textPreview": "Cảnh báo nào đáng xử lý trước?",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Cảnh báo nào đáng xử lý trước?",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Cảnh báo nào đáng xử lý trước?",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1087.5,
+            453,
+            720,
+            108.75
+          ],
+          "text": "Score, lý do mô hình, lịch sử",
+          "textPreview": "Score, lý do mô hình, lịch sử",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Score, lý do mô hình, lịch sử",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Score, lý do mô hình, lịch sử",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            112.5,
+            561.75,
+            322.5,
+            108.75
+          ],
+          "text": "Khách hàng",
+          "textPreview": "Khách hàng",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Khách hàng",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Khách hàng",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            435,
+            561.75,
+            652.5,
+            108.75
+          ],
+          "text": "Có bị gián đoạn nhầm không?",
+          "textPreview": "Có bị gián đoạn nhầm không?",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Có bị gián đoạn nhầm không?",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Có bị gián đoạn nhầm không?",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            1087.5,
+            561.75,
+            720,
+            108.75
+          ],
+          "text": "Chưa tham gia PoC; phải đo trong pilot",
+          "textPreview": "Chưa tham gia PoC; phải đo trong pilot",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Chưa tham gia PoC; phải đo trong pilot",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Chưa tham gia PoC; phải đo trong pilot",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            112.5,
+            670.5,
+            322.5,
+            108.75
+          ],
+          "text": "CNTT / mô hình",
+          "textPreview": "CNTT / mô hình",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "CNTT / mô hình",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "CNTT / mô hình",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            435,
+            670.5,
+            652.5,
+            108.75
+          ],
+          "text": "Có thể truy vết phiên bản và lỗi không?",
+          "textPreview": "Có thể truy vết phiên bản và lỗi không?",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Có thể truy vết phiên bản và lỗi không?",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Có thể truy vết phiên bản và lỗi không?",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            1087.5,
+            670.5,
+            720,
+            108.75
+          ],
+          "text": "Run ID, manifest, fail-closed",
+          "textPreview": "Run ID, manifest, fail-closed",
+          "fillColor": "#F1F3F8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Run ID, manifest, fail-closed",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Run ID, manifest, fail-closed",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            112.5,
+            779.25,
+            322.5,
+            108.75
+          ],
+          "text": "ATTT / tuân thủ",
+          "textPreview": "ATTT / tuân thủ",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "ATTT / tuân thủ",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "ATTT / tuân thủ",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            435,
+            779.25,
+            652.5,
+            108.75
+          ],
+          "text": "Dữ liệu và hành động có được phép?",
+          "textPreview": "Dữ liệu và hành động có được phép?",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Dữ liệu và hành động có được phép?",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Dữ liệu và hành động có được phép?",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            1087.5,
+            779.25,
+            720,
+            108.75
+          ],
+          "text": "Ngoài phạm vi, cần phê duyệt trước pilot",
+          "textPreview": "Ngoài phạm vi, cần phê duyệt trước pilot",
+          "fillColor": "#FBFBFC",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Ngoài phạm vi, cần phê duyệt trước pilot",
+              "resolvedTextStyle": {
+                "fontSize": 19,
+                "typeface": "Open Sans",
+                "color": "#1C334E",
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Ngoài phạm vi, cần phê duyệt trước pilot",
+                  "fontSize": 19,
+                  "typeface": "Open Sans",
+                  "color": "#1C334E",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfep8fe1",
+      "id": "11",
+      "bbox": [
+        123,
+        915,
+        1665,
+        57
+      ],
+      "geometry": "rect",
+      "text": "As-Is MB chưa được xác minh. Các vai trò là mô hình tham chiếu để đặt câu hỏi.",
+      "textPreview": "As-Is MB chưa được xác minh. Các vai trò là mô hình tham chiếu để đặt câu hỏi.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Open Sans",
+        "color": "#C0504D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.5,
+          "right": 6,
+          "bottom": 4.5,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "As-Is MB chưa được xác minh. Các vai trò là mô hình tham chiếu để đặt câu hỏi."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "As-Is MB chưa được xác minh. Các vai trò là mô hình tham chiếu để đặt câu hỏi.",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Open Sans",
+            "color": "#C0504D",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.05
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "As-Is MB chưa được xác minh. Các vai trò là mô hình tham chiếu để đặt câu hỏi.",
+              "fontSize": 20,
+              "typeface": "Open Sans",
+              "color": "#C0504D",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.05
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

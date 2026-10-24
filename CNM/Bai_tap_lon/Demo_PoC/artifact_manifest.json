@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.1",
+  "run_id": "SYN25K-S42-SPLIT42-MODEL42_52_62-235575dfaf24",
+  "model_file": "fraud_model.json",
+  "model_sha256": "848e692a0e22225fb242d6bb4a59ff16dfc5d414d68e962eec66591d95c2f361",
+  "metrics_file": "metrics.json",
+  "metrics_sha256": "3b10c2ac3835213313a4dce0ca7573bcab26106451b474c6fca75b3ddf2690e5",
+  "feature_order": [
+    "amount",
+    "hour",
+    "channel",
+    "new_device",
+    "location_anomaly",
+    "failed_attempts",
+    "tx_frequency_10m",
+    "new_beneficiary"
+  ],
+  "seed": 42
+}

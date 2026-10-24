@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.1",
+  "run_id": "SYN25K-S42-SPLIT42-MODEL42_52_62-235575dfaf24",
+  "data_source": "synthetic_only_not_MB",
+  "data_sha256": "235575dfaf24ef8f5e82fb3f46d0331b92d34fa45433b00a3910bf76f4909624",
+  "label_generation": "synthetic latent risk score + Gaussian noise; top 1.8 percentile labeled positive",
+  "n_samples": 25000,
+  "positive_rate": 0.018,
+  "split": {
+    "train": 15000,
+    "validation": 5000,
+    "test": 5000,
+    "ratios": "60/20/20 stratified",
+    "same_split_for_all_model_seeds": true
+  },
+  "selection_protocol": {
+    "metric": "F2",
+    "beta": 2,
+    "selection_data": "validation only",
+    "candidate_thresholds": "unique validation scores plus nextafter(max, +inf)",
+    "tie_break": "lower validation alert rate, then higher threshold",
+    "test_used_for_threshold_selection": false
+  },
+  "demo_policy": {
+    "model_seed": 42,
+    "high_threshold": 0.75,
+    "high_threshold_status": "display-only policy assumption; fixed minimum 0.75, not tuned or approved by MB"
+  },
+  "model_sha256": "848e692a0e22225fb242d6bb4a59ff16dfc5d414d68e962eec66591d95c2f361",
+  "feature_order": [
+    "amount",
+    "hour",
+    "channel",
+    "new_device",
+    "location_anomaly",
+    "failed_attempts",
+    "tx_frequency_10m",
+    "new_beneficiary"
+  ],
+  "metrics": {
+    "always_negative": {
+      "roc_auc": 0.5,
+      "average_precision": 0.018,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "f2": 0.0,
+      "false_positive_rate": 0.0,
+      "alert_rate": 0.0,
+      "confusion_matrix": [
+        [
+          4910,
+          0
+        ],
+        [
+          90,
+          0
+        ]
+      ]
+    },
+    "simple_rule": {
+      "roc_auc": 0.8733197556008148,
+      "average_precision": 0.23231395638494712,
+      "precision": 0.11326378539493294,
+      "recall": 0.8444444444444444,
+      "f1": 0.19973718791064388,
+      "f2": 0.3685741998060136,
+      "false_positive_rate": 0.12118126272912423,
+      "alert_rate": 0.1342,
+      "confusion_matrix": [
+        [
+          4315,
+          595
+        ],
+        [
+          14,
+          76
+        ]
+      ],
+      "validation_threshold": 0.3333333333333333
+    },
+    "xgboost_by_seed": {
+      "42": {
+        "roc_auc": 0.982826431319303,
+        "average_precision": 0.5505926429382747,
+        "precision": 0.34759358288770054,
+        "recall": 0.7222222222222222,
+        "f1": 0.4693140794223827,
+        "f2": 0.5941499085923218,
+        "false_positive_rate": 0.02484725050916497,
+        "alert_rate": 0.0374,
+        "confusion_matrix": [
+          [
+            4788,
+            122
+          ],
+          [
+            25,
+            65
+          ]
+        ],
+        "threshold": 0.6373399496078491,
+        "validation_f2": 0.6902654867256637,
+        "validation_alert_rate": 0.041
+      },
+      "52": {
+        "roc_auc": 0.982111337406653,
+        "average_precision": 0.5426744391171947,
+        "precision": 0.3869047619047619,
+        "recall": 0.7222222222222222,
+        "f1": 0.5038759689922481,
+        "f2": 0.615530303030303,
+        "false_positive_rate": 0.020977596741344195,
+        "alert_rate": 0.0336,
+        "confusion_matrix": [
+          [
+            4807,
+            103
+          ],
+          [
+            25,
+            65
+          ]
+        ],
+        "threshold": 0.7246395349502563,
+        "validation_f2": 0.6880733944954128,
+        "validation_alert_rate": 0.037
+      },
+      "62": {
+        "roc_auc": 0.9825548766689297,
+        "average_precision": 0.5355173877040191,
+        "precision": 0.36363636363636365,
+        "recall": 0.7555555555555555,
+        "f1": 0.49097472924187724,
+        "f2": 0.6215722120658135,
+        "false_positive_rate": 0.024236252545824847,
+        "alert_rate": 0.0374,
+        "confusion_matrix": [
+          [
+            4791,
+            119
+          ],
+          [
+            22,
+            68
+          ]
+        ],
+        "threshold": 0.6671028733253479,
+        "validation_f2": 0.700354609929078,
+        "validation_alert_rate": 0.0408
+      }
+    },
+    "xgboost_seed_summary": {
+      "roc_auc": {
+        "mean": 0.982497548464962,
+        "sample_sd": 0.00036097744833286325
+      },
+      "average_precision": {
+        "mean": 0.5429281565864962,
+        "sample_sd": 0.007540829497486271
+      },
+      "precision": {
+        "mean": 0.3660449028096087,
+        "sample_sd": 0.01976595544464405
+      },
+      "recall": {
+        "mean": 0.7333333333333334,
+        "sample_sd": 0.01924500897298752
+      },
+      "f1": {
+        "mean": 0.48805492588550264,
+        "sample_sd": 0.017464964683325722
+      },
+      "f2": {
+        "mean": 0.6104174745628127,
+        "sample_sd": 0.01440838100383083
+      },
+      "false_positive_rate": {
+        "mean": 0.023353699932111338,
+        "sample_sd": 0.0020803195446089016
+      },
+      "alert_rate": {
+        "mean": 0.03613333333333334,
+        "sample_sd": 0.0021939310229205805
+      }
+    }
+  },
+  "latency_seed_42": {
+    "method": "single-row predict_proba; 30 warm-ups, 250 measured calls; local process only",
+    "median_ms": 0.35331250000000003,
+    "p95_ms": 0.3619189,
+    "n_warmup": 30,
+    "n_measured": 250
+  },
+  "environment": {
+    "python": "3.14.5",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 10,
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.4.1"
+  },
+  "created_at_utc": "2026-09-16T17:28:17.074896+00:00"
+}

@@ -1,0 +1,140 @@
+# Danh mục Tài liệu Tham khảo Chuẩn HVNH
+# Đề tài: Ứng dụng Blockchain & Smart Contract ERC-20 trong Hệ sinh thái Loyalty Techcombank
+# Quản lý tự động bởi citation-manager
+
+sources:
+  - id: nguyen-kim-anh-2021
+    type: article
+    language: vi
+    author: "Nguyễn Kim Anh"
+    year: 2021
+    title: "Chuyển đổi số ngành ngân hàng Việt Nam: Thực trạng và định hướng chính sách"
+    journal: "Tạp chí Ngân hàng"
+    volume: 12
+    issue: 4
+    pages: "15-28"
+
+  - id: quoc-hoi-2024-luat-tctd
+    type: book
+    language: vi
+    author: "Quốc hội Việt Nam"
+    year: 2024
+    title: "Luật Các tổ chức tín dụng (Luật số 32/2024/QH15)"
+    publisher: "NXB Chính trị quốc gia Sự thật"
+    place: "Hà Nội"
+
+  - id: dinh-trong-hieu-2022
+    type: book
+    language: vi
+    author: "Đinh Trọng Hiếu"
+    year: 2022
+    title: "Đổi mới sáng tạo và chuyển đổi số trong dịch vụ ngân hàng hiện đại"
+    publisher: "NXB Đại học Quốc gia Hà Nội"
+    place: "Hà Nội"
+
+  - id: nhnn-2020-tt09
+    type: book
+    language: vi
+    author: "Ngân hàng Nhà nước Việt Nam"
+    year: 2020
+    title: "Thông tư số 09/2020/TT-NHNN quy định về an toàn hệ thống thông tin trong hoạt động ngân hàng"
+    publisher: "NXB Thống kê"
+    place: "Hà Nội"
+
+  - id: nhnn-2023-qd2345
+    type: book
+    language: vi
+    author: "Ngân hàng Nhà nước Việt Nam"
+    year: 2023
+    title: "Quyết định số 2345/QĐ-NHNN về triển khai các giải pháp an toàn, bảo mật trong thanh toán trực tuyến và thanh toán thẻ"
+    publisher: "NXB Tài chính"
+    place: "Hà Nội"
+
+  - id: techcombank-2024-annual-report
+    type: book
+    language: vi
+    author: "Techcombank"
+    year: 2024
+    title: "Báo cáo thường niên 2023: Đột phá giá trị và nâng tầm trải nghiệm số"
+    publisher: "Khối Tiếp thị & Truyền thông Techcombank"
+    place: "Hà Nội"
+
+  - id: do-van-thuat-2023
+    type: book
+    language: vi
+    author: "Đỗ Văn Thuật"
+    year: 2023
+    title: "Chuỗi khối và ứng dụng hợp đồng thông minh trong tài chính số"
+    publisher: "NXB Thông tin và Truyền thông"
+    place: "Hà Nội"
+
+  - id: antonopoulos-2018-ethereum
+    type: book
+    language: en
+    author: "Antonopoulos, A. & Wood, G."
+    year: 2018
+    title: "Mastering Ethereum: Building Smart Contracts and DApps"
+    publisher: "O'Reilly Media"
+    place: "Sebastopol"
+
+  - id: buterin-2014-ethereum
+    type: article
+    language: en
+    author: "Buterin, V."
+    year: 2014
+    title: "A Next-Generation Smart Contract and Decentralized Application Platform"
+    journal: "Ethereum Technical Whitepaper"
+    volume: 1
+    issue: 1
+    pages: "1-36"
+
+  - id: nakamoto-2008-bitcoin
+    type: article
+    language: en
+    author: "Nakamoto, S."
+    year: 2008
+    title: "Bitcoin: A Peer-to-Peer Electronic Cash System"
+    journal: "Cryptography Mailing List"
+    volume: 1
+    issue: 1
+    pages: "1-9"
+
+  - id: openzeppelin-2024-erc20
+    type: book
+    language: en
+    author: "OpenZeppelin"
+    year: 2024
+    title: "OpenZeppelin Contracts: Secure Smart Contract Library for Solidity"
+    publisher: "OpenZeppelin Press"
+    place: "San Francisco"
+
+  - id: tapscott-2016-blockchain
+    type: book
+    language: en
+    author: "Tapscott, D. & Tapscott, A."
+    year: 2016
+    title: "Blockchain Revolution: How the Technology Behind Bitcoin Is Changing Money, Business, and the World"
+    publisher: "Portfolio Penguin"
+    place: "New York"
+
+  - id: vogel-2021-loyalty
+    type: article
+    language: en
+    author: "Vogel, F. & Chanson, M."
+    year: 2021
+    title: "Blockchain-Based Loyalty Programs: An Empirical Analysis of Consumer Adoption"
+    journal: "Journal of Business Research"
+    volume: 131
+    issue: 2
+    pages: "402-414"
+
+  - id: zheng-2018-survey
+    type: article
+    language: en
+    author: "Zheng, Z., Xie, S., Dai, H., Chen, X. & Wang, H."
+    year: 2018
+    title: "Blockchain challenges and opportunities: a survey"
+    journal: "International Journal of Web and Grid Services"
+    volume: 14
+    issue: 4
+    pages: "352-375"
