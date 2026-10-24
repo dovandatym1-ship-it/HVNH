@@ -1,0 +1,4969 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" mc:Ignorable="w14 w15 wp14">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="40" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="600" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">KHOA CÔNG NGHỆ THÔNG TIN</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="400" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t xml:space="preserve">BÀI TIỂU LUẬN</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="500" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve">MÔN: CƠ SỞ DỮ LIỆU NÂNG CAO</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">ĐỀ TÀI</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps/>
+          <w:sz w:val="30"/>
+          <w:szCs w:val="30"/>
+        </w:rPr>
+        <w:t xml:space="preserve">BLOCKCHAIN VÀ QUẢN LÝ CHUỖI CUNG ỨNG</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:color="2E75B6" w:sz="6" w:space="6"/>
+        </w:pBdr>
+        <w:spacing w:after="600"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80" w:line="360"/>
+        <w:ind w:left="2600"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Giảng viên hướng dẫn:  ......................................</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80" w:line="360"/>
+        <w:ind w:left="2600"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Sinh viên thực hiện:    ......................................</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80" w:line="360"/>
+        <w:ind w:left="2600"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Mã sinh viên:           ......................................</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="600" w:line="360"/>
+        <w:ind w:left="2600"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Lớp:                    ......................................</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">HÀ NỘI – 2026</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="240" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="dotted" w:color="AAAAAA" w:sz="4" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:line="480"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="200"/>
+        <w:jc w:val="right"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hà Nội, ngày … tháng … năm 2026</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:jc w:val="right"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Giảng viên hướng dẫn</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="200" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">LỜI CAM ĐOAN</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Tôi xin cam đoan bài tiểu luận với đề tài &#x201C;Blockchain và quản lý chuỗi cung ứng&#x201D; là công trình tìm hiểu và tổng hợp của riêng tôi dưới sự hướng dẫn của giảng viên bộ môn Cơ sở dữ liệu nâng cao. Các số liệu, ví dụ minh chứng và kết quả phân tích được trích dẫn trung thực từ những nguồn tài liệu đã công bố và được liệt kê đầy đủ trong mục Tài liệu tham khảo. Tôi không sao chép nguyên văn từ bất kỳ công trình nào khác mà không ghi rõ nguồn gốc. Nếu phát hiện có sự gian lận, tôi xin hoàn toàn chịu trách nhiệm trước bộ môn và nhà trường.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="240"/>
+        <w:jc w:val="right"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Sinh viên thực hiện</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="200" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">LỜI CẢM ƠN</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Để hoàn thành bài tiểu luận này, trước hết tôi xin gửi lời cảm ơn chân thành đến giảng viên phụ trách học phần Cơ sở dữ liệu nâng cao. Những bài giảng về hệ quản trị cơ sở dữ liệu phân tán, mô hình giao dịch và các nguyên lý nhất quán dữ liệu đã cho tôi một khung tư duy để nhìn nhận Blockchain không chỉ như một hiện tượng công nghệ, mà như một lựa chọn kiến trúc dữ liệu với những đánh đổi rất cụ thể. Tôi cũng xin cảm ơn các bạn trong nhóm học tập đã cùng trao đổi, phản biện và chia sẻ tài liệu trong quá trình thực hiện. Do kiến thức và thời gian còn hạn chế, bài viết khó tránh khỏi thiếu sót; tôi rất mong nhận được ý kiến đóng góp của thầy/cô để hoàn thiện hơn.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">MỤC LỤC</w:t>
+      </w:r>
+    </w:p>
+    <w:sdt>
+      <w:sdtPr>
+        <w:alias w:val="Mục lục"/>
+      </w:sdtPr>
+      <w:sdtContent>
+        <w:p>
+          <w:r>
+            <w:fldChar w:fldCharType="begin" w:dirty="true"/>
+            <w:instrText xml:space="preserve">TOC \h \o &quot;1-3&quot;</w:instrText>
+            <w:fldChar w:fldCharType="separate"/>
+          </w:r>
+        </w:p>
+        <w:p>
+          <w:r>
+            <w:fldChar w:fldCharType="end"/>
+          </w:r>
+        </w:p>
+      </w:sdtContent>
+    </w:sdt>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">DANH MỤC HÌNH VẼ VÀ BẢNG BIỂU</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80" w:before="0" w:line="360"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hình 1. Kiến trúc luồng dữ liệu của Blockchain trong một chuỗi cung ứng điển hình.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="200" w:before="0" w:line="360"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hình 2. So sánh thông lượng giao dịch (Throughput) giữa Blockchain và cơ sở dữ liệu truyền thống.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80" w:before="0" w:line="360"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 1. So sánh Blockchain với RDBMS và NoSQL trên các tiêu chí quản trị dữ liệu.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="80" w:before="0" w:line="360"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 2. Đối chiếu mô hình nhất quán ACID và BASE trong ngữ cảnh sổ cái phân tán.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="200" w:before="0" w:line="360"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 3. Tổng hợp một số dự án ứng dụng Blockchain trong chuỗi cung ứng.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="0" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+          <w:caps w:val="false"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">DANH MỤC CHỮ VIẾT TẮT</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9200"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1900"/>
+        <w:gridCol w:w="7300"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Viết tắt</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Diễn giải</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">ACID</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Atomicity, Consistency, Isolation, Durability – bốn tính chất giao dịch của CSDL truyền thống</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">BASE</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Basically Available, Soft state, Eventual consistency – mô hình nhất quán nới lỏng</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">CSDL</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Cơ sở dữ liệu (Database)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">DLT</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Distributed Ledger Technology – công nghệ sổ cái phân tán</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">ERP</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Enterprise Resource Planning – hệ hoạch định nguồn lực doanh nghiệp</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">PBFT</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Practical Byzantine Fault Tolerance – đồng thuận chịu lỗi Byzantine</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">PoS</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Proof of Stake – bằng chứng cổ phần</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">PoW</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Proof of Work – bằng chứng công việc</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">RDBMS</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Relational Database Management System – hệ quản trị CSDL quan hệ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">TPS</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Transactions Per Second – số giao dịch xử lý mỗi giây (thông lượng)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:sectPr>
+          <w:footerReference w:type="default" r:id="rId7"/>
+          <w:pgSz w:w="12240" w:h="15840" w:orient="portrait"/>
+          <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1701" w:header="708" w:footer="708" w:gutter="0"/>
+          <w:pgNumType w:start="1" w:fmt="lowerRoman"/>
+          <w:docGrid w:linePitch="360"/>
+        </w:sectPr>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="160" w:before="280" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">MỞ ĐẦU</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">1. Lý do chọn đề tài</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Chuỗi cung ứng hiện đại hiếm khi còn là một đường thẳng đơn giản từ nhà sản xuất đến người tiêu dùng. Một hộp sữa, một viên thuốc hay một chiếc điện thoại có thể đi qua hàng chục pháp nhân khác nhau ở nhiều quốc gia: nông trại, nhà chế biến, hãng vận tải, kho ngoại quan, đại lý phân phối, rồi mới đến quầy bán lẻ. Mỗi mắt xích lại lưu trữ dữ liệu trong hệ thống riêng của mình – thường là một cơ sở dữ liệu quan hệ đặt sau một phần mềm ERP. Vấn đề nằm ở chỗ các cơ sở dữ liệu này tách rời nhau, mỗi bên chỉ nắm một mảnh sự thật và không bên nào hoàn toàn tin tưởng dữ liệu của bên còn lại.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Từ góc nhìn của môn Cơ sở dữ liệu nâng cao, đây thực chất là bài toán kinh điển về tính toàn vẹn (integrity) và nhất quán (consistency) của dữ liệu trên nhiều nguồn phân tán nhưng không có quản trị tập trung đáng tin cậy. Khi xảy ra sự cố – chẳng hạn một lô thực phẩm nhiễm khuẩn – việc truy ngược nguồn gốc qua các CSDL rời rạc có thể mất nhiều ngày, bởi dữ liệu phải được đối chiếu thủ công, và không gì bảo đảm một bản ghi đã không bị sửa lại sau khi sự việc xảy ra. Chính khoảng trống về niềm tin dữ liệu này là mảnh đất mà Blockchain, với tư cách một sổ cái phân tán chống giả mạo, hứa hẹn lấp đầy. Đó là lý do tôi chọn đề tài &#x201C;Blockchain và quản lý chuỗi cung ứng&#x201D;, nhưng tiếp cận nó trước hết như một mô hình cơ sở dữ liệu mới chứ không phải như một loại tiền mã hóa.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2. Mục đích và phạm vi nghiên cứu</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bài viết hướng tới ba mục tiêu. Thứ nhất, làm rõ nguyên lý hoạt động của Blockchain dưới lăng kính hệ quản trị dữ liệu phân tán, thay vì lăng kính tài chính quen thuộc. Thứ hai, phân tích lợi ích và thách thức khi đưa Blockchain vào quản lý chuỗi cung ứng, đặc biệt nhấn mạnh những đánh đổi (trade-off) về hiệu năng và tính nhất quán so với RDBMS và NoSQL. Thứ ba, đối chiếu lý thuyết với một vài trường hợp ứng dụng thực tế để thấy đâu là thành công, đâu là thất bại và vì sao.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Phạm vi của bài tập trung vào khía cạnh quản trị dữ liệu: cấu trúc lưu trữ, cơ chế đồng thuận, mô hình nhất quán, thông lượng và khả năng mở rộng. Bài không đi sâu vào kinh tế học tiền mã hóa hay chi tiết mật mã học, mà chỉ sử dụng những khái niệm này ở mức cần thiết để giải thích hành vi của hệ thống dữ liệu.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3. Kết cấu đề tài</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Ngoài phần Mở đầu và Kết luận, nội dung chính được chia thành ba chương. Chương 1 trình bày cơ sở lý thuyết: đặc thù dữ liệu của chuỗi cung ứng, hạn chế của CSDL truyền thống và nguyên lý hoạt động của Blockchain. Chương 2 phân tích mô hình ứng dụng, làm rõ lợi ích cùng các thách thức về hiệu năng và tích hợp. Chương 3 khảo sát một số ví dụ thực tế, đề xuất một sơ đồ kiến trúc dữ liệu và đánh giá hiệu quả trước – sau khi áp dụng.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="160" w:before="280" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">CHƯƠNG 1. CƠ SỞ LÝ THUYẾT VÀ TỔNG QUAN VẤN ĐỀ</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">1.1. Khái quát về hệ thống quản lý chuỗi cung ứng</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Một hệ thống quản lý chuỗi cung ứng, xét cho cùng, là một hệ thống dữ liệu liên tổ chức. Dữ liệu ở đây có vài đặc thù đáng chú ý. Nó mang tính tuần tự và phụ thuộc thời gian: mỗi sự kiện (thu hoạch, đóng gói, vận chuyển, kiểm định) sinh ra một bản ghi gắn với mốc thời gian, và thứ tự các bản ghi mang ý nghĩa nghiệp vụ. Nó mang tính liên kết: một mã lô (lot code) phải nối được với chứng từ vận tải, kết quả kiểm nghiệm, hóa đơn… giống như các khóa ngoại trong lược đồ quan hệ. Và quan trọng nhất, nó mang tính đa chủ thể: không có một &#x201C;người sở hữu cơ sở dữ liệu&#x201D; duy nhất, mà mỗi pháp nhân tự quản một phần.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Trong mô hình truyền thống, mỗi doanh nghiệp vận hành một RDBMS tập trung (Oracle, SQL Server, PostgreSQL…) phía sau hệ ERP. Cách làm này có ưu điểm rõ ràng: lược đồ (schema) chặt chẽ, giao dịch tuân thủ ACID, truy vấn nhanh bằng SQL, và việc kiểm soát phân quyền tương đối đơn giản vì chỉ có một quản trị viên. Tuy nhiên, khi đặt nhiều CSDL tập trung như vậy cạnh nhau trong một chuỗi cung ứng, ba hạn chế lộ ra.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Thứ nhất là tính cát cứ và sai lệch dữ liệu. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Vì mỗi bên giữ một bản sao &#x201C;sự thật&#x201D; riêng, dữ liệu giữa các hệ thống dễ lệch nhau do nhập liệu thủ công, do định dạng khác biệt hoặc đơn giản vì độ trễ đồng bộ. Việc đối soát trở thành một quy trình tốn kém.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Thứ hai là khả năng bị can thiệp. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Một bản ghi trong RDBMS hoàn toàn có thể bị UPDATE hoặc DELETE bởi người có đủ quyền, và nếu không bật cơ chế nhật ký kiểm toán (audit log) đầy đủ thì gần như không còn dấu vết. Trong các tình huống cần quy trách nhiệm – ai đã sửa nhiệt độ bảo quản của lô vắc-xin? – đặc tính &#x201C;dễ sửa&#x201D; này lại trở thành điểm yếu.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Thứ ba là khó truy xuất nguồn gốc xuyên tổ chức. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Do không có lược đồ chung và không bên nào được phép truy vấn trực tiếp CSDL của bên khác, việc lần theo lịch sử một sản phẩm đòi hỏi gửi yêu cầu, chờ phản hồi và ghép nối thủ công qua nhiều ranh giới doanh nghiệp.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Những hạn chế này không phải do RDBMS kém, mà do mô hình tập trung không phù hợp với một bài toán vốn dĩ phân tán và thiếu niềm tin lẫn nhau. Đây chính là điểm khởi đầu để xem xét Blockchain như một kiến trúc dữ liệu thay thế.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">1.2. Tổng quan về cơ sở dữ liệu Blockchain</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">1.2.1. Định nghĩa dưới góc nhìn hệ quản trị dữ liệu</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Nếu gạt bỏ lớp vỏ tiền mã hóa, Blockchain có thể được định nghĩa là một cơ sở dữ liệu phân tán chỉ-ghi-thêm (append-only), được nhân bản (replicated) trên nhiều nút (node) ngang hàng, trong đó các bản ghi được nhóm thành khối (block) và liên kết với nhau bằng hàm băm mật mã, còn việc thống nhất trạng thái chung giữa các nút được bảo đảm bởi một giao thức đồng thuận thay cho một máy chủ trung tâm. Nói cách khác, nó là một sổ cái phân tán (Distributed Ledger) mà mọi nút đều giữ một bản sao đầy đủ và logic gần như giống hệt nhau.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">So sánh với mô hình nhân bản của RDBMS giúp thấy rõ sự khác biệt. Trong RDBMS phân tán, ta cũng có replication, nhưng thường theo kiểu chủ – tớ (master–slave): một nút chủ quyết định thứ tự ghi, các nút tớ chép lại. Niềm tin được đặt vào nút chủ. Blockchain thì giả định ngược lại – rằng một số nút có thể gian lận hoặc hỏng – nên không trao quyền quyết định cho bất kỳ nút riêng lẻ nào, mà để cả mạng cùng &#x201C;bỏ phiếu&#x201D; theo giao thức đồng thuận. Đây là sự dịch chuyển từ niềm tin vào chủ thể sang niềm tin vào giao thức.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">1.2.2. Nguyên lý hoạt động cơ bản</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Vòng đời của một giao dịch trên Blockchain có thể tóm gọn qua bốn bước. (i) Một nút khởi tạo giao dịch – ví dụ &#x201C;lô hàng X rời kho Y lúc Z&#x201D; – và ký số bằng khóa riêng của mình. (ii) Giao dịch được phát tán tới các nút khác và đưa vào vùng chờ. (iii) Theo cơ chế đồng thuận, một (hoặc một nhóm) nút gom các giao dịch hợp lệ thành một khối mới; khối này chứa giá trị băm của khối liền trước, tạo thành chuỗi liên kết. (iv) Khối được nhân bản về mọi nút và trở thành một phần bất biến của sổ cái.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Ba thành phần cốt lõi đỡ lấy cơ chế trên. Mạng lưới phi tập trung (peer-to-peer) loại bỏ điểm chết đơn lẻ (single point of failure): không nút nào là không thể thay thế. Liên kết băm theo kiểu cây Merkle khiến mọi thay đổi dù nhỏ ở một bản ghi cũ cũng làm sai lệch toàn bộ chuỗi băm phía sau, nhờ đó hệ thống tự phát hiện được giả mạo. Và cơ chế đồng thuận – Proof of Work, Proof of Stake với mạng công khai, hay PBFT/Raft với mạng cấp phép – quyết định nút nào được quyền ghi khối tiếp theo và làm sao để mọi bản sao hội tụ về cùng một trạng thái. Chính lựa chọn cơ chế đồng thuận sẽ chi phối phần lớn hiệu năng và độ trễ mà ta phân tích ở Chương 2.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">1.2.3. Các đặc điểm cốt lõi từ góc độ dữ liệu</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Tính chống giả mạo (tamper-resistance). </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Đây là đặc điểm có ý nghĩa nhất với quản trị dữ liệu. Vì mỗi khối khóa chặt vào khối trước bằng hàm băm và dữ liệu được nhân bản trên nhiều nút, muốn sửa một bản ghi cũ kẻ tấn công phải tính lại toàn bộ chuỗi băm phía sau trên đa số nút cùng lúc – điều gần như bất khả thi trong một mạng đủ lớn. So với một dòng UPDATE âm thầm trong RDBMS, đây là một bảo đảm toàn vẹn ở cấp độ kiến trúc.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Tính không thể chối bỏ (non-repudiation). </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Mỗi giao dịch được ký số, nên chủ thể đã ghi không thể phủ nhận hành động của mình. Trong chuỗi cung ứng, điều này gắn liền trách nhiệm với từng mắt xích – một thứ mà nhật ký của CSDL tập trung khó cung cấp một cách đáng tin cho các bên đối tác.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Tính ẩn danh / bút danh (pseudonymity). </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Các bên tham gia được nhận diện qua địa chỉ khóa công khai thay vì danh tính thật. Đặc điểm này hữu ích khi cần bảo mật quan hệ thương mại, song trong mạng cấp phép phục vụ doanh nghiệp, người ta thường gắn lại bút danh với pháp nhân thực để phục vụ kiểm toán.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hợp đồng thông minh (smart contract). </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Đây là phần &#x201C;logic&#x201D; chạy ngay trên sổ cái, tương tự stored procedure hoặc trigger trong RDBMS, nhưng được thực thi đồng thời và nhất quán trên mọi nút. Nhờ đó các quy tắc nghiệp vụ – ví dụ &#x201C;tự động thanh toán khi cảm biến xác nhận hàng đã giao đúng nhiệt độ&#x201D; – được thực thi tự động mà không cần một bên trung gian đứng ra đảm bảo.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bốn đặc điểm này cùng nhau biến Blockchain thành một loại CSDL mà điểm mạnh không nằm ở tốc độ hay sự linh hoạt của lược đồ, mà nằm ở khả năng tạo ra một &#x201C;sự thật chung&#x201D; đáng tin giữa các bên không tin nhau. Đó cũng chính là tiền đề để Chương 2 bàn về việc đặc điểm ấy đem lại lợi ích gì cho chuỗi cung ứng và phải trả giá bằng những đánh đổi nào.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="160" w:before="280" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">CHƯƠNG 2. ỨNG DỤNG BLOCKCHAIN TRONG CHUỖI CUNG ỨNG – LỢI ÍCH VÀ THÁCH THỨC</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.1. Mô hình Blockchain trong chuỗi cung ứng</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Điểm thay đổi căn bản khi áp dụng Blockchain nằm ở luồng dữ liệu (data flow). Trong mô hình cũ, dữ liệu của mỗi mắt xích chảy về CSDL riêng rồi được trao đổi qua các kết nối điểm-điểm hoặc qua một máy chủ trung gian (EDI, cổng tích hợp). Trong mô hình Blockchain, mỗi mắt xích ghi sự kiện trực tiếp lên sổ cái chung, và bản ghi ấy lập tức được nhân bản tới mọi nút. Không còn &#x201C;bản sao của tôi&#x201D; và &#x201C;bản sao của anh&#x201D; lệch nhau, mà chỉ còn một sổ cái duy nhất mà tất cả cùng nhìn thấy và không ai sửa lén được.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Trong thực tế triển khai cho doanh nghiệp, người ta hầu như luôn dùng Blockchain cấp phép (permissioned), tiêu biểu là Hyperledger Fabric, thay vì mạng công khai như Bitcoin hay Ethereum. Lý do thuần túy là về quản trị dữ liệu: mạng cấp phép cho phép kiểm soát ai được tham gia, phân quyền đọc/ghi theo vai trò, dùng cơ chế đồng thuận nhẹ hơn (như Raft) nên đạt thông lượng cao hơn nhiều, và bảo vệ được dữ liệu thương mại nhạy cảm. Có thể nói mạng cấp phép là nỗ lực giữ lại tính chống giả mạo của Blockchain trong khi mượn lại sự kiểm soát và hiệu năng vốn là thế mạnh của CSDL doanh nghiệp.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.2. Các lợi ích mang lại</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.2.1. Truy xuất nguồn gốc minh bạch (Data Provenance)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Vì toàn bộ lịch sử của một sản phẩm được ghi tuần tự và bất biến trên cùng một sổ cái, việc truy ngược nguồn gốc trở thành một thao tác đọc dữ liệu đơn giản thay vì một cuộc điều tra liên tổ chức. Đây là lợi ích được chứng minh rõ nhất trên thực tế: trong thử nghiệm của Walmart và IBM, thời gian truy vết nguồn gốc một lô xoài giảm từ khoảng bảy ngày xuống còn 2,2 giây. Con số ấy không phản ánh &#x201C;Blockchain nhanh hơn&#x201D;, mà phản ánh việc dữ liệu vốn nằm rải rác ở nhiều CSDL nay đã được hợp nhất về một nơi có thể truy vấn tức thì.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.2.2. Tính toàn vẹn của dữ liệu (Data Integrity)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Như đã phân tích ở Chương 1, liên kết băm và nhân bản đa nút khiến mỗi bản ghi gần như không thể bị sửa sau khi đã ghi. Trong chuỗi cung ứng dược phẩm hay thực phẩm, điều này nâng chuẩn niềm tin: một kết quả kiểm nghiệm hay một mốc nhiệt độ, một khi đã lên sổ cái, sẽ tồn tại như một bằng chứng không thể chỉnh sửa âm thầm. So với RDBMS, nơi tính toàn vẹn phụ thuộc vào kỷ luật vận hành và quyền hạn của quản trị viên, ở Blockchain tính toàn vẹn được bảo đảm bởi chính cấu trúc dữ liệu.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.2.3. Tự động hóa giao dịch qua Smart Contract</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hợp đồng thông minh cho phép số hóa các điều khoản thương mại và để chúng tự thực thi khi điều kiện được thỏa mãn. Chẳng hạn, một smart contract có thể tự động giải ngân cho nhà cung cấp ngay khi cảm biến IoT xác nhận container đã cập cảng đúng hạn và đủ điều kiện bảo quản. Việc này rút ngắn chu trình thanh toán, giảm tranh chấp và loại bớt khâu trung gian – một dạng tự động hóa quy trình mà nếu làm bằng nhiều CSDL tách rời sẽ cần một lớp điều phối phức tạp và vẫn phụ thuộc vào niềm tin giữa các bên.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.3. Các thách thức và giới hạn</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Phần này là trọng tâm dưới góc độ Cơ sở dữ liệu nâng cao, vì mọi lợi ích nêu trên đều phải trả giá. Định lý CAP nhắc rằng một hệ phân tán không thể đồng thời tối đa hóa nhất quán (Consistency), sẵn sàng (Availability) và chịu phân vùng (Partition tolerance). Blockchain công khai chọn nghiêng về nhất quán và chịu phân vùng, và cái giá phải trả lộ ra ở hiệu năng.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.3.1. Thông lượng và khả năng mở rộng (Throughput &amp; Scalability)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Đây là điểm yếu cố hữu. Vì mọi nút phải lưu và xác thực lại cùng một dữ liệu, năng lực của cả mạng bị kéo về ngang với một nút đơn lẻ – trái ngược với triết lý phân mảnh (sharding) để tăng quy mô của NoSQL. Hệ quả là thông lượng rất thấp: Bitcoin xử lý khoảng 7 giao dịch mỗi giây, Ethereum công khai vào khoảng vài chục TPS, trong khi một RDBMS như PostgreSQL hay một hệ Visa có thể xử lý hàng chục nghìn TPS. Hình 2 minh họa khoảng cách này (lưu ý trục tung theo thang logarit).</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="40" w:before="120"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0">
+            <wp:extent cx="5334000" cy="2724150"/>
+            <wp:effectExtent t="0" r="0" b="0" l="0"/>
+            <wp:docPr id="1" name="So sánh throughput" descr="So sánh throughput" title="So sánh throughput"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="0" name="" descr=""/>
+                    <pic:cNvPicPr>
+                      <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                    </pic:cNvPicPr>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId10" cstate="none"/>
+                    <a:srcRect/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr bwMode="auto">
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="5334000" cy="2724150"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="60" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hình 2. So sánh thông lượng giao dịch giữa Blockchain và CSDL truyền thống (thang log).</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Mạng cấp phép cải thiện đáng kể tình hình: Hyperledger Fabric có thể đạt vài nghìn TPS trong cấu hình thông thường, và các nghiên cứu tối ưu (FastFabric) đẩy con số lên tới gần 20.000 TPS. Tuy vậy, ngay cả khi đó, đặc tính &#x201C;mọi nút cùng lưu mọi thứ&#x201D; vẫn đặt ra trần mở rộng theo chiều ngang khó vượt qua như cách NoSQL phân mảnh dữ liệu ra nhiều cụm độc lập.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.3.2. Độ trễ trong xử lý giao dịch (Latency)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bên cạnh thông lượng là độ trễ tới khi giao dịch được coi là &#x201C;chốt&#x201D; (finality). Với cơ chế PoW, một giao dịch Bitcoin chỉ thực sự an toàn sau khoảng sáu khối, tức gần một giờ. Độ trễ này đến từ bản chất của đồng thuận xác suất và từ việc phải chờ nhân bản trên toàn mạng. Với chuỗi cung ứng, độ trễ vài giây tới vài phút của mạng cấp phép thường chấp nhận được vì các sự kiện logistics không đòi hỏi phản hồi mili-giây; nhưng nó vẫn là một bước lùi so với độ trễ dưới mili-giây của một truy vấn RDBMS được đánh chỉ mục tốt.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.3.3. Chi phí lưu trữ và tích hợp với hệ thống cũ (Legacy)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Vì dữ liệu được nhân bản toàn phần trên mọi nút, chi phí lưu trữ tăng tuyến tính theo số nút – một sự lãng phí dung lượng mà các kiến trúc CSDL truyền thống tránh được nhờ chuẩn hóa và phân mảnh. Đây là lý do trong thực tế người ta thường chỉ đưa lên chuỗi phần dữ liệu cốt lõi và giá trị băm (on-chain), còn dữ liệu lớn như hình ảnh, chứng từ thì lưu ngoài chuỗi (off-chain) rồi neo bằng hàm băm. Thách thức lớn không kém là tích hợp: doanh nghiệp đã đầu tư hàng chục năm vào ERP và RDBMS, nên Blockchain hiếm khi thay thế hoàn toàn mà phải sống chung qua các lớp trung gian (oracle, API), kéo theo bài toán đồng bộ và ánh xạ lược đồ giữa hai thế giới dữ liệu.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">2.3.4. So sánh tổng hợp với RDBMS và NoSQL</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Để hệ thống hóa, Bảng 1 đối chiếu Blockchain với RDBMS và NoSQL trên các tiêu chí quản trị dữ liệu chủ chốt.</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9350"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2300"/>
+        <w:gridCol w:w="2350"/>
+        <w:gridCol w:w="2350"/>
+        <w:gridCol w:w="2350"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Tiêu chí</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">RDBMS (SQL)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">NoSQL</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Blockchain</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Mô hình lưu trữ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Bảng quan hệ, schema cứng</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Document/Key-Value/Graph, schema linh hoạt</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Chuỗi khối liên kết băm, append-only</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Quản trị</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Tập trung, 1 admin</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Tập trung/cụm phân tán</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Phi tập trung, đa chủ thể</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Thao tác ghi</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">CRUD đầy đủ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">CRUD đầy đủ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Chỉ ghi thêm (không sửa/xóa)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Nhất quán</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Mạnh (ACID)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Thường là eventual (BASE)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Theo đồng thuận, hội tụ dần</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Throughput</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Rất cao (vạn TPS)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Rất cao, mở rộng ngang</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Thấp–trung bình (7→vài nghìn TPS)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Chống giả mạo</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Phụ thuộc phân quyền</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Phụ thuộc phân quyền</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Cao, ở cấp kiến trúc</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2300"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Mở rộng quy mô</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Theo chiều dọc là chính</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Sharding theo chiều ngang</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2350"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Hạn chế (mọi nút lưu mọi thứ)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="60" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 1. So sánh Blockchain với RDBMS và NoSQL trên các tiêu chí quản trị dữ liệu.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 2 đi sâu hơn vào trục nhất quán, đối chiếu hai triết lý ACID và BASE để định vị Blockchain. Có thể coi Blockchain công khai là một biến thể đặc biệt: nó hướng tới nhất quán mạnh về cuối (mọi nút cuối cùng đồng ý về một lịch sử duy nhất) nhưng đạt được điều đó một cách dần dần qua đồng thuận, nên về cảm nhận vận hành lại gần với &#x201C;eventual consistency&#x201D; của BASE hơn là sự tức thời của ACID.</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9350"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="3100"/>
+        <w:gridCol w:w="3100"/>
+        <w:gridCol w:w="3150"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Khía cạnh</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">ACID (RDBMS)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3150"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">BASE (NoSQL/Blockchain)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Ưu tiên</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Nhất quán tức thời</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3150"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Sẵn sàng &amp; chịu phân vùng</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Trạng thái</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Luôn hợp lệ sau mỗi giao dịch</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3150"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Có thể tạm &#x201C;mềm&#x201D;, hội tụ dần</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Phù hợp</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Giao dịch tài chính nội bộ</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3150"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Hệ phân tán quy mô lớn, đa chủ thể</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Đánh đổi</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3100"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Khó mở rộng ngang</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="3150"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Lập trình viên phải chấp nhận độ trễ nhất quán</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="60" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 2. Đối chiếu mô hình nhất quán ACID và BASE trong ngữ cảnh sổ cái phân tán.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Tóm lại, Blockchain không phải là &#x201C;CSDL tốt hơn&#x201D; một cách phổ quát. Nó là một đánh đổi rất có chủ đích: hy sinh thông lượng, độ trễ và hiệu quả lưu trữ để đổi lấy tính toàn vẹn và niềm tin không cần trung gian. Lựa chọn dùng hay không, vì thế, phải xuất phát từ việc bài toán có thực sự cần đến niềm tin phân tán hay không.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="160" w:before="280" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">CHƯƠNG 3. VÍ DỤ THỰC TẾ VÀ MÔ PHỎNG</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3.1. Phân tích một số case study thực tế</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3.1.1. Walmart – IBM Food Trust (Hyperledger Fabric)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Walmart phối hợp với IBM xây dựng nền tảng truy xuất nguồn gốc thực phẩm trên Hyperledger Fabric, qua hai thử nghiệm tiêu biểu: truy vết xoài tại Mỹ và thịt lợn tại Trung Quốc. Kết quả nổi bật nhất là thời gian truy xuất nguồn gốc một lô xoài giảm từ khoảng bảy ngày xuống còn 2,2 giây. Sau giai đoạn thử nghiệm, hệ thống được mở rộng cho hơn 25 dòng sản phẩm từ nhiều nhà cung cấp. Dưới góc độ dữ liệu, thành công ở đây đến từ việc thay nhiều CSDL rời rạc bằng một sổ cái chung được nhân bản, biến một quy trình đối soát liên tổ chức thành một truy vấn đọc tức thời.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3.1.2. De Beers – Tracr (truy xuất nguồn gốc kim cương)</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Tracr là nền tảng Blockchain do De Beers phát triển nhằm tạo bản ghi xuất xứ chống giả mạo cho từng viên kim cương, giúp khẳng định nguồn gốc và loại trừ kim cương xung đột. Tính tới năm 2024, gần ba triệu viên kim cương đã được đăng ký trên Tracr, và nền tảng hỗ trợ truy xuất nguồn gốc tới từng quốc gia khai thác cho các viên trên một carat. Đây là ví dụ cho thấy đặc tính non-repudiation và chống giả mạo của Blockchain phát huy giá trị cao nhất khi tài sản có giá trị lớn và nguồn gốc là yếu tố sống còn.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+        <w:spacing w:after="100" w:before="160" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3.1.3. Maersk – IBM TradeLens: một thất bại đáng học hỏi</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Không phải dự án nào cũng thành công. TradeLens, nền tảng số hóa thương mại toàn cầu trên nền Blockchain do Maersk và IBM khởi xướng năm 2018, đã bị đóng cửa vào đầu năm 2023 vì không đạt được mức độ hợp tác toàn ngành cần thiết để duy trì như một doanh nghiệp độc lập. Bài học ở đây mang đậm màu sắc quản trị dữ liệu: giá trị của một sổ cái dùng chung tỉ lệ thuận với số lượng bên cùng ghi vào nó. Khi các đối thủ cạnh tranh ngần ngại đặt dữ liệu của mình lên một nền tảng do một hãng vận tải kiểm soát, hiệu ứng mạng không hình thành, và lợi thế &#x201C;một sự thật chung&#x201D; cũng tan biến. Công nghệ không phải là điểm yếu; vấn đề là mô hình quản trị và niềm tin giữa các bên.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 3 tổng hợp ba trường hợp trên để dễ đối chiếu.</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9350"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1900"/>
+        <w:gridCol w:w="2050"/>
+        <w:gridCol w:w="2450"/>
+        <w:gridCol w:w="2950"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Dự án</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2050"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Nền tảng</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2450"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Lĩnh vực</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2950"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:shd w:fill="D9E2F3" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Kết quả</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Food Trust</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2050"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Hyperledger Fabric</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2450"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Thực phẩm</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2950"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Truy vết 7 ngày → 2,2 giây; mở rộng 25+ sản phẩm</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Tracr</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2050"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Blockchain riêng</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2450"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Kim cương</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2950"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">~3 triệu viên được đăng ký (2024)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1900"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">TradeLens</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2050"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Hyperledger Fabric</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2450"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Vận tải biển</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2950"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="888888" w:sz="2"/>
+              <w:left w:val="single" w:color="888888" w:sz="2"/>
+              <w:bottom w:val="single" w:color="888888" w:sz="2"/>
+              <w:right w:val="single" w:color="888888" w:sz="2"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="110"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="110"/>
+            </w:tcMar>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:spacing w:after="20" w:line="276"/>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b w:val="false"/>
+                <w:bCs w:val="false"/>
+                <w:sz w:val="24"/>
+                <w:szCs w:val="24"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Đóng cửa 2023 do thiếu hợp tác toàn ngành</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="60" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Bảng 3. Tổng hợp một số dự án ứng dụng Blockchain trong chuỗi cung ứng.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3.2. Mô hình hóa kiến trúc đề xuất</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Để hình dung luồng dữ liệu, Hình 1 mô tả một kiến trúc tham chiếu áp dụng Blockchain cho chuỗi cung ứng nông sản hoặc dược phẩm. Bốn mắt xích – nông trại, nhà chế biến, đơn vị logistics và nhà bán lẻ – vừa trao đổi hàng hóa theo luồng vật lý, vừa ghi các sự kiện tương ứng (giao dịch) xuống một sổ cái phân tán chung.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="40" w:before="120"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0">
+            <wp:extent cx="5715000" cy="3228975"/>
+            <wp:effectExtent t="0" r="0" b="0" l="0"/>
+            <wp:docPr id="1" name="Kiến trúc luồng dữ liệu" descr="Kiến trúc luồng dữ liệu" title="Kiến trúc luồng dữ liệu"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="0" name="" descr=""/>
+                    <pic:cNvPicPr>
+                      <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                    </pic:cNvPicPr>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId11" cstate="none"/>
+                    <a:srcRect/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr bwMode="auto">
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="5715000" cy="3228975"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="160" w:before="60" w:line="360"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hình 1. Kiến trúc luồng dữ liệu của Blockchain trong một chuỗi cung ứng điển hình.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Trong sơ đồ, sổ cái không nằm trên một máy chủ trung tâm mà được nhân bản (replication) trên nhiều nút thuộc các bên khác nhau; cơ chế đồng thuận giữ cho mọi bản sao hội tụ về cùng một trạng thái. Các khối được móc nối bằng giá trị băm, nên mọi nỗ lực sửa một sự kiện cũ sẽ phá vỡ chuỗi và bị phát hiện. Hợp đồng thông minh đóng vai trò lớp logic, tự động kích hoạt các hành động như thanh toán hay cảnh báo khi một điều kiện trên sổ cái được thỏa mãn. So với kiến trúc cũ nơi mỗi bên ghi vào CSDL riêng rồi đồng bộ qua trung gian, điểm khác biệt cốt lõi là toàn bộ dữ liệu sự kiện cùng tồn tại trên một sổ cái dùng chung, bất biến và minh bạch với mọi bên được cấp quyền.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">3.3. Đánh giá hiệu quả trước và sau khi áp dụng</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Đặt mô hình truyền thống và mô hình Blockchain cạnh nhau, có thể rút ra một vài nhận định về mặt quản trị dữ liệu. Về truy xuất nguồn gốc, thời gian từ hàng ngày rút xuống còn vài giây, vì dữ liệu không còn phải ghép nối thủ công qua nhiều CSDL. Về tính toàn vẹn, niềm tin chuyển từ chỗ phụ thuộc thiện chí và quyền hạn của từng quản trị viên sang chỗ được bảo đảm bởi cấu trúc băm và nhân bản – nghĩa là &#x201C;tin vào hệ thống&#x201D; thay vì &#x201C;tin vào con người&#x201D;. Về quy trình, smart contract thay thế nhiều khâu đối soát và trung gian thủ công.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Tuy nhiên, đánh giá sẽ phiến diện nếu bỏ qua chi phí. Doanh nghiệp đổi lấy những lợi ích trên bằng thông lượng thấp hơn, độ trễ cao hơn, chi phí lưu trữ và vận hành nút lớn hơn, cùng gánh nặng tích hợp với hệ thống cũ. Bài học từ TradeLens còn cho thấy một chi phí phi kỹ thuật: cần đạt được sự đồng thuận tham gia của đủ nhiều bên thì giá trị mạng mới hình thành. Vì vậy, kết luận hợp lý không phải &#x201C;Blockchain luôn tốt hơn&#x201D;, mà là Blockchain phù hợp cho những chuỗi cung ứng nơi truy xuất nguồn gốc và chống giả mạo có giá trị đủ lớn để bù lại cái giá về hiệu năng – ví dụ dược phẩm, thực phẩm an toàn hay hàng hóa giá trị cao – trong khi với các nghiệp vụ cần thông lượng cực lớn và độ trễ thấp, RDBMS hay NoSQL vẫn là lựa chọn hợp lý hơn.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="160" w:before="280" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">KẾT LUẬN</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Xuyên suốt bài viết, Blockchain được nhìn nhận không phải như một loại tiền mã hóa mà như một kiến trúc cơ sở dữ liệu phân tán với những đặc tính riêng: append-only, nhân bản đa nút, liên kết băm chống giả mạo và đồng thuận thay cho quản trị tập trung. Chính những đặc tính đó giải quyết được điểm yếu cố hữu của mô hình nhiều CSDL tập trung rời rạc trong chuỗi cung ứng – sự cát cứ dữ liệu, nguy cơ bị sửa đổi và khó truy xuất nguồn gốc – bằng cách tạo ra một &#x201C;sự thật chung&#x201D; đáng tin giữa các bên không tin nhau.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Song song với lợi ích là những đánh đổi không thể bỏ qua, và đây là điều quan trọng nhất dưới góc độ Cơ sở dữ liệu nâng cao. So với RDBMS và NoSQL, Blockchain thua thiệt rõ rệt về thông lượng, độ trễ, hiệu quả lưu trữ và khả năng mở rộng ngang. Các ví dụ thực tế – Food Trust, Tracr và cả thất bại của TradeLens – cho thấy công nghệ chỉ phát huy giá trị khi bài toán thực sự cần đến niềm tin phân tán và khi đủ nhiều bên cùng tham gia.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="120" w:before="0" w:line="360"/>
+        <w:ind w:firstLine="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b w:val="false"/>
+          <w:bCs w:val="false"/>
+          <w:i w:val="false"/>
+          <w:iCs w:val="false"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Hướng phát triển trong tương lai nhiều khả năng không phải là thay thế hoàn toàn các hệ quản trị dữ liệu hiện hành, mà là kiến trúc lai (hybrid): kết hợp dữ liệu off-chain trên RDBMS/NoSQL cho khối lượng lớn với neo băm on-chain cho phần cần bất biến, cùng với các giải pháp mở rộng (Layer-2, sharding cho Blockchain) nhằm thu hẹp khoảng cách hiệu năng. Trong viễn cảnh đó, hiểu Blockchain như một công cụ trong hộp công cụ dữ liệu – với điểm mạnh và đánh đổi rõ ràng – sẽ hữu ích hơn nhiều so với việc xem nó như một giải pháp vạn năng.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="160" w:before="280" w:line="360"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">TÀI LIỆU THAM KHẢO</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[1] Antonopoulos, A. M., Mastering Bitcoin: Programming the Open Blockchain, O&#x2019;Reilly Media, 2017.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[2] Casino, F., Dasaklis, T. K., Patsakis, C., &#x201C;A systematic literature review of blockchain-based applications&#x201D;, Telematics and Informatics, 2019.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[3] De Beers Group, Tracr: Blockchain Diamond Provenance Platform – Báo cáo phát triển bền vững, 2024.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[4] Kamath, R., &#x201C;Food Traceability on Blockchain: Walmart&#x2019;s Pork and Mango Pilots with IBM&#x201D;, The Journal of the British Blockchain Association, 2018.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[5] A.P. Moller – Maersk &amp; IBM, Discontinuation of the TradeLens Platform – Thông cáo, 2022.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[6] Nakamoto, S., Bitcoin: A Peer-to-Peer Electronic Cash System, 2008.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[7] Nasir, Q. và cộng sự, &#x201C;Performance Analysis of Hyperledger Fabric Platforms&#x201D;, Security and Communication Networks, 2018.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[8] Nguyễn Đình Thọ, Phương pháp nghiên cứu khoa học trong kinh doanh, NXB Tài chính, 2013.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[9] Tapscott, D., Tapscott, A., Blockchain Revolution, Penguin, 2016.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[10] Wood, G., Ethereum: A Secure Decentralised Generalised Transaction Ledger (Yellow Paper), 2014.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:line="360"/>
+        <w:ind w:left="567" w:hanging="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">[11] Xu, X., Weber, I., Staples, M., Architecture for Blockchain Applications, Springer, 2019.</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr>
+      <w:headerReference w:type="default" r:id="rId8"/>
+      <w:footerReference w:type="default" r:id="rId9"/>
+      <w:pgSz w:w="12240" w:h="15840" w:orient="portrait"/>
+      <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1701" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:pgNumType w:start="1" w:fmt="decimal"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
