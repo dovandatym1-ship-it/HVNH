@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" version="24.0.0">
+  <diagram id="Hinh2_Process_Landscape_LPBank" name="Hinh2_Process_Landscape_LPBank">
+    <mxGraphModel dx="1460" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1420" pageHeight="580" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- BANNER TIÊU ĐỀ -->
+        <mxCell id="h2_banner" value="&lt;b style='font-size:16px;'&gt;SƠ ĐỒ CẢNH QUAN QUY TRÌNH NGÂN HÀNG LPBANK (PROCESS LANDSCAPE &amp;amp; VALUE CHAIN MAP)&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:12px;color:#cbd5e1;'&gt;Chuẩn hóa theo Khung quy trình ngành Ngân hàng APQC PCF v7.2.2 &amp;amp; Định hướng Tinh gọn Enterprise Architecture&lt;/span&gt;" style="rounded=1;arcSize=8;fillColor=#0f172a;strokeColor=#1e293b;fontColor=#ffffff;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1340" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 1. QUY TRÌNH QUẢN LÝ -->
+        <mxCell id="h2_mgmt_box" value="" style="rounded=1;arcSize=8;fillColor=#fef2f2;strokeColor=#dc2626;strokeWidth=1.5;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="105" width="1340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_mgmt_title" value="&lt;b style='color:#991b1b;font-size:12px;'&gt;QUY TRÌNH QUẢN LÝ (MANAGEMENT PROCESSES - APQC 1.0, 7.0, 11.0, 12.0)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontColor:#991b1b;" vertex="1" parent="1">
+          <mxGeometry x="40" y="107" width="1340" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_m1" value="&lt;b style='font-size:12px;'&gt;1.0 Hoạch định Chiến lược&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Định hướng kinh doanh &amp;amp; Ngân sách&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#f87171;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="135" width="300" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_m2" value="&lt;b style='font-size:12px;'&gt;11.0 Quản trị Rủi ro &amp;amp; ALM&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Quản lý thanh khoản, tỷ giá &amp;amp; rủi ro TT&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#f87171;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="135" width="300" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_m3" value="&lt;b style='font-size:12px;'&gt;12.0 Kiểm toán &amp;amp; Tuân thủ&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Giám sát NHNN &amp;amp; Kiểm soát nội bộ&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#f87171;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="135" width="300" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_m4" value="&lt;b style='font-size:12px;'&gt;7.0 Quản trị Thay đổi &amp;amp; Dự án&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Quản lý danh mục Chuyển đổi số&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#f87171;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="135" width="325" height="56" as="geometry" />
+        </mxCell>
+
+        <!-- 2. QUY TRÌNH CỐT LÕI (VALUE CHAIN) -->
+        <mxCell id="h2_core_box" value="" style="rounded=1;arcSize=8;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="225" width="1340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_core_title" value="&lt;b style='color:#1e40af;font-size:13px;'&gt;QUY TRÌNH CỐT LÕI: CHUỖI GIÁ TRỊ CẤP TÍN DỤNG TOÀN TRÌNH END-TO-END (APQC 3.0, 5.0, 6.0)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontColor:#1e40af;" vertex="1" parent="1">
+          <mxGeometry x="40" y="228" width="1340" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- INPUT CỦA KHÁCH HÀNG -->
+        <mxCell id="h2_inp" value="&lt;b style='font-size:11.5px;color:#0f172a;'&gt;NHU CẦU&lt;br&gt;KHÁCH HÀNG&lt;br&gt;&amp;amp; THỊ TRƯỜNG&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:9.5px;color:#64748b;'&gt;Vốn vay SXKD / Tiêu dùng&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f1f5f9;strokeColor=#64748b;strokeWidth=1.5;size=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="55" y="265" width="115" height="125" as="geometry" />
+        </mxCell>
+
+        <!-- CÁC BƯỚC VALUE CHAIN -->
+        <mxCell id="h2_c1" value="&lt;b style='font-size:11px;'&gt;Phát triển Sản phẩm&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:9.5px;color:#475569;'&gt;Gói tín dụng ưu đãi&lt;br&gt;(APQC 3.0)&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=1.5;html=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="290" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_c2" value="&lt;b style='font-size:11px;'&gt;Tiếp thị &amp;amp; Bán hàng&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:9.5px;color:#475569;'&gt;Tiếp cận KH, tư vấn&lt;br&gt;(APQC 3.5)&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=1.5;html=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_c3" value="&lt;b style='font-size:11px;'&gt;Tiếp nhận &amp;amp; Khởi tạo&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:9.5px;color:#475569;'&gt;Nhập hồ sơ trên LOS&lt;br&gt;(APQC 5.3.1)&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=1.5;html=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="290" width="135" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_c4" value="&lt;b style='font-size:11px;'&gt;Thẩm định &amp;amp; Duyệt&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:9.5px;color:#475569;'&gt;Xếp hạng tín dụng&lt;br&gt;&amp;amp; Duyệt hạn mức&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=1.5;html=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="290" width="135" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- HIGHLIGHT TRỌNG TÂM -->
+        <mxCell id="h2_c5_focus" value="&lt;div style='font-size:10px;color:#166534;font-weight:bold;margin-bottom:2px;'&gt;★ QUY TRÌNH TRỌNG TÂM ★&lt;/div&gt;&lt;b style='font-size:12px;color:#14532d;'&gt;TRIỂN KHAI TÍN DỤNG&lt;br&gt;&amp;amp; GIẢI NGÂN VỐN VAY&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#166534;'&gt;(APQC 5.3.1 - 13961)&lt;/span&gt;" style="rounded=1;arcSize=12;fillColor=#dcfce7;strokeColor=#16a34a;strokeWidth=2.5;html=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="275" width="180" height="105" as="geometry" />
+        </mxCell>
+
+        <mxCell id="h2_c6" value="&lt;b style='font-size:11px;'&gt;Quản lý Sau vay&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:9.5px;color:#475569;'&gt;Giám sát dòng tiền&lt;br&gt;&amp;amp; Thu hồi gốc lãi&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#3b82f6;strokeWidth=1.5;html=1;align=center;verticalAlign=middle;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="290" width="130" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- OUTPUT: GIÁ TRỊ KHÁCH HÀNG -->
+        <mxCell id="h2_out" value="&lt;b style='font-size:11.5px;color:#14532d;'&gt;GIÁ TRỊ&lt;br&gt;MANG LẠI CHO&lt;br&gt;KHÁCH HÀNG&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:9.5px;color:#15803d;'&gt;Vốn vay kịp thời,&lt;br&gt;Hài lòng vượt trội&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ecfdf5;strokeColor=#10b981;strokeWidth=1.5;size=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="265" width="120" height="125" as="geometry" />
+        </mxCell>
+
+        <!-- CONNECTORS -->
+        <mxCell id="h2_a_inp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#64748b;strokeWidth=2;" edge="1" parent="1" source="h2_inp" target="h2_c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_a1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;" edge="1" parent="1" source="h2_c1" target="h2_c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_a2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;" edge="1" parent="1" source="h2_c2" target="h2_c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_a3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;" edge="1" parent="1" source="h2_c3" target="h2_c4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_a4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#16a34a;strokeWidth=2.5;" edge="1" parent="1" source="h2_c4" target="h2_c5_focus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_a5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;" edge="1" parent="1" source="h2_c5_focus" target="h2_c6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_a_out" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#10b981;strokeWidth=2;" edge="1" parent="1" source="h2_c6" target="h2_out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 3. QUY TRÌNH HỖ TRỢ -->
+        <mxCell id="h2_sup_box" value="" style="rounded=1;arcSize=8;fillColor=#f8fafc;strokeColor=#64748b;strokeWidth=1.5;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="435" width="1340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_sup_title" value="&lt;b style='color:#334155;font-size:12px;'&gt;QUY TRÌNH HỖ TRỢ (SUPPORT PROCESSES - APQC 4.0, 8.0, 9.0, 10.0)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontColor:#334155;" vertex="1" parent="1">
+          <mxGeometry x="40" y="437" width="1340" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_s1" value="&lt;b style='font-size:12px;'&gt;8.0 Quản trị CNTT &amp;amp; Core T24&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Hạ tầng hệ thống, Smart BPM, LOS&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#94a3b8;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="465" width="245" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_s2" value="&lt;b style='font-size:12px;'&gt;4.0 Quản trị Nhân sự &amp;amp; Đào tạo&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Phát triển năng lực cán bộ tín dụng&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#94a3b8;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="465" width="245" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_s3" value="&lt;b style='font-size:12px;'&gt;9.0 Tài chính, Kế toán &amp;amp; Thuế&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Hạch toán kế toán, quản trị nguồn vốn&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#94a3b8;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="465" width="245" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_s4" value="&lt;b style='font-size:12px;'&gt;10.0 Quản trị Tài sản &amp;amp; ECM&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Kho tài sản đảm bảo &amp;amp; Lưu trữ hồ sơ&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#94a3b8;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="465" width="245" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="h2_s5" value="&lt;b style='font-size:12px;'&gt;An toàn Thông tin &amp;amp; Bảo mật&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10px;color:#64748b;'&gt;Xác thực số, phòng chống gian lận&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#ffffff;strokeColor=#94a3b8;strokeWidth=1.2;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="465" width="240" height="56" as="geometry" />
+        </mxCell>
+    
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

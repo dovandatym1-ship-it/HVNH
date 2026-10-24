@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" version="24.0.0">
+  <diagram id="Hinh1_Ban_do_chien_luoc_LPBank" name="Hinh1_Ban_do_chien_luoc_LPBank">
+    <mxGraphModel dx="1460" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1420" pageHeight="680" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- BANNER TIÊU ĐỀ -->
+        <mxCell id="h1_banner" value="&lt;b style='font-size:16px;'&gt;BẢN ĐỒ CHIẾN LƯỢC QUY TRÌNH GIẢI NGÂN TÍN DỤNG (BALANCED SCORECARD STRATEGY MAP)&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:12px;color:#cbd5e1;'&gt;Đối chuẩn Chiến lược Chuyển đổi số &amp;amp; Tinh gọn vận hành LPBank (2024 - 2026)&lt;/span&gt;" style="rounded=1;arcSize=8;fillColor=#0f172a;strokeColor=#1e293b;fontColor=#ffffff;align=center;verticalAlign=middle;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1340" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- TẦNG 1: TÀI CHÍNH -->
+        <mxCell id="h1_p_fin" value="&lt;b style='font-size:13px;'&gt;TÀI CHÍNH&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10.5px;color:#c2410c;'&gt;(Financial)&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=2;fontColor=#9a3412;align=center;verticalAlign=middle;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="40" y="105" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_c_fin_bg" value="" style="rounded=1;arcSize=6;fillColor=#fafaf9;strokeColor=#ea580c;strokeWidth=1;dashed=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="105" width="1160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_f1" value="&lt;b style='font-size:12.5px;color:#9a3412;'&gt;TĂNG TRƯỞNG TÍN DỤNG BÁN LẺ&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#44403c;margin-top:5px;line-height:1.4;'&gt;• Tăng trưởng dư nợ an toàn +20%/năm&lt;br&gt;• Mở rộng tệp KH vay tiêu dùng &amp;amp; SXKD&lt;br&gt;&lt;b style='color:#c2410c;'&gt;KPI: Dư nợ bán lẻ đạt 180 nghìn tỷ VNĐ&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#fdba74;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_f2" value="&lt;b style='font-size:12.5px;color:#9a3412;'&gt;TỐI ƯU HÓA CHI PHÍ VẬN HÀNH&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#44403c;margin-top:5px;line-height:1.4;'&gt;• Giảm 60% chi phí xử lý trên mỗi món vay&lt;br&gt;• Loại bỏ in ấn, lưu trữ hồ sơ giấy tờ&lt;br&gt;&lt;b style='color:#c2410c;'&gt;KPI: Tỷ lệ CIR toàn hàng duy trì ≤ 29%&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#fdba74;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="120" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_f3" value="&lt;b style='font-size:12.5px;color:#9a3412;'&gt;KIỂM SOÁT CHẤT LƯỢNG NỢ XẤU&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#44403c;margin-top:5px;line-height:1.4;'&gt;• Cảnh báo sớm tín dụng tự động qua Core T24&lt;br&gt;• Giảm thiểu rủi ro gian lận chứng từ giải ngân&lt;br&gt;&lt;b style='color:#c2410c;'&gt;KPI: NPL duy trì mức an toàn ≤ 1.5%&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#fdba74;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="120" width="350" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- TẦNG 2: KHÁCH HÀNG -->
+        <mxCell id="h1_p_cust" value="&lt;b style='font-size:13px;'&gt;KHÁCH HÀNG&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10.5px;color:#0f766e;'&gt;(Customer)&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#f0fdfa;strokeColor=#0d9488;strokeWidth=2;fontColor=#115e59;align=center;verticalAlign=middle;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="40" y="245" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_c_cust_bg" value="" style="rounded=1;arcSize=6;fillColor=#fafaf9;strokeColor=#0d9488;strokeWidth=1;dashed=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="245" width="1160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_c1" value="&lt;b style='font-size:12.5px;color:#115e59;'&gt;RÚT NGẮN THỜI GIAN GIẢI NGÂN&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Tiền về tài khoản ngay trong ngày làm việc&lt;br&gt;• Tự động giải ngân luồng STP không chờ đợi&lt;br&gt;&lt;b style='color:#0f766e;'&gt;KPI: TAT chuẩn ≤ 8h (Khoản vay nhỏ &amp;lt; 15p)&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#5eead4;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_c2" value="&lt;b style='font-size:12.5px;color:#115e59;'&gt;MINH BẠCH TIẾN ĐỘ HỒ SƠ 24/7&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Tra cứu trạng thái xử lý theo thời gian thực&lt;br&gt;• Thông báo biến động số dư &amp;amp; hợp đồng tức thì&lt;br&gt;&lt;b style='color:#0f766e;'&gt;KPI: 100% hồ sơ hiển thị Realtime Tracking&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#5eead4;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="260" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_c3" value="&lt;b style='font-size:12.5px;color:#115e59;'&gt;NÂNG TẦM TRẢI NGHIỆM SỐ VƯỢT TRỘI&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Ký số hợp đồng từ xa qua SmartCA / eSign&lt;br&gt;• Khách hàng không cần trực tiếp tới quầy&lt;br&gt;&lt;b style='color:#0f766e;'&gt;KPI: Tỷ lệ CSAT ≥ 90%, Chỉ số NPS ≥ 65&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#5eead4;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="260" width="350" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- TẦNG 3: QUY TRÌNH NỘI BỘ -->
+        <mxCell id="h1_p_proc" value="&lt;b style='font-size:13px;'&gt;QUY TRÌNH NỘI BỘ&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10.5px;color:#1d4ed8;'&gt;(Internal Process)&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#eff6ff;strokeColor=#2563eb;strokeWidth=2;fontColor=#1e40af;align=center;verticalAlign=middle;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="40" y="385" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_c_proc_bg" value="" style="rounded=1;arcSize=6;fillColor=#fafaf9;strokeColor=#2563eb;strokeWidth=1;dashed=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="385" width="1160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_i1" value="&lt;b style='font-size:12.5px;color:#1e40af;'&gt;CHUẨN HÓA RULE ENGINE &amp;amp; PRE-CHECK&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Khóa tự động trường dữ liệu nguồn (LOS/ECM)&lt;br&gt;• Tự động kiểm tra điều kiện tiên quyết trước thẩm định&lt;br&gt;&lt;b style='color:#1d4ed8;'&gt;KPI: Tỷ lệ tự động hóa Pre-check đạt 100%&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#93c5fd;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_i2" value="&lt;b style='font-size:12.5px;color:#1e40af;'&gt;TÍCH HỢP LIỀN MẠCH SMART BPM &amp;amp; T24&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Xử lý giao dịch thẳng (STP) tự động hạch toán&lt;br&gt;• Cơ chế Idempotency Key chống hạch toán trùng lặp&lt;br&gt;&lt;b style='color:#1d4ed8;'&gt;KPI: Tỷ lệ STP đạt ≥ 35% tổng hồ sơ&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#93c5fd;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="400" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_i3" value="&lt;b style='font-size:12.5px;color:#1e40af;'&gt;TRIỆT TIÊU LÃNG PHÍ &amp;amp; LỖI REWORK&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Cắt bỏ hoàn toàn bước kiểm tra trùng lặp 3 cấp&lt;br&gt;• Chuyển đổi ký số thay thế in ấn, đóng dấu bản cứng&lt;br&gt;&lt;b style='color:#1d4ed8;'&gt;KPI: Tỷ lệ Rework giảm từ 28% xuống &amp;lt; 5%&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#93c5fd;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="400" width="350" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- TẦNG 4: HỌC TẬP & PHÁT TRIỂN -->
+        <mxCell id="h1_p_learn" value="&lt;b style='font-size:13px;'&gt;HỌC TẬP &amp;amp; PHÁT TRIỂN&lt;/b&gt;&lt;br&gt;&lt;span style='font-size:10.5px;color:#6d28d9;'&gt;(Learning &amp;amp; Growth)&lt;/span&gt;" style="rounded=1;arcSize=10;fillColor=#faf5ff;strokeColor=#7c3aed;strokeWidth=2;fontColor=#5b21b6;align=center;verticalAlign=middle;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="40" y="525" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_c_learn_bg" value="" style="rounded=1;arcSize=6;fillColor=#fafaf9;strokeColor=#7c3aed;strokeWidth=1;dashed=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="525" width="1160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_l1" value="&lt;b style='font-size:12.5px;color:#5b21b6;'&gt;NÂNG CAO NĂNG LỰC THẨM ĐỊNH SỐ&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Đào tạo kỹ năng phân tích rủi ro &amp;amp; dữ liệu số cho RM&lt;br&gt;• 100% nhân sự thành thạo thao tác hệ thống Smart BPM&lt;br&gt;&lt;b style='color:#6d28d9;'&gt;KPI: 100% cán bộ tín dụng vượt qua kỳ sát hạch&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#d8b4fe;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_l2" value="&lt;b style='font-size:12.5px;color:#5b21b6;'&gt;XÁC LẬP QUYỀN SỞ HỮU QUY TRÌNH (BPO)&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Bổ nhiệm Business Process Owner chuyên trách&lt;br&gt;• Thiết lập cơ chế đo lường &amp;amp; cải tiến liên tục PDCA&lt;br&gt;&lt;b style='color:#6d28d9;'&gt;KPI: Họp rà soát hiệu năng Process Review định kỳ tháng&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#d8b4fe;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="540" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_l3" value="&lt;b style='font-size:12.5px;color:#5b21b6;'&gt;XÂY DỰNG VĂN HÓA DỮ LIỆU &amp;amp; KỶ LUẬT SLA&lt;/b&gt;&lt;br&gt;&lt;div style='font-size:11px;color:#334155;margin-top:5px;line-height:1.4;'&gt;• Gắn kết quả SLA giải ngân vào đánh giá KPI cá nhân&lt;br&gt;• Văn hóa minh bạch, không đổ lỗi lỗi hồ sơ giữa các khâu&lt;br&gt;&lt;b style='color:#6d28d9;'&gt;KPI: Tỷ lệ tuân thủ cam kết SLA toàn trình ≥ 98%&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=12;fillColor=#ffffff;strokeColor=#d8b4fe;strokeWidth=1.5;html=1;align=left;spacingLeft=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="540" width="350" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- ĐƯỜNG LIÊN KẾT NHÂN QUẢ -->
+        <mxCell id="h1_arr_l1_i1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#7c3aed;strokeWidth=2;" edge="1" parent="1" source="h1_l1" target="h1_i1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_arr_l2_i2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#7c3aed;strokeWidth=2;" edge="1" parent="1" source="h1_l2" target="h1_i2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_arr_l3_i3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#7c3aed;strokeWidth=2;" edge="1" parent="1" source="h1_l3" target="h1_i3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="h1_arr_i1_c1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;" edge="1" parent="1" source="h1_i1" target="h1_c1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_arr_i2_c2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;" edge="1" parent="1" source="h1_i2" target="h1_c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_arr_i3_c3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;" edge="1" parent="1" source="h1_i3" target="h1_c3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="h1_arr_c1_f1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#0d9488;strokeWidth=2;" edge="1" parent="1" source="h1_c1" target="h1_f1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_arr_c2_f2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#0d9488;strokeWidth=2;" edge="1" parent="1" source="h1_c2" target="h1_f2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1_arr_c3_f3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#0d9488;strokeWidth=2;" edge="1" parent="1" source="h1_c3" target="h1_f3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+    
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

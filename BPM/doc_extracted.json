@@ -1,0 +1,517 @@
+[
+  {
+    "index": 0,
+    "style": "Title",
+    "text": "KỊCH BẢN THUYẾT TRÌNH NHÓM – LPBANK"
+  },
+  {
+    "index": 1,
+    "style": "Subtitle",
+    "text": "ĐÁNH GIÁ VÀ HOÀN THIỆN QUY TRÌNH TRIỂN KHAI TÍN DỤNG VÀ GIẢI NGÂN KHÁCH HÀNG CÁ NHÂN TẠI LPBANK"
+  },
+  {
+    "index": 2,
+    "style": "Normal",
+    "text": "Thời lượng dự kiến: 15–18 phút  |  19 slide thực tế  |  Nhóm 5 thành viên"
+  },
+  {
+    "index": 3,
+    "style": "Normal",
+    "text": "Lưu ý trước khi trình bày: File hiện có 19 trang nhưng số đánh trên slide là 01–20, thiếu trang 03. Số liệu được ghi năm 2025 ở slide bối cảnh cần đối chiếu vì bản gốc ghi năm 2024. Cấu trúc phân cấp APQC ở slide 7 cần rà soát với tài liệu tham chiếu; kịch bản dưới đây dùng phân cấp trong bản trình bày gốc."
+  },
+  {
+    "index": 4,
+    "style": "Heading 1",
+    "text": "Phân công gợi ý"
+  },
+  {
+    "index": 5,
+    "style": "Heading 1",
+    "text": "PHẦN MỞ ĐẦU VÀ PHẦN 1 – BỐI CẢNH CHIẾN LƯỢC (20%)"
+  },
+  {
+    "index": 6,
+    "style": "Heading 2",
+    "text": "Slide 1 – Giới thiệu đề tài"
+  },
+  {
+    "index": 7,
+    "style": "Normal",
+    "text": "Kính thưa thầy và các anh chị học viên! Nhóm chúng em xin trình bày đề tài “Đánh giá và hoàn thiện quy trình triển khai tín dụng và giải ngân khách hàng cá nhân tại LPBank”."
+  },
+  {
+    "index": 8,
+    "style": "Normal",
+    "text": "Trong hoạt động ngân hàng, việc phê duyệt một khoản vay mới chỉ là bước đầu. Để khoản vay thực sự đến được với khách hàng, ngân hàng còn phải hoàn thiện nhiều công đoạn kiểm soát, xử lý hồ sơ và giải ngân."
+  },
+  {
+    "index": 9,
+    "style": "Normal",
+    "text": "Vì vậy, một quy trình giải ngân hiệu quả cần đáp ứng đồng thời ba yêu cầu: nhanh chóng, chính xác và kiểm soát tốt rủi ro. Thông qua đề tài, nhóm tập trung đánh giá quy trình hiện tại, đối chiếu với APQC và đề xuất các giải pháp cải tiến."
+  },
+  {
+    "index": 10,
+    "style": "Heading 2",
+    "text": "Slide 2 – Giới thiệu nhóm và cấu trúc nghiên cứu"
+  },
+  {
+    "index": 11,
+    "style": "Normal",
+    "text": "Nhóm nghiên cứu gồm 5 thành viên, như danh sách trình bày trên màn hình."
+  },
+  {
+    "index": 12,
+    "style": "Normal",
+    "text": "Nội dung bài thuyết trình có bốn phần: bối cảnh chiến lược và nhận diện quy trình; đối chiếu quy trình với APQC; đánh giá hiện trạng và lựa chọn ưu tiên; cuối cùng là giải pháp hoàn thiện, chỉ số đo lường và lộ trình triển khai."
+  },
+  {
+    "index": 13,
+    "style": "Heading 2",
+    "text": "Slide 3 – Bối cảnh LPBank và mục tiêu chiến lược"
+  },
+  {
+    "index": 14,
+    "style": "Normal",
+    "text": "LPBank định hướng phát triển theo chiến lược “Bán lẻ – Dịch vụ – Kinh doanh đa năng”, lấy khách hàng làm trọng tâm."
+  },
+  {
+    "index": 15,
+    "style": "Normal",
+    "text": "Các số liệu quy mô và hiệu quả trên slide cho thấy vai trò quan trọng của tín dụng đối với ngân hàng. Chỉ số CIR được trình bày ở mức 29,15% – đây là tỷ lệ chi phí hoạt động trên tổng thu nhập hoạt động, phản ánh hiệu quả kiểm soát chi phí."
+  },
+  {
+    "index": 16,
+    "style": "Normal",
+    "text": "Khi hoạt động bán lẻ mở rộng, số lượng hồ sơ có thể gia tăng. Do đó, tối ưu giải ngân vừa giúp nâng cao trải nghiệm khách hàng, vừa góp phần tăng năng suất và kiểm soát chi phí vận hành."
+  },
+  {
+    "index": 17,
+    "style": "Heading 2",
+    "text": "Slide 4 – Mục tiêu chiến lược theo Balanced Scorecard"
+  },
+  {
+    "index": 18,
+    "style": "Normal",
+    "text": "Nhóm sử dụng Bảng điểm cân bằng – Balanced Scorecard, hay BSC, theo bốn khía cạnh."
+  },
+  {
+    "index": 19,
+    "style": "Normal",
+    "text": "Về tài chính, quy trình hỗ trợ tăng trưởng tín dụng an toàn và tối ưu chi phí xử lý. Về khách hàng, mục tiêu là giải ngân kịp thời và giảm bổ sung hồ sơ nhiều lần. Về quy trình nội bộ, cần chuẩn hóa các bước xử lý, dữ liệu và trách nhiệm kiểm soát. Về học tập và phát triển, ngân hàng cần đào tạo nhân sự và chuẩn hóa quy tắc nghiệp vụ."
+  },
+  {
+    "index": 20,
+    "style": "Normal",
+    "text": "Như vậy, cải tiến giải ngân không đơn thuần là rút ngắn thời gian mà phải tạo hiệu quả đồng bộ trên cả bốn khía cạnh."
+  },
+  {
+    "index": 21,
+    "style": "Heading 2",
+    "text": "Slide 5 – Kiến trúc quy trình Process Landscape"
+  },
+  {
+    "index": 22,
+    "style": "Normal",
+    "text": "Nhóm phân loại kiến trúc nghiệp vụ tín dụng KHCN thành ba nhóm."
+  },
+  {
+    "index": 23,
+    "style": "Normal",
+    "text": "Nhóm quản lý gồm quản trị chiến lược, rủi ro, tuân thủ và hiệu suất. Nhóm cốt lõi đi từ tiếp nhận, thẩm định, phê duyệt, triển khai giải ngân đến quản lý sau vay. Nhóm hỗ trợ gồm CNTT, nhân sự, kế toán, pháp chế và lưu trữ."
+  },
+  {
+    "index": 24,
+    "style": "Normal",
+    "text": "Trong chuỗi giá trị này, triển khai tín dụng và giải ngân kết nối quyết định phê duyệt với việc cung ứng vốn thực tế cho khách hàng. Vì vậy, nhóm chọn đây là phạm vi nghiên cứu sâu."
+  },
+  {
+    "index": 25,
+    "style": "Heading 2",
+    "text": "Slide 6 – Process Checklist"
+  },
+  {
+    "index": 26,
+    "style": "Normal",
+    "text": "Trước khi lựa chọn, nhóm kiểm tra liệu hoạt động giải ngân có đáp ứng tiêu chí của một quy trình độc lập hay không."
+  },
+  {
+    "index": 27,
+    "style": "Normal",
+    "text": "Quy trình có đầu vào và đầu ra rõ ràng: từ khoản vay đã phê duyệt đến hoàn tất chuyển tiền, hạch toán và lưu trữ. Có chuỗi hoạt động lặp lại; có chủ thể và điểm kiểm soát; có khả năng theo dõi, đo lường; và có phạm vi đủ cụ thể, không bao trùm toàn bộ vòng đời tín dụng."
+  },
+  {
+    "index": 28,
+    "style": "Normal",
+    "text": "Từ đó, nhóm kết luận đây là quy trình có thể quản trị độc lập, cần đầu mối chịu trách nhiệm và KPI riêng."
+  },
+  {
+    "index": 29,
+    "style": "Heading 1",
+    "text": "PHẦN 2 – ĐỐI CHIẾU KHUNG APQC (30%)"
+  },
+  {
+    "index": 30,
+    "style": "Heading 2",
+    "text": "Slide 7 – Định vị theo APQC Banking PCF"
+  },
+  {
+    "index": 31,
+    "style": "Normal",
+    "text": "Sau khi xác định phạm vi, nhóm đối chiếu với APQC Banking Process Classification Framework, gọi tắt là APQC PCF. Đây là khung phân loại quy trình dùng để chuẩn hóa và đối chuẩn."
+  },
+  {
+    "index": 32,
+    "style": "Normal",
+    "text": "Theo phân cấp trong tài liệu tham chiếu của nhóm, giải ngân được định vị trong nhóm cung cấp dịch vụ ngân hàng cho khách hàng, thuộc cụm nghiệp vụ tín dụng. Hoạt động trọng tâm là “Fund and Disburse Proceeds”, có mã PCF ID 13961 theo bản nghiên cứu gốc."
+  },
+  {
+    "index": 33,
+    "style": "Normal",
+    "text": "APQC phân loại chức năng, không thay thế trình tự workflow; vì vậy nhóm sử dụng APQC làm chuẩn đối chiếu và tài liệu BPM của LPBank làm cơ sở nghiên cứu luồng công việc."
+  },
+  {
+    "index": 34,
+    "style": "Heading 2",
+    "text": "Slide 8 – Mapping giữa APQC và LPBank"
+  },
+  {
+    "index": 35,
+    "style": "Normal",
+    "text": "Nhóm ánh xạ các hoạt động tại LPBank với các hoạt động tương ứng trong APQC."
+  },
+  {
+    "index": 36,
+    "style": "Normal",
+    "text": "Bảng tập trung vào bảy nhóm: hồ sơ dữ liệu, theo dõi trạng thái, điều kiện sản phẩm, lãi suất, tài sản bảo đảm, thiết lập khoản vay và giải ngân."
+  },
+  {
+    "index": 37,
+    "style": "Normal",
+    "text": "Tài liệu mô tả nhiều chức năng hỗ trợ như upload, checklist, kiểm soát điều kiện, tích hợp T24 và hạch toán. Tuy nhiên, cần kiểm chứng không chỉ việc chức năng có tồn tại mà cả hiệu quả, tính nhất quán và khả năng đo lường."
+  },
+  {
+    "index": 38,
+    "style": "Normal",
+    "text": "Ví dụ, đã có màn hình trạng thái nhưng cần xác minh cảnh báo chậm xử lý; đã có tích hợp T24 nhưng cần làm rõ cơ chế xử lý lỗi và chống giao dịch trùng."
+  },
+  {
+    "index": 39,
+    "style": "Heading 2",
+    "text": "Slide 9 – Gap Analysis"
+  },
+  {
+    "index": 40,
+    "style": "Normal",
+    "text": "Nhóm nhận diện bốn vấn đề cần quan tâm."
+  },
+  {
+    "index": 41,
+    "style": "Normal",
+    "text": "Một là khoảng trống quản trị: chưa đủ bằng chứng về Process Owner chịu trách nhiệm toàn trình và baseline hiệu suất. Hai là khoảng trống tích hợp: cần kiểm chứng đối soát và cơ chế ngăn hạch toán trùng giữa BPM và T24. Ba là nguy cơ chồng chéo: nhập lại thông tin, kiểm tra trùng và trả hồ sơ nhiều lần cần được kiểm chứng bằng dữ liệu. Bốn là phân loại sai: hiện chưa đủ bằng chứng để kết luận có quy trình bị phân loại sai theo APQC."
+  },
+  {
+    "index": 42,
+    "style": "Normal",
+    "text": "Nguyên tắc của nhóm là “chưa có bằng chứng” không đồng nghĩa với “chức năng không tồn tại”."
+  },
+  {
+    "index": 43,
+    "style": "Heading 1",
+    "text": "PHẦN 3 – ĐÁNH GIÁ HIỆN TRẠNG (20%)"
+  },
+  {
+    "index": 44,
+    "style": "Heading 2",
+    "text": "Slide 10 – Lựa chọn quy trình ưu tiên"
+  },
+  {
+    "index": 45,
+    "style": "Normal",
+    "text": "Nhóm lựa chọn quy trình cải tiến bằng năm tiêu chí: tác động chiến lược, khách hàng, rủi ro tác nghiệp, điểm nghẽn và khả năng thu thập bằng chứng."
+  },
+  {
+    "index": 46,
+    "style": "Normal",
+    "text": "Quy trình triển khai tín dụng và giải ngân đạt 4,85/5 điểm, cao nhất trong bốn phương án được so sánh. Đây là khâu tác động trực tiếp tới thời điểm cung ứng vốn. Chậm trễ ảnh hưởng trải nghiệm; sai sót gây rủi ro tài chính và pháp lý."
+  },
+  {
+    "index": 47,
+    "style": "Normal",
+    "text": "Lưu ý, 4,85 là điểm ưu tiên do nhóm chấm, không phải điểm hiệu suất thực tế LPBank."
+  },
+  {
+    "index": 48,
+    "style": "Heading 2",
+    "text": "Slide 11 – Luồng hiện trạng As-Is"
+  },
+  {
+    "index": 49,
+    "style": "Normal",
+    "text": "Nhóm mô tả quy trình hiện tại theo sáu chặng. Thứ nhất, phương án đã phê duyệt được khởi tạo trên BPM. Thứ hai, RM nhập thông tin và chứng từ để đề xuất giải ngân. Thứ ba, kiểm soát viên chi nhánh kiểm tra và có thể trả hồ sơ bổ sung. Thứ tư, CSU rà soát điều kiện và thông số. Thứ năm, hệ thống tích hợp T24 để hạch toán, chuyển tiền. Cuối cùng, hồ sơ được lưu trữ và cập nhật trạng thái hoàn tất."
+  },
+  {
+    "index": 50,
+    "style": "Normal",
+    "text": "Các điểm cần đo sâu là số lần trả hồ sơ, thời gian chờ giữa đơn vị và lỗi tích hợp."
+  },
+  {
+    "index": 51,
+    "style": "Heading 2",
+    "text": "Slide 12 – Đánh giá theo kiến trúc doanh nghiệp"
+  },
+  {
+    "index": 52,
+    "style": "Normal",
+    "text": "Nhóm phân tích theo ba góc nhìn."
+  },
+  {
+    "index": 53,
+    "style": "Normal",
+    "text": "Về tổ chức, quy trình qua nhiều vai trò như RM, kiểm soát viên và CSU, do đó cần xác định trách nhiệm quản trị toàn trình. Về dữ liệu và ứng dụng, hệ thống BPM, LOS, T24 và ECM/GenDoc cần bảo đảm dữ liệu nhất quán và giao dịch truy vết được. Về khách hàng, thời điểm nhận tiền và số lần bổ sung hồ sơ ảnh hưởng trực tiếp đến trải nghiệm."
+  },
+  {
+    "index": 54,
+    "style": "Normal",
+    "text": "Nhóm phân biệt hoạt động tạo giá trị, hoạt động phục vụ kiểm soát và hoạt động không tạo giá trị. Cần giảm nhập lại, chờ đợi nhưng không cắt bỏ các kiểm soát bắt buộc như Maker–Checker."
+  },
+  {
+    "index": 55,
+    "style": "Heading 1",
+    "text": "PHẦN 4 – GIẢI PHÁP HOÀN THIỆN (30%)"
+  },
+  {
+    "index": 56,
+    "style": "Heading 2",
+    "text": "Slide 13 – Quy trình đề xuất To-Be"
+  },
+  {
+    "index": 57,
+    "style": "Normal",
+    "text": "Nhóm đề xuất To-Be gồm tám chặng. Điểm khác biệt chính là đưa việc kiểm tra dữ liệu và điều kiện giải ngân lên sớm hơn."
+  },
+  {
+    "index": 58,
+    "style": "Normal",
+    "text": "Dữ liệu nhận từ LOS, sau đó Pre-check bằng quy tắc nghiệp vụ để phát hiện thiếu sót trước khi hồ sơ đi qua các cấp kiểm soát. Sau xác nhận của RM và Maker–Checker, hệ thống hạch toán T24, chuyển tiền, đối soát, lưu trữ, ghi nhận event log và KPI."
+  },
+  {
+    "index": 59,
+    "style": "Normal",
+    "text": "Thiết kế kỳ vọng giảm vòng lặp hồ sơ, giảm chờ đợi nhưng vẫn duy trì kiểm soát nghiệp vụ."
+  },
+  {
+    "index": 60,
+    "style": "Heading 2",
+    "text": "Slide 14 – Các nhóm giải pháp cải tiến"
+  },
+  {
+    "index": 61,
+    "style": "Normal",
+    "text": "Nhóm đề xuất năm nhóm giải pháp."
+  },
+  {
+    "index": 62,
+    "style": "Normal",
+    "text": "Một là quản trị: chỉ định Process Owner và chuẩn hóa RACI. Hai là đầu vào: Pre-check và mã hóa Reason Code để giảm trả hồ sơ. Ba là dữ liệu: thống nhất Data Dictionary và hệ thống nguồn. Bốn là tích hợp: xử lý lỗi, chống tạo trùng và đối soát T24. Năm là giám sát: event log, cảnh báo SLA và audit trail."
+  },
+  {
+    "index": 63,
+    "style": "Normal",
+    "text": "Các giải pháp phải triển khai đồng bộ: công nghệ tự động hóa, còn quản trị và dữ liệu bảo đảm tính ổn định."
+  },
+  {
+    "index": 64,
+    "style": "Heading 2",
+    "text": "Slide 15 – KPI đánh giá hiệu quả"
+  },
+  {
+    "index": 65,
+    "style": "Normal",
+    "text": "Nhóm đề xuất năm KPI."
+  },
+  {
+    "index": 66,
+    "style": "Normal",
+    "text": "Cycle Time đo thời gian toàn trình, mục tiêu giảm ít nhất 20% thời gian trung vị. First-Time-Right đo tỷ lệ hồ sơ đúng ngay từ đầu, mục tiêu tăng 15 điểm phần trăm. SLA đúng hạn đo tỷ lệ hồ sơ hoàn thành đúng cam kết, mục tiêu từ 95% sau pilot. Rework Rate phản ánh hồ sơ phải làm lại, còn Error Rate phản ánh giao dịch lỗi."
+  },
+  {
+    "index": 67,
+    "style": "Normal",
+    "text": "Với hai chỉ số cuối, nhóm chưa chốt đích do thiếu dữ liệu thực tế. Nhóm đề xuất đo baseline bốn tuần trước khi chốt ngưỡng chính thức. Các mục tiêu này là đề xuất, không phải kết quả đã đạt."
+  },
+  {
+    "index": 68,
+    "style": "Heading 2",
+    "text": "Slide 16 – Lộ trình triển khai"
+  },
+  {
+    "index": 69,
+    "style": "Normal",
+    "text": "Lộ trình có bốn giai đoạn. Baseline trong bốn tuần để chuẩn hóa KPI, đo hiện trạng và phân công trách nhiệm. Pilot từ sáu đến tám tuần tại ba đến năm chi nhánh nhằm kiểm chứng giải pháp. Roll-out từ tám đến mười hai tuần, chỉ mở rộng khi thí điểm qua các điều kiện an toàn và hiệu suất. Sustain là cải tiến liên tục bằng dữ liệu và rà soát quy tắc định kỳ."
+  },
+  {
+    "index": 70,
+    "style": "Normal",
+    "text": "Điểm then chốt là không mở rộng chỉ vì phần mềm đã phát triển xong; phải vượt qua các cổng kiểm soát đã thống nhất."
+  },
+  {
+    "index": 71,
+    "style": "Heading 2",
+    "text": "Slide 17 – Nghiệm thu kết quả cải tiến"
+  },
+  {
+    "index": 72,
+    "style": "Normal",
+    "text": "Nhóm đề xuất nghiệm thu theo ba phương diện: kỹ thuật, nghiệp vụ và an toàn."
+  },
+  {
+    "index": 73,
+    "style": "Normal",
+    "text": "Nghiệm thu kỹ thuật xem xét phân quyền, định tuyến, tự động kiểm tra, xử lý lỗi và đối soát. Nghiệm thu nghiệp vụ đánh giá dữ liệu, Reason Code và KPI trước–sau. Nghiệm thu an toàn yêu cầu không phát sinh lỗi hạch toán nghiêm trọng, giữ kiểm soát bắt buộc và bảo vệ thông tin khách hàng."
+  },
+  {
+    "index": 74,
+    "style": "Normal",
+    "text": "Process Owner, vận hành, rủi ro và CNTT cần cùng xác nhận kết quả."
+  },
+  {
+    "index": 75,
+    "style": "Heading 2",
+    "text": "Slide 18 – Kết luận và kiến nghị"
+  },
+  {
+    "index": 76,
+    "style": "Normal",
+    "text": "Qua nghiên cứu, nhóm nhận thấy BPM là nền tảng quan trọng để chuẩn hóa giải ngân; tuy nhiên, có phần mềm chưa đủ để khẳng định quy trình tối ưu."
+  },
+  {
+    "index": 77,
+    "style": "Normal",
+    "text": "Nhóm đề xuất bốn ưu tiên: xác định Process Owner; tăng Pre-check để giảm vòng lặp hồ sơ; chuẩn hóa tích hợp và truy vết T24; cuối cùng, thiết lập KPI và đánh giá trước–sau cải tiến."
+  },
+  {
+    "index": 78,
+    "style": "Normal",
+    "text": "Thông điệp của nhóm là: “Thành công của cải tiến quy trình không nằm ở số lượng chức năng được số hóa, mà ở hiệu quả vận hành được chứng minh bằng dữ liệu, đồng thời vẫn bảo đảm an toàn và kiểm soát rủi ro.”"
+  },
+  {
+    "index": 79,
+    "style": "Heading 2",
+    "text": "Slide 19 – Tài liệu tham khảo và kết thúc"
+  },
+  {
+    "index": 80,
+    "style": "Normal",
+    "text": "Nghiên cứu được xây dựng trên cơ sở đề bài, khung APQC Banking PCF, tài liệu quy trình được sử dụng trong bài cùng phần phân tích, đề xuất của nhóm. Các chỉ tiêu KPI và kết quả cải tiến là đề xuất nghiên cứu, chưa phải kết quả thực tế được LPBank xác nhận."
+  },
+  {
+    "index": 81,
+    "style": "Normal",
+    "text": "Trên đây là toàn bộ bài thuyết trình. Chúng em xin trân trọng cảm ơn thầy và các anh chị đã lắng nghe và mong nhận được câu hỏi, góp ý để hoàn thiện nội dung."
+  },
+  {
+    "index": 82,
+    "style": "Heading 1",
+    "text": "CÂU HỎI GIẢNG VIÊN CÓ THỂ ĐẶT RA"
+  },
+  {
+    "index": 83,
+    "style": "Heading 2",
+    "text": "Câu 1. Vì sao chọn giải ngân thay vì thẩm định?"
+  },
+  {
+    "index": 84,
+    "style": "Normal",
+    "text": "Giải ngân tác động trực tiếp đến việc cung ứng vốn, có nhiều điểm giao tiếp và rủi ro. Theo tiêu chí do nhóm xây dựng, quy trình đạt 4,85/5 điểm ưu tiên."
+  },
+  {
+    "index": 85,
+    "style": "Heading 2",
+    "text": "Câu 2. APQC có bắt buộc LPBank áp dụng không?"
+  },
+  {
+    "index": 86,
+    "style": "Normal",
+    "text": "Không. APQC là khung tham chiếu phân loại và đối chuẩn; quy trình cụ thể phải phù hợp vận hành, pháp luật và kiểm soát nội bộ."
+  },
+  {
+    "index": 87,
+    "style": "Heading 2",
+    "text": "Câu 3. Đã chứng minh các điểm nghẽn tại LPBank chưa?"
+  },
+  {
+    "index": 88,
+    "style": "Normal",
+    "text": "Chưa có đầy đủ số liệu sản xuất. Nhóm phân biệt chức năng được mô tả với nguy cơ và khoảng trống cần xác minh, nên cần đo baseline trước khi kết luận."
+  },
+  {
+    "index": 89,
+    "style": "Heading 2",
+    "text": "Câu 4. Khác biệt lớn nhất giữa As-Is và To-Be?"
+  },
+  {
+    "index": 90,
+    "style": "Normal",
+    "text": "To-Be đưa Pre-check lên đầu, chuẩn hóa dữ liệu, tăng tự động hóa và đo lường toàn trình mà vẫn bảo toàn Maker–Checker."
+  },
+  {
+    "index": 91,
+    "style": "Heading 2",
+    "text": "Câu 5. Vì sao đặt đích Cycle Time giảm 20%, FTR tăng 15 điểm %?"
+  },
+  {
+    "index": 92,
+    "style": "Normal",
+    "text": "Đây là ngưỡng mục tiêu đề xuất, cần được hiệu chỉnh từ baseline và kết quả pilot trước khi phê duyệt chính thức."
+  },
+  {
+    "index": 93,
+    "style": "Heading 2",
+    "text": "Câu 6. Cải tiến giải ngân tác động thế nào tới CIR?"
+  },
+  {
+    "index": 94,
+    "style": "Normal",
+    "text": "Giảm thao tác thủ công và làm lại hồ sơ có thể góp phần giảm chi phí vận hành, nhưng chưa thể định lượng CIR nếu thiếu dữ liệu chi phí thực tế."
+  },
+  {
+    "index": 95,
+    "style": "Normal",
+    "text": "Gợi ý tập luyện: tránh đọc nguyên văn slide; nhấn mạnh Mapping APQC, Gap Analysis, As-Is/To-Be và KPI. Thống nhất cách diễn giải “đề xuất” và “cần xác minh” để không nhầm với kết quả vận hành thực tế."
+  },
+  {
+    "table_index": 0,
+    "rows": [
+      [
+        "Người",
+        "Phạm vi",
+        "Thời gian"
+      ],
+      [
+        "1",
+        "Mở đầu và Phần 1",
+        "3–4 phút"
+      ],
+      [
+        "2",
+        "Phần 2: APQC và Gap Analysis",
+        "3–4 phút"
+      ],
+      [
+        "3",
+        "Phần 3: Hiện trạng",
+        "3 phút"
+      ],
+      [
+        "4",
+        "Phần 4: To-Be và giải pháp",
+        "3–4 phút"
+      ],
+      [
+        "5",
+        "KPI, lộ trình, nghiệm thu và kết luận",
+        "3–4 phút"
+      ]
+    ]
+  }
+]

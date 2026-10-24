@@ -1,0 +1,51 @@
+graph BT
+    %% TẦNG 1: HỌC TẬP & PHÁT TRIỂN
+    subgraph L1 ["1. HỌC TẬP VÀ PHÁT TRIỂN (NỀN TẢNG CON NGƯỜI & HỆ THỐNG)"]
+        L1_1["Nâng cao năng lực thẩm định số<br>& Nhận diện rủi ro cho RM"]
+        L1_2["Xác lập quyền sở hữu quy trình<br>(End-to-End Process Owner)"]
+        L1_3["Xây dựng văn hóa tuân thủ SLA<br>& Kỷ luật dữ liệu quy trình"]
+    end
+
+    %% TẦNG 2: QUY TRÌNH NỘI BỘ
+    subgraph L2 ["2. QUY TRÌNH NỘI BỘ (TỐI ƯU HÓA VẬN HÀNH & SỐ HÓA)"]
+        L2_1["Chuẩn hóa Rule Engine &<br>Tự động hóa Pre-check hồ sơ"]
+        L2_2["Tích hợp dữ liệu liền mạch<br>Smart BPM ↔ Core T24 ↔ LOS"]
+        L2_3["Giảm tỷ lệ xử lý lại (Rework) &<br>Tinh gọn điểm phê duyệt"]
+    end
+
+    %% TẦNG 3: KHÁCH HÀNG
+    subgraph L3 ["3. KHÁCH HÀNG (TRẢI NGHIỆM DỊCH VỤ VƯỢT TRỘI)"]
+        L3_1["Rút ngắn thời gian giải ngân<br>(TAT ≤ 8h / STP < 15p)"]
+        L3_2["Minh bạch tiến độ xử lý hồ sơ<br>trên Mobile Banking App"]
+        L3_3["Nâng cao trải nghiệm & hài lòng<br>(CSAT ≥ 90%, NPS ≥ 65)"]
+    end
+
+    %% TẦNG 4: TÀI CHÍNH
+    subgraph L4 ["4. TÀI CHÍNH (KẾT QUẢ KINH DOANH BỀN VỮNG)"]
+        L4_1["Tăng trưởng dư nợ bán lẻ<br>an toàn bền vững (+20%)"]
+        L4_2["Tối ưu hóa chi phí vận hành<br>(Tỷ lệ CIR ≤ 29%)"]
+        L4_3["Kiểm soát chất lượng nợ xấu<br>(NPL ≤ 1.5%) & Dự phòng"]
+    end
+
+    %% LIÊN KẾT NHÂN QUẢ (CAUSE-AND-EFFECT)
+    L1_1 --> L2_1
+    L1_2 --> L2_3
+    L1_3 --> L2_2
+
+    L2_1 --> L3_1
+    L2_2 --> L3_2
+    L2_3 --> L3_1
+    L2_3 --> L3_3
+    L2_1 --> L4_3
+
+    L3_1 --> L4_1
+    L3_1 --> L4_2
+    L3_2 --> L3_3
+    L3_3 --> L4_1
+    L2_3 --> L4_2
+
+    %% Định dạng màu sắc chuẩn BSC
+    style L1 fill:#f8fafc,stroke:#64748b,stroke-width:2px;
+    style L2 fill:#f0f9ff,stroke:#0284c7,stroke-width:2px;
+    style L3 fill:#f0fdf4,stroke:#16a34a,stroke-width:2px;
+    style L4 fill:#fff7ed,stroke:#ea580c,stroke-width:2px;

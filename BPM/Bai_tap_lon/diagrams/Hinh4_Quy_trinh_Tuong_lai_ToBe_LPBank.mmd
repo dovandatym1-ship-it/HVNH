@@ -1,0 +1,32 @@
+flowchart TD
+    subgraph LANE1 ["LÀN 1: KHÁCH HÀNG (DIGITAL CHANNEL)"]
+        C_Start((Khách hàng<br>xác nhận)) --> Sign["KÝ SỐ ĐIỆN TỬ TỪ XA<br>(SmartCA / FPT.eSign)"]
+        Track["Theo dõi tiến độ giải ngân<br>Minh bạch trên Mobile App"]
+    end
+
+    subgraph LANE2 ["LÀN 2: CHUYÊN VIÊN QLKH (RM / ĐVKD)"]
+        AutoLoad["Tự động tải 100% dữ liệu<br>từ quyết định LOS (Khóa trường nguồn)"] --> RM_Verify["RM xác nhận phương án &<br>Bổ sung thông tin giải ngân"]
+    end
+
+    subgraph LANE3 ["LÀN 3: HỆ THỐNG SMART BPM (ORCHESTRATOR)"]
+        StartNode((Bắt đầu)) --> PreCheck["PRE-CHECK TỰ ĐỘNG BẰNG RULE ENGINE<br>(Chặn 100% hồ sơ thiếu/lỗi trước submit)"]
+        PreCheck --> AutoLoad
+        RM_Verify --> Gate_Risk{Phân luồng<br>rủi ro}
+    end
+
+    subgraph LANE4 ["LÀN 4: PHÊ DUYỆT RỦI RO & CORE T24"]
+        Gate_Risk -- "LUỒNG THẲNG STP (Khoản vay chuẩn/nhỏ)" --> CoreSTP["HẠCH TOÁN TỰ ĐỘNG CORE T24<br>(Idempotency Key & Circuit Breaker)"]
+        Gate_Risk -- "Khoản vay lớn / Có ngoại lệ" --> Appr["Phê duyệt theo thẩm quyền<br>(SLA ≤ 2h, mã lý do chuẩn)"]
+        Appr --> CoreSTP
+    end
+
+    CoreSTP --> Sign
+    Sign --> Track
+    Sign --> AutoArchive["Tự động đóng gói hồ sơ ECM &<br>Đẩy Event Log ra Dashboard KPIs"]
+    AutoArchive --> EndNode(((Giải ngân<br>hoàn tất)))
+
+    %% Style chuẩn To-Be hiện đại
+    style PreCheck fill:#dcfce7,stroke:#16a34a,stroke-width:2px;
+    style CoreSTP fill:#dcfce7,stroke:#16a34a,stroke-width:2px;
+    style Sign fill:#dbeafe,stroke:#2563eb,stroke-width:2px;
+    style AutoArchive fill:#f3e8ff,stroke:#9333ea,stroke-width:2px;

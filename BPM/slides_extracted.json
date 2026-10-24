@@ -1,0 +1,394 @@
+[
+  {
+    "slide_num": 1,
+    "texts": [
+      "HỌC VIỆN NGÂN HÀNG",
+      "ĐÁNH GIÁ VÀ HOÀN THIỆN QUY TRÌNH",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "01 / 20",
+      "TRIỂN KHAI TÍN DỤNG & GIẢI NGÂN",
+      "KHÁCH HÀNG CÁ NHÂN TẠI LPBANK",
+      "Đối chuẩn APQC PCF  •  Phân tích hiện trạng  •  Thiết kế cải tiến",
+      "Giảng viên hướng dẫn: TS. Phan Thanh Đức"
+    ]
+  },
+  {
+    "slide_num": 2,
+    "texts": [
+      "MỞ ĐẦU",
+      "Nhóm thực hiện & cấu trúc nghiên cứu",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "02 / 20",
+      "STT",
+      "Thành viên",
+      "Mã học viên",
+      "1",
+      "Nguyễn Linh Chi",
+      "28K406003",
+      "2",
+      "Tạ Ngọc Tuệ",
+      "28K406011",
+      "3",
+      "Đỗ Văn Đạt",
+      "28K405001",
+      "4",
+      "Trương An Ninh",
+      "28K405003",
+      "5",
+      "Trần Ngọc Dũng",
+      "28K406005"
+    ]
+  },
+  {
+    "slide_num": 3,
+    "texts": [
+      "PHẦN 1 • 20%",
+      "1.1 Bối cảnh LPBank và mục tiêu chiến lược",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "04 / 20",
+      "Định hướng 2024–2028",
+      "Bán lẻ – Dịch vụ – Kinh doanh đa năng; khách hàng làm trọng tâm.",
+      "Quy mô năm 2025",
+      "Tổng tài sản: 508.330 tỷ đồng",
+      "Dư nợ tín dụng: 331.606 tỷ đồng",
+      "Hiệu quả năm 2025",
+      "Lợi nhuận trước thuế: 12.168 tỷ đồng",
+      "CIR: 29,15%",
+      "Mục tiêu vận hành",
+      "Giải ngân cần nhanh, minh bạch nhưng phải duy trì kiểm soát rủi ro.",
+      "Các số liệu được kế thừa từ bản trình bày gốc; cần đối chiếu báo cáo công bố khi nộp."
+    ]
+  },
+  {
+    "slide_num": 4,
+    "texts": [
+      "PHẦN 1 • 20%",
+      "1.2 Mục tiêu chiến lược về quy trình",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "05 / 20",
+      "01  Tài chính",
+      "Tăng trưởng tín dụng an toàn; tối ưu chi phí vận hành.",
+      "02  Khách hàng",
+      "Giải ngân kịp thời phục vụ khách hàng",
+      "Cắt giảm những hồ sơ, thủ tục không cần thiết",
+      "03  Quy trình nội bộ",
+      "Chuẩn hóa luồng quy trình nghiệp vụ, dữ liệu và",
+      "04  Học tập & phát triển",
+      "Đào tạo nhân viên một cách có hệ thống, quy chuẩn",
+      "Quản trị quy tắc và chất lượng vận hành"
+    ]
+  },
+  {
+    "slide_num": 5,
+    "texts": [
+      "PHẦN 1 • 20%",
+      "1.3 Process Landscape của nghiệp vụ KHCN",
+      "Phân loại ba nhóm quy trình và xác định vị trí giải ngân trong chuỗi giá trị.",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "06 / 20",
+      "MANAGEMENT",
+      "Chiến lược kinh doanh  •  Rủi ro vận hành  •  Tuân thủ nghiệp vụ  •  Hiệu suất làm việc",
+      "CORE  |  Tiếp nhận → Thẩm định → Phê duyệt → TRIỂN KHAI & GIẢI NGÂN → Sau vay",
+      "SUPPORT",
+      "CNTT  •  Nhân sự  •  Kế toán  •  Pháp chế  •  Lưu trữ"
+    ]
+  },
+  {
+    "slide_num": 6,
+    "texts": [
+      "PHẦN 1 • 20%",
+      "1.4 Process Checklist: lựa chọn đúng đối tượng",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "07 / 20",
+      "Tiêu chí kiểm tra",
+      "Đánh giá đối với quy trình giải ngân",
+      "Đầu vào – đầu ra rõ",
+      "Từ khoản vay đã duyệt đến tiền được chuyển và hạch toán.",
+      "Có chuỗi hoạt động lặp lại",
+      "Khởi tạo, kiểm tra, kiểm soát, hạch toán, lưu trữ.",
+      "Có chủ thể và điểm kiểm soát",
+      "RM, kiểm soát viên, BPM, T24.",
+      "Kiểm soát và đo lường được",
+      "Có task, trạng thái và event log; KPI cần chuẩn hóa.",
+      "Phạm vi đủ cụ thể",
+      "Tập trung sau phê duyệt; loại trừ thẩm định và thu hồi nợ.",
+      "Kết luận: đủ điều kiện xem là một quy trình độc lập cần Process Owner và KPI end-to-end."
+    ]
+  },
+  {
+    "slide_num": 7,
+    "texts": [
+      "PHẦN 2 • 30%",
+      "2.1 Định vị theo APQC Banking PCF 7.2.2",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "08 / 20",
+      "LEVEL 1",
+      "Giới thiệu Dịch vụ đến khách hàng",
+      "LEVEL 2",
+      "Cho khách hàng thấy những gì khách hàng nhận được khi sử dụng",
+      "LEVEL 3",
+      "Phân tích nhu cầu dựa trên hành vi tương tác và sự quan tâm của khách hàng",
+      "LEVEL 4",
+      "Triển khai dịch vụ với khách hàng",
+      "APQC là hệ phân loại quy trình, không thay thế sơ đồ thực hiện công việc (workflow)."
+    ]
+  },
+  {
+    "slide_num": 8,
+    "texts": [
+      "PHẦN 2 • 30%",
+      "2.2 Mapping: APQC ↔ hoạt động tại LPBank",
+      "Mảng nghiệp vụ: triển khai tín dụng KHCN, lập hồ sơ và giải ngân.",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "09 / 20",
+      "PCF ID / Hoạt động chuẩn",
+      "Bằng chứng/chức năng tại LPBank",
+      "Khoảng trống cần xác minh",
+      "17400/17402  Hồ sơ – dữ liệu",
+      "Upload; checklist; ECM/GenDoc",
+      "FTR; trùng chứng từ",
+      "17405  Theo dõi hồ sơ",
+      "Task; trạng thái; màn hình monitor",
+      "Cảnh báo SLA; Aging",
+      "17418  Điều kiện sản phẩm",
+      "First check",
+      "Rule Owner; version rule",
+      "17419  Lãi suất/phí",
+      "Trường nhập; API tính phí",
+      "Nguồn master; phê duyệt ngoại lệ",
+      "17420  Tài sản bảo đảm",
+      "Luồng hoàn thiện; mã collateral",
+      "Đồng bộ dữ liệu",
+      "17421  Thiết lập khoản vay",
+      "Ánh xạ trường; API T24",
+      "Timeout; retry; tạo trùng",
+      "13961  Giải ngân",
+      "Hạch toán; chuyển tiền; kiểm soát",
+      "Cycle time, error rate"
+    ]
+  },
+  {
+    "slide_num": 9,
+    "texts": [
+      "PHẦN 2 • 30%",
+      "2.3 Gap Analysis: thiếu gì, trùng gì, chưa biết gì?",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "10 / 20",
+      "KHOẢNG TRỐNG QUẢN TRỊ",
+      "Chưa thể hiện rõ Process Owner toàn trình; thiếu baseline đo Cycle time, FTR và SLA.",
+      "KHOẢNG TRỐNG TÍCH HỢP",
+      "Cần kiểm chứng cơ chế retry, chống hạch toán trùng, đối soát BPM–T24.",
+      "NGUY CƠ CHỒNG CHÉO",
+      "Cần kiểm chứng thao tác nhập lại, kiểm soát trùng hoặc trả hồ sơ lặp nhiều lần.",
+      "NGUY CƠ PHÂN LOẠI SAI",
+      "Chưa đủ bằng chứng để kết luận có quy trình phân loại sai theo APQC.",
+      "Nguyên tắc: “chưa có bằng chứng” ≠ “chức năng không tồn tại”."
+    ]
+  },
+  {
+    "slide_num": 10,
+    "texts": [
+      "PHẦN 3 • 20%",
+      "3.1 Lựa chọn quy trình ưu tiên: 4,85/5 điểm",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "11 / 20",
+      "Quy trình ứng viên",
+      "Điểm ưu tiên",
+      "Triển khai tín dụng & giải ngân",
+      "4,85 / 5,00",
+      "Thẩm định & phê duyệt",
+      "4,35 / 5,00",
+      "Văn kiện & tài sản bảo đảm",
+      "4,10 / 5,00",
+      "Tiếp nhận nhu cầu",
+      "3,60 / 5,00",
+      "Tiêu chí: chiến lược 25%  •  Khách hàng 20%  •  Rủi ro 25%  •  Điểm nghẽn 15%  •  Bằng chứng 15%",
+      "Điểm do nhóm chấm để ưu tiên cải tiến; không phải KPI vận hành đã đo."
+    ]
+  },
+  {
+    "slide_num": 11,
+    "texts": [
+      "PHẦN 3 • 20%",
+      "3.2 As-Is: luồng giải ngân và điểm bàn giao",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "12 / 20",
+      "01",
+      "BPM khởi tạo",
+      "Phương án đã duyệt",
+      "02",
+      "RM đề xuất",
+      "Dữ liệu + chứng từ",
+      "03",
+      "Kiểm soát CN",
+      "Kiểm tra / trả hồ sơ",
+      "04",
+      "CSU rà soát",
+      "Điều kiện + thông số",
+      "05",
+      "T24 / chuyển tiền",
+      "Hạch toán / chi trả",
+      "06",
+      "Đóng hồ sơ",
+      "ECM + trạng thái",
+      "Điểm cần đo: số lần trả hồ sơ • thời gian chờ giữa các đơn vị • lỗi tích hợp • kết quả giải ngân."
+    ]
+  },
+  {
+    "slide_num": 12,
+    "texts": [
+      "PHẦN 3 • 20%",
+      "3.3 Đánh giá hiện trạng theo kiến trúc doanh nghiệp",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "13 / 20",
+      "TỔ CHỨC / HANDOFFS",
+      "RM → Kiểm soát viên → CSU → T24. Trách nhiệm từng khâu có, nhưng cần Owner xuyên suốt.",
+      "DỮ LIỆU / ỨNG DỤNG",
+      "BPM, LOS, T24, ECM/GenDoc; cần chuẩn dữ liệu, trạng thái và dấu vết giao dịch.",
+      "KHÁCH HÀNG",
+      "Rủi ro trải nghiệm: chờ giải ngân và bổ sung hồ sơ lặp lại sau khi đã được phê duyệt.",
+      "Phân tích VA/BVA/NVA: giảm nhập lại và chờ đợi; giữ kiểm soát Maker–Checker bắt buộc."
+    ]
+  },
+  {
+    "slide_num": 13,
+    "texts": [
+      "PHẦN 4 • 30%",
+      "4.1 To-Be: 8 chặng, kiểm soát ngay từ đầu",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "14 / 20",
+      "01  Nhận dữ liệu LOS",
+      "02  Pre-check / Rule Engine",
+      "03  RM xác nhận",
+      "04  Maker–Checker",
+      "05  Hạch toán T24",
+      "06  Chuyển tiền",
+      "07  Đối soát / ECM",
+      "08  Log / KPI / hoàn tất",
+      "Nguyên tắc: phát hiện lỗi sớm → giảm vòng lặp → giữ phân tách nhiệm vụ → truy vết toàn trình."
+    ]
+  },
+  {
+    "slide_num": 14,
+    "texts": [
+      "PHẦN 4 • 30%",
+      "4.2 Giải pháp cải tiến: vận hành và công nghệ",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "15 / 20",
+      "Nhóm giải pháp",
+      "Đề xuất hành động",
+      "Lợi ích kỳ vọng",
+      "Cấu trúc và trách nhiệm",
+      "Chỉ định Process Owner; chuẩn RACI",
+      "Có đầu mối quản trị KPI",
+      "Kiểm soát đầu vào",
+      "Pre-check; Reason Code khi trả hồ sơ",
+      "Giảm rework, tăng FTR",
+      "Chuẩn hóa dữ liệu",
+      "Data Dictionary; System of Record",
+      "Giảm nhập lại, sai lệch",
+      "Tích hợp giao dịch",
+      "Idempotency; retry; đối soát T24",
+      "Ngăn tạo trùng; tăng ổn định",
+      "Giám sát và tuân thủ",
+      "Event log; SLA alert; Audit trail",
+      "Đo hiệu suất, truy vết",
+      "Không loại bỏ kiểm soát pháp lý hoặc Maker–Checker vì lý do tối ưu tốc độ."
+    ]
+  },
+  {
+    "slide_num": 15,
+    "texts": [
+      "PHẦN 4 • 30%",
+      "4.3 5 KPI quản trị hiệu suất sau cải tiến",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "16 / 20",
+      "KPI",
+      "Cách tính / Nguồn dữ liệu",
+      "Mục tiêu đề xuất",
+      "Cycle time E2E",
+      "End − Start; Median, P90 từ event log",
+      "Median giảm ≥20%",
+      "First-Time-Right",
+      "Hồ sơ không trả lại / hồ sơ nộp lần đầu",
+      "Tăng ≥15 điểm %",
+      "SLA đúng hạn",
+      "Hồ sơ hoàn tất đúng hạn / hồ sơ đến hạn",
+      "≥95% sau pilot",
+      "Rework rate",
+      "Hồ sơ phải làm lại / hồ sơ xử lý",
+      "Đo baseline → chốt đích",
+      "Error rate",
+      "Giao dịch lỗi / tổng giao dịch",
+      "Đo baseline → chốt đích",
+      "Mọi mục tiêu là đề xuất của nhóm; đo baseline sản xuất 4 tuần trước khi phê duyệt ngưỡng chính thức."
+    ]
+  },
+  {
+    "slide_num": 16,
+    "texts": [
+      "PHẦN 4 • 30%",
+      "4.4 Lộ trình triển khai và điểm kiểm soát",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "17 / 20",
+      "0  BASELINE",
+      "4 tuần đo thực tế; RACI, dữ liệu, định nghĩa KPI.",
+      "1  PILOT",
+      "6–8 tuần; 3–5 chi nhánh; kiểm soát lỗi và FTR/SLA.",
+      "2  ROLL-OUT",
+      "8–12 tuần; mở rộng khi qua Gate 1; theo dõi SLA.",
+      "3  SUSTAIN",
+      "Process Mining, Pareto lỗi, rà soát quy tắc hàng quý.",
+      "Gate triển khai: chỉ mở rộng khi kiểm soát hạch toán, truy vết và KPI đạt ngưỡng đã thống nhất."
+    ]
+  },
+  {
+    "slide_num": 17,
+    "texts": [
+      "PHẦN 4 • 30%",
+      "4.5 Nghiệm thu: chức năng và kết quả thực tế",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "18 / 20",
+      "NGHIỆM THU KỸ THUẬT",
+      "Luồng quyền/định tuyến; Pre-check; Idempotency; Audit trail; đối soát BPM–T24.",
+      "NGHIỆM THU NGHIỆP VỤ",
+      "Event log đủ mốc; Reason Code chuẩn; KPI trước–sau trên cùng cơ sở so sánh.",
+      "ĐIỀU KIỆN AN TOÀN",
+      "Không phát sinh lỗi hạch toán nghiêm trọng; bảo toàn kiểm soát và dữ liệu cá nhân.",
+      "ĐẦU MỐI XÁC NHẬN",
+      "Process Owner, Vận hành, Rủi ro và CNTT cùng đánh giá, ký nghiệm thu."
+    ]
+  },
+  {
+    "slide_num": 18,
+    "texts": [
+      "KẾT LUẬN",
+      "Kết luận: 4 ưu tiên triển khai",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "19 / 20",
+      "01  OWNER",
+      "Một đầu mối chịu KPI end-to-end.",
+      "02  PRE-CHECK",
+      "Phát hiện thiếu sót sớm; giảm trả hồ sơ.",
+      "03  TÍCH HỢP",
+      "T24 ổn định; đối soát và truy vết.",
+      "04  ĐO LƯỜNG",
+      "Baseline → pilot → đánh giá Before–After.",
+      "Thành công của BPM = hiệu quả quy trình được chứng minh bằng dữ liệu và không suy yếu kiểm soát."
+    ]
+  },
+  {
+    "slide_num": 19,
+    "texts": [
+      "TÀI LIỆU THAM KHẢO",
+      "Nguồn tham chiếu & lưu ý về bằng chứng",
+      "LPBANK  •  ĐÁNH GIÁ & HOÀN THIỆN QUY TRÌNH KHCN",
+      "20 / 20",
+      "Đề bài: “Bài tập thực hành – Đánh giá và hoàn thiện hệ thống quy trình nghiệp vụ tại tổ chức”.",
+      "Bài trình bày gốc của nhóm: “Đánh giá và hoàn thiện quy trình triển khai tín dụng và giải ngân KHCN tại LPBank”.",
+      "Khung tham chiếu do bản gốc nêu: APQC Banking PCF 7.2.2; PCF ID trình bày tại slide 8–10.",
+      "Dữ liệu hệ thống Smart BPM/LOS/T24/ECM và các chỉ tiêu KPI thực tế cần được đối chiếu tài liệu nguồn.",
+      "Các giải pháp, ngưỡng KPI và lộ trình trong bài là đề xuất nghiên cứu; chưa phải kết quả triển khai được xác nhận."
+    ]
+  }
+]

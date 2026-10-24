@@ -1,0 +1,37 @@
+flowchart TD
+    %% KHỐI QUY TRÌNH QUẢN LÝ
+    subgraph M ["QUY TRÌNH QUẢN LÝ (MANAGEMENT PROCESSES)"]
+        direction LR
+        M1["Hoạch định Chiến lược & Kế hoạch KD"] --- M2["Quản trị Rủi ro & ALM Ngân hàng"] --- M3["Kiểm toán Nội bộ & Tuân thủ NHNN"] --- M4["Quản trị Danh mục Thay đổi & Dự án"]
+    end
+
+    %% KHỐI QUY TRÌNH CỐT LÕI (CHUỖI GIÁ TRỊ TÍN DỤNG END-TO-END)
+    subgraph C ["QUY TRÌNH CỐT LÕI (CORE / VALUE CHAIN PROCESSES)"]
+        direction LR
+        IN((Nhu cầu<br>Khách hàng)) --> C1["Phát triển SP<br>& Dịch vụ"]
+        C1 --> C2["Marketing &<br>Bán hàng"]
+        C2 --> C3["Tiếp nhận Hồ sơ<br>& Khởi tạo"]
+        C3 --> C4["Thẩm định Năng lực<br>& Phê duyệt"]
+        C4 --> C5["Hoàn thiện Văn kiện<br>& TSBĐ"]
+        C5 --> C6["TRIỂN KHAI TÍN DỤNG<br>& GIẢI NGÂN (TRỌNG TÂM)"]
+        C6 --> C7["Quản lý Sau vay<br>& Thu hồi nợ"]
+        C7 --> C8["Dịch vụ Khách hàng<br>& Chăm sóc"]
+        C8 --> OUT((Giá trị<br>Khách hàng))
+    end
+
+    %% KHỐI QUY TRÌNH HỖ TRỢ
+    subgraph S ["QUY TRÌNH HỖ TRỢ (SUPPORT PROCESSES)"]
+        direction LR
+        S1["Quản trị CNTT & Core T24"] --- S2["Quản trị Nhân sự & Đào tạo"] --- S3["Tài chính & Kế toán"] --- S4["Pháp chế & Xử lý nợ"] --- S5["Lưu trữ Hồ sơ ECM"] --- S6["An toàn Thông tin"]
+    end
+
+    M -.-> C
+    C -.-> S
+
+    %% Style
+    style M fill:#fef2f2,stroke:#dc2626,stroke-width:2px;
+    style C fill:#eff6ff,stroke:#2563eb,stroke-width:2px;
+    style S fill:#f8fafc,stroke:#475569,stroke-width:2px;
+    style C6 fill:#bbf7d0,stroke:#15803d,stroke-width:3px;
+    style IN fill:#e2e8f0,stroke:#64748b;
+    style OUT fill:#dcfce7,stroke:#16a34a;

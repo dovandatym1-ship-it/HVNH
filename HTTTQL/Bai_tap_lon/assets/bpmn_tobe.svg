@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1F2937"/>
+    </marker>
+    <marker id="msg" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7030A0"/>
+    </marker>
+    <marker id="err" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#DC2626"/>
+    </marker>
+  </defs>
+
+  <style>
+    .pool { fill: none; stroke: #1F2937; stroke-width: 2px; }
+    .pool-kh { fill: none; stroke: #7030A0; stroke-width: 2px; }
+    .lane { fill: none; stroke: #9CA3AF; stroke-width: 1px; }
+    
+    .task-ai { fill: #D1FAE5; stroke: #047857; stroke-width: 2px; rx: 8px; }
+    .task-kd { fill: #FFFFFF; stroke: #1F2937; stroke-width: 1.5px; rx: 8px; }
+    .task-asis { fill: #F3F4F6; stroke: #6B7280; stroke-width: 1.5px; stroke-dasharray: 4 2; rx: 8px; }
+    .task-kh { fill: #FFFFFF; stroke: #7030A0; stroke-width: 1.5px; rx: 8px; }
+    
+    .text-bold { font-size: 11px; font-weight: bold; text-anchor: middle; fill: #111827; }
+    .text-norm { font-size: 10.5px; text-anchor: middle; fill: #374151; }
+    
+    .flow { fill: none; stroke: #1F2937; stroke-width: 1.5px; }
+    .flow-msg { fill: none; stroke: #7030A0; stroke-width: 1.5px; stroke-dasharray: 5 4; }
+    .flow-err { fill: none; stroke: #DC2626; stroke-width: 1.5px; }
+    
+    .event-start-vnpt { fill: #FFFFFF; stroke: #059669; stroke-width: 3px; }
+    .event-start-kh { fill: #FFFFFF; stroke: #059669; stroke-width: 3px; }
+    .event-end { fill: #FFFFFF; stroke: #DC2626; stroke-width: 4px; }
+    
+    .gateway { fill: #FFFFFF; stroke: #1F2937; stroke-width: 1.5px; stroke-linejoin: round; }
+    .text-msg { fill: #7030A0; font-size: 11.5px; font-style: italic; font-weight: bold; }
+  </style>
+
+  <text x="800" y="36" font-size="22" font-weight="bold" text-anchor="middle" fill="#1F2937">Sơ đồ BPMN To-be: Cải tiến giai đoạn tiếp nhận - tư vấn - lập hồ sơ FTTH</text>
+  <text x="800" y="58" font-size="14" text-anchor="middle" fill="#4B5563">Phạm vi đề xuất: GenAI + RAG + OCR/eKYC. Các khâu khảo sát - lắp đặt - mở cước giữ như As-is.</text>
+
+  <!-- VNPT Pool -->
+  <rect x="20" y="80" width="1560" height="560" class="pool"/>
+  <rect x="20" y="80" width="30" height="560" fill="#1E3A8A"/>
+  <text x="35" y="360" font-size="14" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90 35 360)">TẬP ĐOÀN VNPT</text>
+
+  <!-- VNPT Lanes -->
+  <rect x="50" y="80" width="1530" height="140" fill="#EFF6FF" class="lane"/>
+  <text x="70" y="150" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="middle" transform="rotate(-90 70 150)">Chatbot GenAI</text>
+
+  <rect x="50" y="220" width="1530" height="140" fill="#F0FDF4" class="lane"/>
+  <text x="70" y="290" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="middle" transform="rotate(-90 70 290)">Kinh doanh</text>
+
+  <rect x="50" y="360" width="1530" height="140" fill="#FFFBEB" class="lane"/>
+  <text x="70" y="430" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="middle" transform="rotate(-90 70 430)">Kỹ thuật (giữ nguyên)</text>
+
+  <rect x="50" y="500" width="1530" height="140" fill="#FDF2F8" class="lane"/>
+  <text x="70" y="570" font-size="12" font-weight="bold" fill="#1F2937" text-anchor="middle" transform="rotate(-90 70 570)">Billing (giữ nguyên)</text>
+
+  <!-- KH Pool -->
+  <rect x="20" y="680" width="1560" height="160" class="pool-kh"/>
+  <rect x="20" y="680" width="30" height="160" fill="#7030A0"/>
+  <text x="35" y="760" font-size="14" font-weight="bold" fill="white" text-anchor="middle" transform="rotate(-90 35 760)">KHÁCH HÀNG</text>
+
+  <!-- VNPT Sequence Flows -->
+  <path d="M 108,150 L 145,150" class="flow" marker-end="url(#ar)"/>
+  <path d="M 275,150 L 295,150" class="flow" marker-end="url(#ar)"/>
+  <path d="M 425,150 L 445,150" class="flow" marker-end="url(#ar)"/>
+  <path d="M 575,150 L 595,150" class="flow" marker-end="url(#ar)"/>
+  <path d="M 660,182 L 660,280 Q 660,290 670,290 L 745,290" class="flow" marker-end="url(#ar)"/>
+  <path d="M 875,290 L 930,290" class="flow" marker-end="url(#ar)"/>
+  <path d="M 970,290 L 1025,290" class="flow" marker-end="url(#ar)"/>
+  <text x="997" y="284" class="text-bold" fill="#059669">Có</text>
+  
+  <path d="M 950,270 L 950,220 Q 950,210 940,210 L 370,210 Q 360,210 360,200 L 360,182" class="flow-err" marker-end="url(#err)"/>
+  <text x="750" y="205" font-size="11" fill="#DC2626" font-style="italic" text-anchor="middle">Thiếu/sai → bot hỏi lại KH</text>
+
+  <path d="M 1090,322 L 1090,420 Q 1090,430 1100,430 L 1175,430" class="flow" marker-end="url(#ar)"/>
+  <path d="M 1240,462 L 1240,560 Q 1240,570 1250,570 L 1325,570" class="flow" marker-end="url(#ar)"/>
+  <path d="M 1455,570 L 1502,570" class="flow" marker-end="url(#ar)"/>
+
+  <!-- KH Sequence Flows -->
+  <path d="M 108,750 L 145,750" class="flow" marker-end="url(#ar)"/>
+  <path d="M 275,750 L 295,750" class="flow" marker-end="url(#ar)"/>
+  <path d="M 425,750 L 445,750" class="flow" marker-end="url(#ar)"/>
+  <path d="M 575,750 L 1025,750" class="flow" marker-end="url(#ar)"/>
+  <path d="M 1155,750 L 1502,750" class="flow" marker-end="url(#ar)"/>
+
+  <!-- Message Flows -->
+  <path d="M 210,718 L 210,182" class="flow-msg" marker-end="url(#msg)"/>
+  <path d="M 360,182 L 360,718" class="flow-msg" marker-end="url(#msg)"/>
+  <text x="365" y="450" class="text-msg">gợi ý gói cước</text>
+  <path d="M 510,718 L 510,182" class="flow-msg" marker-end="url(#msg)"/>
+  <text x="515" y="450" class="text-msg">ảnh CCCD, xác nhận</text>
+  <path d="M 1090,322 L 1090,718" class="flow-msg" marker-end="url(#msg)"/>
+  <text x="1095" y="550" class="text-msg">gửi eContract</text>
+
+  <!-- VNPT Nodes -->
+  <circle cx="90" cy="150" r="18" class="event-start-vnpt"/>
+  <text x="90" y="185" font-size="10.5" fill="#059669" font-weight="bold" text-anchor="middle">Bot tiếp nhận</text>
+
+  <rect x="145" y="118" width="130" height="64" class="task-ai"/>
+  <text x="210" y="137" class="text-bold">[AI-1] GenAI hỏi &amp;</text>
+  <text x="210" y="151" class="text-norm">hiểu nhu cầu KH</text>
+  <text x="210" y="165" class="text-norm">(ngôn ngữ tự nhiên)</text>
+
+  <rect x="295" y="118" width="130" height="64" class="task-ai"/>
+  <text x="360" y="137" class="text-bold">[AI-2] RAG tra cứu</text>
+  <text x="360" y="151" class="text-norm">Product Catalog,</text>
+  <text x="360" y="165" class="text-norm">tư vấn gói cước</text>
+
+  <rect x="445" y="118" width="130" height="64" class="task-ai"/>
+  <text x="510" y="137" class="text-bold">[AI-3] OCR + eKYC</text>
+  <text x="510" y="151" class="text-norm">đọc CCCD, xác</text>
+  <text x="510" y="165" class="text-norm">thực thông tin KH</text>
+
+  <rect x="595" y="118" width="130" height="64" class="task-ai"/>
+  <text x="660" y="137" class="text-bold">[AI-4] Tạo hồ sơ</text>
+  <text x="660" y="151" class="text-norm">đăng ký sơ bộ,</text>
+  <text x="660" y="165" class="text-norm">đẩy sang CRM/BSS</text>
+
+  <rect x="745" y="258" width="130" height="64" class="task-kd"/>
+  <text x="810" y="277" class="text-bold">NV kinh doanh</text>
+  <text x="810" y="291" class="text-norm">kiểm tra hồ sơ,</text>
+  <text x="810" y="305" class="text-norm">xử lý ngoại lệ</text>
+
+  <polygon points="930,290 950,270 970,290 950,310" class="gateway"/>
+  <text x="950" y="328" font-size="11" font-weight="bold" fill="#1F2937" text-anchor="middle">Hợp lệ?</text>
+
+  <rect x="1025" y="258" width="130" height="64" class="task-kd"/>
+  <text x="1090" y="277" class="text-bold">Phát hành phiếu</text>
+  <text x="1090" y="291" class="text-norm">work order tới</text>
+  <text x="1090" y="305" class="text-norm">kỹ thuật</text>
+
+  <rect x="1175" y="398" width="130" height="64" class="task-asis"/>
+  <text x="1240" y="417" class="text-bold">Khảo sát &amp; lắp đặt</text>
+  <text x="1240" y="431" class="text-norm">(như As-is - Câu 3,</text>
+  <text x="1240" y="445" class="text-norm">bước 8 đến 11)</text>
+
+  <rect x="1325" y="538" width="130" height="64" class="task-asis"/>
+  <text x="1390" y="557" class="text-bold">Nghiệm thu, mở</text>
+  <text x="1390" y="571" class="text-norm">cước, xuất hóa đơn</text>
+  <text x="1390" y="585" class="text-norm">(như As-is - bước 12)</text>
+
+  <circle cx="1520" cy="570" r="18" class="event-end"/>
+  <text x="1520" y="605" font-size="10.5" font-weight="bold" fill="#DC2626" text-anchor="middle">Kết thúc</text>
+
+  <!-- KH Nodes -->
+  <circle cx="90" cy="750" r="18" class="event-start-kh"/>
+  <text x="90" y="785" font-size="10.5" font-weight="bold" fill="#059669" text-anchor="middle">Phát sinh nhu cầu</text>
+
+  <rect x="145" y="718" width="130" height="64" class="task-kh"/>
+  <text x="210" y="743" class="text-bold">Chat trên Web/</text>
+  <text x="210" y="757" class="text-norm">Zalo/My VNPT</text>
+
+  <rect x="295" y="718" width="130" height="64" class="task-kh"/>
+  <text x="360" y="743" class="text-bold">Xem gợi ý &amp;</text>
+  <text x="360" y="757" class="text-norm">chọn gói cước</text>
+
+  <rect x="445" y="718" width="130" height="64" class="task-kh"/>
+  <text x="510" y="743" class="text-bold">Chụp CCCD,</text>
+  <text x="510" y="757" class="text-norm">xác nhận ĐK</text>
+
+  <rect x="1025" y="718" width="130" height="64" class="task-kh"/>
+  <text x="1090" y="743" class="text-bold">Ký hợp đồng</text>
+  <text x="1090" y="757" class="text-norm">điện tử (eSign)</text>
+
+  <circle cx="1520" cy="750" r="18" class="event-end"/>
+  <text x="1520" y="785" font-size="10.5" font-weight="bold" fill="#DC2626" text-anchor="middle">Đã dùng dịch vụ</text>
+
+  <!-- Legend -->
+  <rect x="60" y="880" width="16" height="16" class="task-ai"/>
+  <text x="85" y="893" font-size="12" fill="#1F2937">Task cải tiến bằng GenAI / OCR / eKYC (trong phạm vi bài)</text>
+
+  <rect x="520" y="880" width="16" height="16" class="task-kd"/>
+  <text x="545" y="893" font-size="12" fill="#1F2937">Task thủ công của nhân viên (kiểm tra ngoại lệ)</text>
+
+  <rect x="940" y="880" width="16" height="16" class="task-asis"/>
+  <text x="965" y="893" font-size="12" fill="#1F2937">Khâu giữ nguyên như As-is (chưa thay đổi)</text>
+
+  <text x="60" y="940" font-size="11.5" fill="#6B7280" font-style="italic">Ghi chú: ML dự đoán khả thi, tối ưu lịch KTV (VRP), RPA cấu hình OSS và RPA mở cước được xếp vào "hướng phát triển sau", không nằm trong phạm vi đề xuất chính.</text>
+</svg>

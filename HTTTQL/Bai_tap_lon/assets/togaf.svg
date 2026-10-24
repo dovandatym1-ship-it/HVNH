@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="bus" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#2E75B6"/><stop offset="1" stop-color="#1F4E79"/>
+    </linearGradient>
+    <linearGradient id="app" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#70AD47"/><stop offset="1" stop-color="#385723"/>
+    </linearGradient>
+    <linearGradient id="dat" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ED7D31"/><stop offset="1" stop-color="#A55A1F"/>
+    </linearGradient>
+    <linearGradient id="tec" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#7030A0"/><stop offset="1" stop-color="#3F1B5A"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <text x="700" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1F2937">Kiến trúc Doanh nghiệp VNPT theo khung TOGAF</text>
+  <text x="700" y="65" font-size="14" text-anchor="middle" fill="#4B5563">Enterprise Architecture - 4 tầng kiến trúc</text>
+
+  <!-- Business Layer -->
+  <rect x="40" y="100" width="1320" height="180" fill="url(#bus)" rx="8" opacity="0.95"/>
+  <text x="60" y="130" font-size="18" font-weight="bold" fill="white">TẦNG NGHIỆP VỤ (BUSINESS LAYER)</text>
+  <text x="60" y="150" font-size="11" fill="#E5E7EB">Các quy trình nghiệp vụ và mô hình hoạt động kinh doanh</text>
+  <g fill="white">
+    <rect x="60" y="170" width="195" height="90" fill="rgba(255,255,255,0.18)" rx="6"/>
+    <text x="157" y="195" font-size="13" font-weight="bold" text-anchor="middle">Bán hàng &amp; CSKH</text>
+    <text x="157" y="215" font-size="11" text-anchor="middle">- Tư vấn gói cước</text>
+    <text x="157" y="232" font-size="11" text-anchor="middle">- Tiếp nhận yêu cầu</text>
+    <text x="157" y="249" font-size="11" text-anchor="middle">- Chăm sóc sau bán</text>
+    <rect x="270" y="170" width="195" height="90" fill="rgba(255,255,255,0.18)" rx="6"/>
+    <text x="367" y="195" font-size="13" font-weight="bold" text-anchor="middle">Cung cấp dịch vụ</text>
+    <text x="367" y="215" font-size="11" text-anchor="middle">- Khảo sát - Lắp đặt</text>
+    <text x="367" y="232" font-size="11" text-anchor="middle">- Kích hoạt dịch vụ</text>
+    <text x="367" y="249" font-size="11" text-anchor="middle">- Nghiệm thu</text>
+    <rect x="480" y="170" width="195" height="90" fill="rgba(255,255,255,0.18)" rx="6"/>
+    <text x="577" y="195" font-size="13" font-weight="bold" text-anchor="middle">Vận hành mạng lưới</text>
+    <text x="577" y="215" font-size="11" text-anchor="middle">- Giám sát mạng</text>
+    <text x="577" y="232" font-size="11" text-anchor="middle">- Xử lý sự cố</text>
+    <text x="577" y="249" font-size="11" text-anchor="middle">- Bảo dưỡng định kỳ</text>
+    <rect x="690" y="170" width="195" height="90" fill="rgba(255,255,255,0.18)" rx="6"/>
+    <text x="787" y="195" font-size="13" font-weight="bold" text-anchor="middle">Tính cước &amp; Thu cước</text>
+    <text x="787" y="215" font-size="11" text-anchor="middle">- Rating &amp; Billing</text>
+    <text x="787" y="232" font-size="11" text-anchor="middle">- Phát hành hóa đơn</text>
+    <text x="787" y="249" font-size="11" text-anchor="middle">- Đối soát công nợ</text>
+    <rect x="900" y="170" width="195" height="90" fill="rgba(255,255,255,0.18)" rx="6"/>
+    <text x="997" y="195" font-size="13" font-weight="bold" text-anchor="middle">Tài chính - Kế toán</text>
+    <text x="997" y="215" font-size="11" text-anchor="middle">- Sổ cái, doanh thu</text>
+    <text x="997" y="232" font-size="11" text-anchor="middle">- Tài sản, chi phí</text>
+    <text x="997" y="249" font-size="11" text-anchor="middle">- Báo cáo tài chính</text>
+    <rect x="1110" y="170" width="220" height="90" fill="rgba(255,255,255,0.18)" rx="6"/>
+    <text x="1220" y="195" font-size="13" font-weight="bold" text-anchor="middle">Nhân sự &amp; Quản trị</text>
+    <text x="1220" y="215" font-size="11" text-anchor="middle">- Tuyển dụng, lương</text>
+    <text x="1220" y="232" font-size="11" text-anchor="middle">- KPI, đào tạo</text>
+    <text x="1220" y="249" font-size="11" text-anchor="middle">- Văn bản nội bộ</text>
+  </g>
+
+  <!-- Application Layer -->
+  <rect x="40" y="300" width="1320" height="230" fill="url(#app)" rx="8" opacity="0.95"/>
+  <text x="60" y="330" font-size="18" font-weight="bold" fill="white">TẦNG ỨNG DỤNG (APPLICATION LAYER)</text>
+  <text x="60" y="350" font-size="11" fill="#E5E7EB">Các hệ thống thông tin và phần mềm phục vụ nghiệp vụ (mô tả ở mức nhóm hệ thống)</text>
+  <g fill="white">
+    <rect x="60" y="370" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="160" y="392" font-size="13" font-weight="bold" text-anchor="middle">CRM</text>
+    <text x="160" y="410" font-size="10" text-anchor="middle">Quản lý khách hàng,</text>
+    <text x="160" y="423" font-size="10" text-anchor="middle">leads, ticket CSKH</text>
+    <rect x="275" y="370" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="375" y="392" font-size="13" font-weight="bold" text-anchor="middle">BSS (Order + Billing)</text>
+    <text x="375" y="410" font-size="10" text-anchor="middle">Quản lý đơn hàng,</text>
+    <text x="375" y="423" font-size="10" text-anchor="middle">cước, hóa đơn</text>
+    <rect x="490" y="370" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="590" y="392" font-size="13" font-weight="bold" text-anchor="middle">OSS - Service Fulfillment</text>
+    <text x="590" y="410" font-size="10" text-anchor="middle">Cung cấp &amp; kích hoạt</text>
+    <text x="590" y="423" font-size="10" text-anchor="middle">dịch vụ tự động</text>
+    <rect x="705" y="370" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="805" y="392" font-size="13" font-weight="bold" text-anchor="middle">OSS - NMS / Assurance</text>
+    <text x="805" y="410" font-size="10" text-anchor="middle">Giám sát mạng, cảnh</text>
+    <text x="805" y="423" font-size="10" text-anchor="middle">báo &amp; xử lý sự cố</text>
+    <rect x="920" y="370" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="1020" y="392" font-size="13" font-weight="bold" text-anchor="middle">Network Inventory</text>
+    <text x="1020" y="410" font-size="10" text-anchor="middle">Quản lý tài nguyên</text>
+    <text x="1020" y="423" font-size="10" text-anchor="middle">mạng, port, cáp</text>
+    <rect x="1135" y="370" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="1235" y="392" font-size="13" font-weight="bold" text-anchor="middle">ERP (Oracle/SAP)</text>
+    <text x="1235" y="410" font-size="10" text-anchor="middle">Tài chính, kế toán,</text>
+    <text x="1235" y="423" font-size="10" text-anchor="middle">mua sắm, tài sản</text>
+    <rect x="60" y="450" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="160" y="472" font-size="13" font-weight="bold" text-anchor="middle">HRM</text>
+    <text x="160" y="490" font-size="10" text-anchor="middle">Nhân sự, lương,</text>
+    <text x="160" y="503" font-size="10" text-anchor="middle">đào tạo, KPI</text>
+    <rect x="275" y="450" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="375" y="472" font-size="13" font-weight="bold" text-anchor="middle">VNPT iOffice (EDMS)</text>
+    <text x="375" y="490" font-size="10" text-anchor="middle">Quản lý văn bản,</text>
+    <text x="375" y="503" font-size="10" text-anchor="middle">điều hành nội bộ</text>
+    <rect x="490" y="450" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="590" y="472" font-size="13" font-weight="bold" text-anchor="middle">DWH &amp; BI</text>
+    <text x="590" y="490" font-size="10" text-anchor="middle">Data Warehouse,</text>
+    <text x="590" y="503" font-size="10" text-anchor="middle">báo cáo phân tích</text>
+    <rect x="705" y="450" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="805" y="472" font-size="13" font-weight="bold" text-anchor="middle">VNPT SmartBot / AMI</text>
+    <text x="805" y="490" font-size="10" text-anchor="middle">Chatbot AI, Voicebot</text>
+    <text x="805" y="503" font-size="10" text-anchor="middle">CSKH tự động</text>
+    <rect x="920" y="450" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="1020" y="472" font-size="13" font-weight="bold" text-anchor="middle">My VNPT App / Portal</text>
+    <text x="1020" y="490" font-size="10" text-anchor="middle">Kênh giao dịch số</text>
+    <text x="1020" y="503" font-size="10" text-anchor="middle">khách hàng</text>
+    <rect x="1135" y="450" width="200" height="65" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="1235" y="472" font-size="13" font-weight="bold" text-anchor="middle">VNPT Money / Pay</text>
+    <text x="1235" y="490" font-size="10" text-anchor="middle">Cổng thanh toán</text>
+    <text x="1235" y="503" font-size="10" text-anchor="middle">số &amp; ví điện tử</text>
+  </g>
+
+  <!-- Data Layer -->
+  <rect x="40" y="550" width="1320" height="180" fill="url(#dat)" rx="8" opacity="0.95"/>
+  <text x="60" y="580" font-size="18" font-weight="bold" fill="white">TẦNG DỮ LIỆU (DATA LAYER)</text>
+  <text x="60" y="600" font-size="11" fill="#FEF3C7">Các kho dữ liệu, CSDL chính và mô hình dữ liệu chung</text>
+  <g fill="white">
+    <rect x="60" y="620" width="240" height="90" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="180" y="645" font-size="13" font-weight="bold" text-anchor="middle">Master Customer Data</text>
+    <text x="180" y="665" font-size="10" text-anchor="middle">Hồ sơ KH, hợp đồng,</text>
+    <text x="180" y="680" font-size="10" text-anchor="middle">thuê bao, dịch vụ</text>
+    <text x="180" y="697" font-size="10" text-anchor="middle">đang sử dụng</text>
+    <rect x="320" y="620" width="240" height="90" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="440" y="645" font-size="13" font-weight="bold" text-anchor="middle">Product / Service Catalog</text>
+    <text x="440" y="665" font-size="10" text-anchor="middle">Danh mục gói cước,</text>
+    <text x="440" y="680" font-size="10" text-anchor="middle">khuyến mại, combo</text>
+    <text x="440" y="697" font-size="10" text-anchor="middle">dịch vụ</text>
+    <rect x="580" y="620" width="240" height="90" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="700" y="645" font-size="13" font-weight="bold" text-anchor="middle">Network Inventory DB</text>
+    <text x="700" y="665" font-size="10" text-anchor="middle">OLT, ODF, ONU, port,</text>
+    <text x="700" y="680" font-size="10" text-anchor="middle">tuyến cáp, hạ tầng</text>
+    <text x="700" y="697" font-size="10" text-anchor="middle">địa lý GIS</text>
+    <rect x="840" y="620" width="240" height="90" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="960" y="645" font-size="13" font-weight="bold" text-anchor="middle">Billing &amp; Revenue DB</text>
+    <text x="960" y="665" font-size="10" text-anchor="middle">CDR, cước phát sinh,</text>
+    <text x="960" y="680" font-size="10" text-anchor="middle">hóa đơn, công nợ,</text>
+    <text x="960" y="697" font-size="10" text-anchor="middle">lịch sử thanh toán</text>
+    <rect x="1100" y="620" width="240" height="90" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="1220" y="645" font-size="13" font-weight="bold" text-anchor="middle">Data Lake / DWH</text>
+    <text x="1220" y="665" font-size="10" text-anchor="middle">Big Data, log mạng,</text>
+    <text x="1220" y="680" font-size="10" text-anchor="middle">hành vi khách hàng,</text>
+    <text x="1220" y="697" font-size="10" text-anchor="middle">dữ liệu huấn luyện AI</text>
+  </g>
+
+  <!-- Technology Layer -->
+  <rect x="40" y="750" width="1320" height="200" fill="url(#tec)" rx="8" opacity="0.95"/>
+  <text x="60" y="780" font-size="18" font-weight="bold" fill="white">TẦNG CÔNG NGHỆ (TECHNOLOGY LAYER)</text>
+  <text x="60" y="800" font-size="11" fill="#EDE9FE">Hạ tầng phần cứng, mạng, nền tảng đám mây và an toàn thông tin</text>
+  <g fill="white">
+    <rect x="60" y="820" width="200" height="110" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="160" y="845" font-size="13" font-weight="bold" text-anchor="middle">Hạ tầng mạng truy nhập</text>
+    <text x="160" y="865" font-size="10" text-anchor="middle">- VinaPhone 4G/5G</text>
+    <text x="160" y="882" font-size="10" text-anchor="middle">- FTTH GPON/XGS-PON</text>
+    <text x="160" y="899" font-size="10" text-anchor="middle">- Mạng cố định băng</text>
+    <text x="160" y="913" font-size="10" text-anchor="middle">rộng FiberVNN</text>
+    <rect x="275" y="820" width="200" height="110" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="375" y="845" font-size="13" font-weight="bold" text-anchor="middle">Mạng truyền dẫn</text>
+    <text x="375" y="865" font-size="10" text-anchor="middle">- IP/MPLS backbone</text>
+    <text x="375" y="882" font-size="10" text-anchor="middle">- DWDM trục Bắc-Nam</text>
+    <text x="375" y="899" font-size="10" text-anchor="middle">- Cáp quang biển</text>
+    <text x="375" y="913" font-size="10" text-anchor="middle">AAG, SMW3, APG</text>
+    <rect x="490" y="820" width="200" height="110" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="590" y="845" font-size="13" font-weight="bold" text-anchor="middle">Trung tâm dữ liệu</text>
+    <text x="590" y="865" font-size="10" text-anchor="middle">- VNPT IDC Hòa Lạc</text>
+    <text x="590" y="882" font-size="10" text-anchor="middle">- VNPT IDC Tân Thuận</text>
+    <text x="590" y="899" font-size="10" text-anchor="middle">- 8 DC tiêu chuẩn</text>
+    <text x="590" y="913" font-size="10" text-anchor="middle">Tier III/IV trên cả nước</text>
+    <rect x="705" y="820" width="200" height="110" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="805" y="845" font-size="13" font-weight="bold" text-anchor="middle">VNPT Smart Cloud</text>
+    <text x="805" y="865" font-size="10" text-anchor="middle">- IaaS, PaaS, SaaS</text>
+    <text x="805" y="882" font-size="10" text-anchor="middle">- Kubernetes cluster</text>
+    <text x="805" y="899" font-size="10" text-anchor="middle">- AI Platform GPU</text>
+    <text x="805" y="913" font-size="10" text-anchor="middle">cho ML/GenAI</text>
+    <rect x="920" y="820" width="200" height="110" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="1020" y="845" font-size="13" font-weight="bold" text-anchor="middle">An toàn thông tin</text>
+    <text x="1020" y="865" font-size="10" text-anchor="middle">- SOC VNPT Security</text>
+    <text x="1020" y="882" font-size="10" text-anchor="middle">- SIEM, IDS/IPS</text>
+    <text x="1020" y="899" font-size="10" text-anchor="middle">- Chống DDoS,</text>
+    <text x="1020" y="913" font-size="10" text-anchor="middle">PKI / chữ ký số</text>
+    <rect x="1135" y="820" width="200" height="110" fill="rgba(255,255,255,0.2)" rx="6"/>
+    <text x="1235" y="845" font-size="13" font-weight="bold" text-anchor="middle">Tích hợp &amp; API</text>
+    <text x="1235" y="865" font-size="10" text-anchor="middle">- ESB / API Gateway</text>
+    <text x="1235" y="882" font-size="10" text-anchor="middle">- Message Bus (Kafka)</text>
+    <text x="1235" y="899" font-size="10" text-anchor="middle">- LDAP / SSO toàn</text>
+    <text x="1235" y="913" font-size="10" text-anchor="middle">Tập đoàn</text>
+  </g>
+
+  <g stroke="#374151" stroke-width="2" fill="none" opacity="0.6">
+    <line x1="700" y1="280" x2="700" y2="300" marker-end="url(#arr)"/>
+    <line x1="700" y1="530" x2="700" y2="550" marker-end="url(#arr)"/>
+    <line x1="700" y1="730" x2="700" y2="750" marker-end="url(#arr)"/>
+  </g>
+  <text x="715" y="295" font-size="10" fill="#374151" font-style="italic">hỗ trợ</text>
+  <text x="715" y="545" font-size="10" fill="#374151" font-style="italic">sử dụng</text>
+  <text x="715" y="745" font-size="10" fill="#374151" font-style="italic">chạy trên</text>
+
+  <text x="700" y="985" font-size="11" text-anchor="middle" fill="#6B7280" font-style="italic">Nguồn: Tổng hợp từ vnpt.com.vn, báo cáo Tập đoàn VNPT 2024 và quan sát cá nhân (mô tả ở mức nhóm hệ thống)</text>
+</svg>

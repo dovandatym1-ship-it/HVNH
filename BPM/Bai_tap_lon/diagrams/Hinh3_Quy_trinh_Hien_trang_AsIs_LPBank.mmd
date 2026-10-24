@@ -1,0 +1,34 @@
+flowchart TD
+    subgraph LANE1 ["LÀN 1: CHUYÊN VIÊN QLKH (RM / ĐVKD)"]
+        Start((Khởi tạo)) --> Step1["[1] Khởi tạo phương án<br>& Tải lên chứng từ"]
+        Step1 --> Step2["[2] Nhập thông tin giải ngân<br>& First Check"]
+    end
+
+    subgraph LANE2 ["LÀN 2: KIỂM SOÁT CHI NHÁNH"]
+        Step2 --> Step3["[3] Kiểm soát đề xuất giải ngân<br>(Kiểm tra điều kiện)"]
+        Step3 --> Gate1{Hồ sơ<br>hợp lệ?}
+    end
+
+    Gate1 -- "Không (Thiếu/Sai sót)" -->|VÒNG LẶP TRẢ HỒ SƠ 1<br>Tốn 1-2 ngày| Step1
+    Gate1 -- "Hợp lệ" --> Step4
+
+    subgraph LANE3 ["LÀN 3: CHUYÊN VIÊN XỬ LÝ HỒ SƠ (CSU)"]
+        Step4["[4] Thẩm tra lại điều kiện &<br>Nhập lãi suất, kỳ hạn"] --> Step5["[5] Lập Báo cáo kiểm soát hồ sơ"]
+    end
+
+    subgraph LANE4 ["LÀN 4: PHÊ DUYỆT & CORE T24"]
+        Step5 --> Step6["[6] Kiểm soát viên duyệt báo cáo"]
+        Step6 --> Gate2{Phê duyệt<br>đạt?}
+        Gate2 -- "Từ chối / Yêu cầu sửa" -->|VÒNG LẶP TRẢ HỒ SƠ 2<br>Tốn 1-3 ngày| Step4
+        Gate2 -- "Chấp thuận" --> Step7["[7] Tích hợp T24 hạch toán<br>& Chuyển tiền giải ngân"]
+    end
+
+    Step7 --> Step8["[8] In ký hồ sơ bản cứng &<br>Đóng dấu thủ công"]
+    Step8 --> Step9["[9] Lưu trữ kho vật lý/ECM"]
+    Step9 --> Step10["[10] Cập nhật trạng thái hoàn thành"]
+    Step10 --> EndNode(((Giải ngân<br>hoàn tất)))
+
+    %% Định dạng cảnh báo điểm nghẽn (Bottlenecks)
+    style Step3 fill:#fee2e2,stroke:#ef4444,stroke-width:2px;
+    style Step4 fill:#fee2e2,stroke:#ef4444,stroke-width:2px;
+    style Step8 fill:#ffedd5,stroke:#f97316,stroke-width:2px;
